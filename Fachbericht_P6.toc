@@ -1,0 +1,34 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Technische Grundlagen}{2}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}analoges Theremin}{2}{subsection.2.1}% 
+\contentsline {paragraph}{Antennenoszillator und Tonh\IeC {\"o}henantenne}{2}{section*.4}% 
+\contentsline {paragraph}{Mischer und Referenzoszillator}{3}{section*.5}% 
+\contentsline {paragraph}{Tiefpassfilter}{3}{section*.6}% 
+\contentsline {paragraph}{Verst\IeC {\"a}rker und Lautsprecher}{3}{section*.7}% 
+\contentsline {subsection}{\numberline {2.2}digitales Theremin}{4}{subsection.2.2}% 
+\contentsline {paragraph}{Antennenoszillator}{4}{section*.9}% 
+\contentsline {paragraph}{Referenzoszillator}{4}{section*.10}% 
+\contentsline {paragraph}{Mischer}{5}{section*.11}% 
+\contentsline {paragraph}{Tiefpassfilter}{6}{section*.12}% 
+\contentsline {paragraph}{Digital-Analog-Wandler}{6}{section*.14}% 
+\contentsline {section}{\numberline {3}Realisierung}{7}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Antennenoszillator}{7}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Clock}{7}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}CPU}{7}{subsection.3.3}% 
+\contentsline {paragraph}{JTAG, Timer und System ID}{7}{section*.20}% 
+\contentsline {subsection}{\numberline {3.4}Pitch Generation}{7}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.5}Volume Generation}{7}{subsection.3.5}% 
+\contentsline {section}{\numberline {4}Validierung}{8}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}PCB}{8}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Frequenzmessung}{8}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Glissando Effekt}{8}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Ton Display}{8}{subsection.4.4}% 
+\contentsline {section}{\numberline {5}Schlusswort}{9}{section.5}% 
+\contentsline {section}{\numberline {6}Ehrlichkeitserkl\IeC {\"a}rung}{10}{section.6}% 
+\contentsline {section}{\numberline {A}Projektkl\IeC {\"a}rung}{11}{appendix.A}% 
+\contentsline {section}{\numberline {B}Schema Antennenoszillator}{21}{appendix.B}% 
+\contentsline {section}{\numberline {C}PCB Antennenoszillator}{22}{appendix.C}% 

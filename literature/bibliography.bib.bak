@@ -1,0 +1,364 @@
+% Encoding: UTF-8
+
+@Book{Quarz1997,
+  author    = {Neubig, Bernd and Briese, Wolfgang},
+  title     = {Das grosse Quarzkochbuch},
+  year      = {1997},
+  edition   = {4. Auflage},
+  publisher = {Feldkirchen, Franzis-Verlag},
+}
+
+@Electronic{Datasheet:Atmega,
+  author = {{Microchip Technology}},
+  title  = {Datasheet ATmega2560},
+  year   = {2014},
+  url    = {http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf},
+  note   = {(Abrufdatum: 06.06.2019)},
+}
+
+@Electronic{Datasheet:Quarz,
+  author = {{Abracon Inc.}},
+  title  = {Datasheet ABM3B-8.000MHZ-B2-T},
+  year   = {2015},
+  url    = {https://abracon.com/Resonators/abm3b.pdf},
+  note   = {(Abrufdatum: 06.05.2019)},
+}
+
+@Electronic{FDM,
+  author = {{additive3d}},
+  title  = {Fused Deposition Modeling},
+  year   = {2016},
+  url    = {https://additive3d.com/wp-content/uploads/2016/08/Fused-Deposition-Modeling.jpg},
+  note   = {(Abrufdatum: 06.05.2019)},
+}
+
+@Electronic{GCode_GettingStarted,
+  author = {{Autodesk}},
+  title  = {Getting Started with G-Code},
+  year   = {2019},
+  url    = {https://www.autodesk.com/industry/manufacturing/resources/manufacturing-engineer/g-code},
+  note   = {(Abrufdatum 06.05.2019)},
+}
+
+@Electronic{GCode_Beispiel,
+  author = {{3D-Druckerzentrum Schweiz}},
+  title  = {Die wichtigsten G-Codes},
+  year   = {2019},
+  url    = {http://www.3d-druckerzentrum.ch/shop/shop_content.php?coID=73},
+  note   = {(Abrufdatum 06.05.2019)},
+}
+
+@Electronic{Datasheet:MCP,
+  author = {{Microchip}},
+  title  = {{Datasheet MCP16311}},
+  year   = {2014},
+  url    = {http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf},
+  note   = {(Abrufdatum: 06.05.2019)},
+}
+
+@Electronic{StepperMotor,
+  author = {{RN Wissen}},
+  title  = {Schrittmotoren},
+  year   = {2017},
+  url    = {https://rn-wissen.de/wiki/index.php/Schrittmotoren},
+  note   = {(Abrufdatum 06.05.2019)},
+}
+
+@Electronic{MotorDriver,
+  author = {{Robert Keim}},
+  title  = {How to Choose the Right Driver IC for Stepper Motors},
+  year   = {2018},
+  url    = {https://www.allaboutcircuits.com/technical-articles/how-to-select-the-right-driver-ic-for-stepper-motors/},
+  note   = {(Abrufdatum 06.05.2019)},
+}
+
+@Electronic{Datasheet:FT232R,
+  author = {{FTDI Chip}},
+  title  = {FT232R USB UART IC Datasheet},
+  year   = {2019},
+  url    = {https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf},
+  note   = {(Abrufdatum: 07.05.2019)},
+}
+
+
+@Electronic{SD_Karte,
+  author    = {{Camera Memory Speed}},
+  title     = {SanDisk Extreme 60MB/s 32GB},
+  year      = {2019},
+  url       = {https://www.cameramemoryspeed.com/reviews/sd-cards/sandisk-extreme-60mbs-32gb-sdhc-memory-card},
+  note      = {(Abrufdatum 07.05.2019)},
+  timestamp = {07-05-2019},
+}
+
+
+@Electronic{Datasheet:IRLR8726,
+  author = {{International Rectifier}},
+  title  = {{Datasheet IRLR8726PbF}},
+  year   = {2009},
+  url    = {https://www.infineon.com/dgdl/irlr8726pbf.pdf?fileId=5546d462533600a40153567181dd26f7},
+  note   = {Abrufdatum: 07.05.2019},
+}
+
+@Electronic{SD_Pinbelegung,
+  author    = {{Chlazza}},
+  title     = {Secure Digital (SD) Card Spec and Info},
+  year      = {2010},
+  url       = {http://www.chlazza.net/sdcardinfo.html},
+  note      = {(Abrufdatum 07.05.2019)},
+  timestamp = {07-05-2019},
+}
+
+@Electronic{Datasheet:ESP8266,
+  author = {{Espressif Systems}},
+  title  = {Datasheet ESP8266},
+  year   = {2015},
+  url    = {https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf},
+  note   = {(Abrufdatum 09.052019)},
+}
+
+@Electronic{calculation_sheet,
+  author = {{Trinamic}},
+  title  = {Calculation sheet TMC2130},
+  year   = {2016},
+  url    = {http://www.trinamic.com/_scripts/download.php?file=_articles%2Fproducts%2Fintegrated-circuits%2Ftmc5130%2F_appnotes%2FTMC5130_TMC2130_TMC2100_Calculations.xlsx},
+  note   = {(Abrufdatum: 09.05.2019)},
+}
+
+@Electronic{Ender3_Bild,
+  author = {{Creality}},
+  title  = {Creality3D Ender-3 3D-Drucker},
+  year   = {2019},
+  url    = {https://www.creality3d.shop/products/creality-ender-3-3d-printer-economic-ender-diy-kits-with-resume-printing-function-v-slot-prusa-i3-220x220x250mm?lang=de},
+  note   = {(Abrufdatum 10.05.2019)},
+}
+
+@Electronic{3D_Builder,
+  author = {{Microsoft}},
+  title  = {3D Builder},
+  year   = {2013},
+  url    = {https://www.microsoft.com/de-ch/p/3d-builder/9wzdncrfj3t6?activetab=pivot:overviewtab},
+  note   = {(Abrufdatum 20.04.2019)},
+}
+
+@Electronic{Thingiverse,
+  author = {{MakerBot Industries}},
+  title  = {Thingiverse},
+  year   = {2019},
+  url    = {http://www.Thingiverse.com},
+  note   = {(Abrufdatum 20.04.2019)},
+}
+
+@Electronic{Thingiverse_LCD,
+  author = {{Pruckelshaus}},
+  title  = {Ender 3 LCD Case flip-it remix},
+  year   = {2018},
+  url    = {https://www.thingiverse.com/thing:3035562},
+  note   = {(Abrufdatum 20.04.2019)},
+}
+
+@Electronic{Thingiverse_LCD_Kabel,
+  author = {{JaycenS}},
+  title  = {Ender 3 Pro LCD Ribbon Cable Cover},
+  year   = {2019},
+  url    = {https://www.thingiverse.com/thing:3419155/files},
+  note   = {(Abrufdatum 20.04.2019)},
+}
+
+@Electronic{Thingiverse_BLTouch,
+  author = {{Registeredthing}},
+  title  = {BlTouch Mount For Ender 3 (remix) - no supports needed},
+  year   = {2018},
+  url    = {https://www.thingiverse.com/thing:3003725/files},
+  note   = {(Abrufdatum 20.04.2019)},
+}
+
+@Electronic{Strombelastbarkeit,
+  author = {{Multi Circuit Boards Ltd.}},
+  title  = {Application Note: Formeln zur Berechnung der maximalen Stromstärke},
+  year   = {2009},
+  url    = {https://www.multi-circuit-boards.eu/leiterplatten-design-hilfe/oberflaeche/leiterbahn-strombelastbarkeit.html},
+  note   = {(Abrufdatum: 10.05.2019)},
+}
+
+@Electronic{murata_spulen,
+  author = {{Murata Seisakusho K.K.}},
+  title  = {Datasheet: DS75LC Ferrite Inductors},
+  year   = {2010},
+  url    = {https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_ds75lc.ashx},
+  note   = {(Abrufdatum: 10.05.2019)},
+}
+
+@Electronic{Marlin_Firmware,
+  author    = {{Marlin}},
+  title     = {Marlin Firmware},
+  year      = {2019},
+  url       = {http://marlinfw.org},
+  note      = {(Abrufdatum 14.05.2019)},
+}
+
+@Electronic{Marlin_Pinbelegung,
+  author    = {{Marlin }},
+  title     = {FastIO and Pin Mapping},
+  year      = {2019},
+  url       = {http://marlinfw.org/docs/hardware/boards.html},
+  note      = {(Abrufdatum 14.05.2019)},
+}
+
+@Electronic{Megacore_100_Pin,
+  author    = {{MCUdude}},
+  title     = {MegaCore},
+  year      = {2019},
+  url       = {https://github.com/MCUdude/MegaCore},
+  note      = {(Abrufdatum 14.05.2019)},
+}
+
+@Electronic{Speedlookup_Table,
+  author    = {Ben Gamari},
+  title     = {Create speed lookuptable},
+  year      = {2012},
+  url       = {https://github.com/reprappro/Marlin/blob/master/Marlin/create_speed_lookuptable.py},
+  note      = {(Abrufdatum 14.05.2019)},
+  timestamp = {14-05-2019},
+}
+
+@Electronic{Anet_A8_Fire,
+  author = {{General Fabb}},
+  title  = {3D printer fire},
+  year   = {2018},
+  url    = {https://www.fabbaloo.com/blog/2018/3/22/3d-printer-safety-at-issue-again},
+  note   = {(Abrufdatum: 28.05.2019)},
+}
+
+@Electronic{fire_aftermath,
+  author = {{Tiffany Orr}},
+  title  = {Fire Aftermath},
+  year   = {2014},
+  url    = {https://3dprint.com/18064/smoke-signal-3d-print-fire/},
+  note   = {(Abrufdatum: 28.05.2019)},
+}
+
+@Electronic{RepRap2019,
+  author = {{RepRap}},
+  title  = {{G-Code}},
+  year   = {2019},
+  date   = {2019-05-13},
+  url    = {https://www.reprap.org/wiki/G-code},
+  note   = {Abrufdatum: 07.05.2019},
+}
+
+@Electronic{PLA,
+  author    = {{Filamentworld}},
+  title     = {PLA},
+  year      = {2019},
+  url       = {https://www.filamentworld.de/3d-druck-wissen/was-ist-pla},
+  note      = {(Abrufdatum 07.06.2019)},
+  timestamp = {07-06-2019},
+}
+
+@Electronic{PETG,
+  author    = {{Filamentworld }},
+  title     = {PETG},
+  year      = {2019},
+  url       = {https://www.filamentworld.de/3d-druck-wissen/was-ist-petg},
+  note      = {(Abrufdatum 07.06.2019)},
+  timestamp = {07-06-2019},
+}
+
+@Electronic{ABS,
+  author    = {{Filamentworld}},
+  title     = {ABS},
+  year      = {2019},
+  url       = {https://www.filamentworld.de/3d-druck-wissen/was-ist-abs},
+  note      = {(Abrufdatum 07.06.2019)},
+  timestamp = {07-06-2019},
+}
+
+@Electronic{UART:Baud,
+  author = {{Microcontroller.net}},
+  title  = {{Baud}},
+  year   = {2009},
+  url    = {https://www.mikrocontroller.net/articles/Baud},
+  note   = {Abrufdatum: 07.05.2019},
+}
+
+@Electronic{Picture:G_CODE_Besipiel,
+  author = {{All 3DP}},
+  title  = {{Picture G-Code Beispiel}},
+  year   = {2011},
+  url    = {https://i.all3dp.com/wp-content/uploads/2017/04/27023041/Bildschirmfoto-2017-04-28-um-14.30.35.png},
+  note   = {Abrufdatum: 07.05.2019},
+}
+
+@Electronic{Picture:UART_Kodierung,
+  author = {{Markus Ulsaß}},
+  title  = {{Picture UART Kodierung}},
+  year   = {2009},
+  url    = {http://docplayer.org/docs-images/34/13096909/images/8-0.png},
+  note   = {Abrufdatum: 07.05.2019},
+}
+
+@Electronic{jahrDerEinfuhrung,
+  author = {{Matthew Ponsford, Nick Glass}},
+  title  = {The night I invented 3D printing},
+  year   = {2014},
+  url    = {https://edition.cnn.com/2014/02/13/tech/innovation/the-night-i-invented-3d-printing-chuck-hall/index.html},
+  note   = {(Abrufdatum 08.06.2019)},
+}
+
+@Electronic{jahrDerPrivatenEinfuhrung,
+  author = {{PROTIQ GmbH}},
+  title  = {3D-Druck Historie},
+  year   = {2019},
+  url    = {https://www.protiq.com/wissen/#history},
+  note   = {(Abrufdatum 08.06.2019)},
+}
+
+@Electronic{stallGuard2,
+  author = {{Bernhard Dwersteg}},
+  title  = {Parameterization of stallGuard2 \& coolStep},
+  year   = {2014},
+  url    = {https://www.trinamic.com/fileadmin/assets/Support/Appnotes/AN002-stallGuard2.pdf},
+  note   = {(Abrufdatum 09.06.2019)},
+}
+
+@Electronic{LTC,
+  author       = {{Analog Devices}},
+  title        = {LTC6752/LTC6752-1/LTC6752-2/LTC6752-3/LTC6752-4},
+  year         = {2020},
+  url          = {https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf},
+  note         = {(Abrufdatum 03.01.2020)},
+  howpublished = {Analog Devices},
+}
+
+@Article{Franzis,
+  author    = {Thomas Riegler},
+  title     = {Theremin zum selberbauen},
+  journal   = {Franzis},
+  year      = {2018},
+  volume    = {73},
+  number    = {1},
+  pages     = {1-73},
+  doi       = {GTIN 4019631670519},
+  owner     = {Franzis Verlag},
+  timestamp = {2018},
+}
+
+@Electronic{physic_theremin,
+  author       = {Kenneth D. Skeldon, Lindsay M. Reid, Viviene McInally, Brendan Dougan, and Craig Fulton},
+  title        = {Physics of the Theremin},
+  year         = {1998},
+  url          = {https://pdfs.semanticscholar.org/159b/8f7ab33083fc1b8de584ec338b0ee2f6fd7b.pdf},
+  note         = {(Abrufdatum 03.01.2020)},
+  howpublished = {Department of Physics and Astronomy, University of Glasgow, Glasgow G12 8QQ, Scotland},
+}
+
+@Electronic{physik_theremin,
+  author       = {{Kenneth D. Skeldon, Lindsay M. Reid, Viviene McInally, Brendan Dougan, and Craig Fulton}},
+  title        = {Physics of the Theremin},
+  year         = {1998},
+  url          = {https://pdfs.semanticscholar.org/159b/8f7ab33083fc1b8de584ec338b0ee2f6fd7b.pdf},
+  note         = {(Abrufdatum 03.01.2020)},
+  howpublished = {Department of Physics and Astronomy, University of Glasgow, Glasgow G12 8QQ, Scotland},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

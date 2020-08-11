@@ -1,0 +1,12 @@
+\subsection{CPU}\label{subsec:CPU}
+Der eingesetzte Nios Prozessor ist für die Bedienung des Theremin und die Steuerung der Signalverarbeitungshardware zuständig. Die diversen eingesetzten IP Cores sind in den unten stehenden Kapiteln beschrieben.
+
+\paragraph{JTAG, Timer und System ID}\mbox{}\\
+Der JTAG IP Core ermöglicht das flüchtige Programmieren des Nios wie auch das Kommunizieren mit selbem für Debugging Zwecke. 
+Durch den einsatz des Timer IP Cores erhält der Nios einen Interval Timer um beispielsweise periodisch Interrupts zu generieren. 
+In dem System ID IP Core ist die Systemidentifikationsnummer gespeichert. Diese wird benötigt um beim laden der Software sicherzustellen, dass das passende Hardware Image vorhanden ist.
+Alle drei Komponenten sind mit Standardeinstellungen in das Nios System eingefügt worden.
+
+\paragraph{Speicher}\mbox{}\\
+
+Der Arbeitsspeicher ist ein externer 64MB SDRAM Chip IS42S16320D von ISSI. Für die Kommunikation mit dem Nios Prozessor ist der SDRAM Controller IP Core zuständig. Für die richtige Funktionsweise müssen der Chip und der Controller mit 

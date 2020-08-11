@@ -1,0 +1,52 @@
+\clearpage
+\section{Schlusswort}\label{sec:Schlusswort}
+Nach Abschluss der Entwicklung wurde das Produkt validiert. Die Resultate sind in Kapitel \ref{sec:Inbetriebnahme} dokumentiert.  In diesem Kapitel soll aufgelistet werden, welche Teilsysteme funktionieren und welche nicht bzw. welche Zielsetzungen aus dem Pflichtenheft erfüllt wurden. Im letzten Abschnitt wird Verbesserungspotenzial für eine mögliche Weiterentwicklung erfasst.
+
+Die entwickelte Leiterplatte erfüllt einen Grossteil der in Kapitel \ref{subsec:Kriterien} formulierten Kriterien. Das Produkt umfasst den ersten Prototyp der Steuerleiterplatte und die Mechanik des 3D-Druckers mit diversen Modifikationen. Die Software   besteht aus den beiden Firmwares \textit{Marlin} und \textit{ESP3D}. Bei der Steuerung der Motoren funktionieren folgende Punkte einwandfrei:
+
+\begin{itemize}
+	\item[-] Alle vier Motoren (x-, y-, z-Achse und Filamentzuführung) können unabhängig und ohne Schrittverlust angesteuert werden. 
+	\item[-] Die Nullpositions-Erkennung der x-, y- und z-Achse funktioniert und diese wird jedes mal automatisch vor jedem 3D-Druck ausgeführt.
+\end{itemize}
+
+Die Bedienung des 3D-Druckers von Hand wie auch auf dem Webinterface funktioniert:
+\begin{itemize}
+	\item[-] Die Steuerung des 3D-Druckers erfolgt über Bedienelemente direkt am 3D-Drucker (Encoder, LCD und LEDs).
+	\item[-] Alle Achsen und Motoren können manuell durch Encoder und Display oder das Webinterface gesteuert werden.
+	\item[-] Eine Verwaltung der Druckaufträge kann über das Webinterface durchgeführt werden. Weiter wird auf diesem der Status (Temperatur, Position usw.) angezeigt.
+\end{itemize}
+
+Auch die zusätzlich eingebaute Sensorik funktioniert ohne Probleme.
+
+\begin{itemize}
+\item[-] Ein Sensor erkennt automatisch eine Erschöpfung des Filaments und meldet dies an das Programm.
+\item[-] Durch den \textit{BLTouch} Bed-Level-Sensors kann die z-Achse automatisch nivelliert werden. Der Bed-Level-Sensor ist dabei auch für die Nullpositions-Erkennung zuständig.
+\end{itemize}
+
+Die Temperatursteuerung der verschiedenen Komponenten im 3D-Drucker funktioniert ebenfalls:
+
+\begin{itemize}
+	\item[-] Die Temperaturen von Extruder und Heizbett werden erfasst und können über das Webinterface ausgelesen werden.
+	\item[-] Die Leiterplatte, das Filament und der 3D-Druck werden durch Ventilatoren gekühlt.
+\end{itemize}
+
+Leider gibt es auch noch Dinge die noch nicht funktionieren.
+
+\begin{itemize}
+	\item[-] Das senden von G-Code Dateien über das Webinterface auf den 3D-Drucker funktioniert nicht richtig. Überschreitet die Datei eine bestimmte Grösse scheitert das Laden.
+	\item[-] Die Temperaturmessung ist auf $\sim 10^{\circ}$ genau. Somit konnte das Kriterium der genauen Regelung des Heizbettes und des Extruders nur teilweise erreicht werden. 
+\end{itemize}
+
+Wie die Validierung zeigt, funktioniert der erste Prototyp. Jedoch gibt es einige Kriterien die zu diesem Zeitpunkt noch nicht erfüllt sind. Diese könnten in einem weiterführenden Projekt noch realisiert werden, bzw. der 3D-Drucker noch weiter verbessert werden.\\
+\\
+Da der verwendete $8MHz$ Mikrocontroller viele Probleme mit sich bringt, müsste man bei einer Weiterentwicklung ein anderer Mikroprozessor mit $>16MHz$ Taktfrequenz verwenden. Damit könnte die Übertragungsrate des Webinterface erhöht werden. Dies würde womöglich auch das Problem des Ladens der G-Code Dateien über Wi-Fi beheben, welches ebenfalls in einer weiterführenden Entwicklung behoben werden müsste.
+\\
+Es könnte eine Nullpositionserkennung durch Überstromdetektion der Motoren implementiert werden. Dazu müsste lediglich die Firmware angepasst werden, da auf der Leiterplatte diese Funktion schon vorgesehen wurde. Der Vorteil daran wäre, dass weniger mechanische Teile verwendet werden würden (kein Verschleiss, daher weniger Standzeit des 3D-Druckers), sowie das die Verkabelung reduziert werden könnte.
+\\
+\\
+Die Messung der Temperaturen bräuchte eine Überarbeitung, um eine verbesserte Genauigkeit zu erreichen. Dazu müssten andere Komponenten gewählt werden und in der Firmware eine Anpassung getätigt werden.
+
+
+
+
+
