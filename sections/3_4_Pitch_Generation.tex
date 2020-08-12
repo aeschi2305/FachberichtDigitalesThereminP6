@@ -1,3 +1,40 @@
 \subsection{Pitch Generation}\label{subsec:Pitch_Generation}
 
-bla bla
+Das digitale Theremin ist auf dem Entwicklungsboard DE1-SOC von terasIC aufgebaut. Dieses enthält ein Cyclone V 5CSEMA5 FPGA von Intel. Weiter befindet sich auf dem Board der Audio Codec WM8731 von Wolfson für die Ausgabe an einem Lautsprecher. In Abbildung ... \todo{Referenz auf Blockschaltbild} ist der Aufbau des Digitalen Theremin aufgezeigt inklusive der Peripherie ausserhalb des FPGA.
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\textwidth]{Blockschaltbild_pitch.pdf}
+	\caption{Blockschaltbild der Custom IP Pitch Generation} 
+	\label{img:Blockschaltbild_pitch}
+\end{figure}  
+
+
+
+\paragraph{Referenzoszillator}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.53\textwidth]{Referenceoscillator.pdf}
+	\caption{Aufbau des Referenzoszillators} 
+	\label{img:Referenceoscillator}
+\end{figure}  
+
+\paragraph{Filter}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\textwidth]{Filter_pitch.pdf}
+	\caption{Aufbau des Filters in der Komponente Pitch Generation} 
+	\label{img:Filter_Pitch}
+\end{figure}  
+
+\paragraph{Frequenzmessung, Kalibration \& Glissandoeffekt}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\textwidth]{freq_meas_pitch.pdf}
+	\caption{Aufbau der Frequenzmessung, Kalibration und Glissandoeffekt in der Komponente Pitch Generation} 
+	\label{img:freq_meas_pitch}
+\end{figure}  

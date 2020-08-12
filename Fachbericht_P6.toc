@@ -5,23 +5,20 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}% 
 \contentsline {section}{\numberline {2}Technische Grundlagen}{2}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}analoges Theremin}{2}{subsection.2.1}% 
-\contentsline {paragraph}{Antennenoszillator und Tonh\IeC {\"o}henantenne}{2}{section*.4}% 
-\contentsline {paragraph}{Mischer und Referenzoszillator}{3}{section*.5}% 
-\contentsline {paragraph}{Tiefpassfilter}{3}{section*.6}% 
-\contentsline {paragraph}{Verst\IeC {\"a}rker und Lautsprecher}{3}{section*.7}% 
-\contentsline {subsection}{\numberline {2.2}digitales Theremin}{4}{subsection.2.2}% 
-\contentsline {paragraph}{Antennenoszillator}{4}{section*.9}% 
-\contentsline {paragraph}{Referenzoszillator}{4}{section*.10}% 
-\contentsline {paragraph}{Mischer}{5}{section*.11}% 
-\contentsline {paragraph}{Tiefpassfilter}{6}{section*.12}% 
-\contentsline {paragraph}{Digital-Analog-Wandler}{6}{section*.14}% 
-\contentsline {section}{\numberline {3}Realisierung}{7}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Antennenoszillator}{7}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Clock}{7}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}CPU}{7}{subsection.3.3}% 
-\contentsline {paragraph}{JTAG, Timer und System ID}{7}{section*.20}% 
-\contentsline {subsection}{\numberline {3.4}Pitch Generation}{7}{subsection.3.4}% 
-\contentsline {subsection}{\numberline {3.5}Volume Generation}{7}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {2.2}digitales Theremin}{2}{subsection.2.2}% 
+\contentsline {section}{\numberline {3}Realisierung}{3}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Antennenoszillator}{4}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Clock}{4}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}CPU}{4}{subsection.3.3}% 
+\contentsline {paragraph}{JTAG, Timer und System ID}{4}{section*.7}% 
+\contentsline {paragraph}{Speicher}{4}{section*.8}% 
+\contentsline {subsection}{\numberline {3.4}Pitch Generation}{4}{subsection.3.4}% 
+\contentsline {paragraph}{Referenzoszillator}{4}{figure.caption.12}% 
+\contentsline {paragraph}{Filter}{4}{figure.caption.14}% 
+\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{4}{figure.caption.16}% 
+\contentsline {subsection}{\numberline {3.5}Volume Generation}{5}{subsection.3.5}% 
+\contentsline {paragraph}{Filter}{5}{figure.caption.20}% 
+\contentsline {paragraph}{Frequenzmessung \& Kalibration}{6}{figure.caption.22}% 
 \contentsline {section}{\numberline {4}Validierung}{8}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}PCB}{8}{subsection.4.1}% 
 \contentsline {subsection}{\numberline {4.2}Frequenzmessung}{8}{subsection.4.2}% 

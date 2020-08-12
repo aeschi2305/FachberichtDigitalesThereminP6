@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg9332"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Referenceoscillator.svg">
+  <defs
+     id="defs9326" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="420.69366"
+     inkscape:cy="801.65549"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9877" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata9329">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4518-3"
+       width="18.520834"
+       height="13.229168"
+       x="79.375"
+       y="74.75" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="flowRoot9915"
+       transform="translate(0,2.1166667)"><flowRegion
+         id="flowRegion9917"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4518-3"
+           id="use9919"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         style="font-size:2.82222223px;text-align:center;text-anchor:middle"
+         id="flowPara9921">Cordic Control</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4518-3-5"
+       width="18.520834"
+       height="13.229168"
+       x="108.47916"
+       y="74.75" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="flowRoot9962"
+       transform="translate(5.2916667,2.1166667)"><flowRegion
+         id="flowRegion9964"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4518-3-5"
+           id="use9966"
+           width="100%"
+           height="100%"
+           transform="translate(-5.2916667)" /></flowRegion><flowPara
+         id="flowPara9968"
+         style="font-size:2.82222223px;text-align:center;text-anchor:middle">Cordic Prozessor</flowPara></flowRoot>    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000004;stroke-width:0.37600001;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 71.437499,81.364584 h 7.9375"
+       id="path9972"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000004;stroke-width:0.4;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 97.895832,81.364584 H 108.47917"
+       id="path9974"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000004;stroke-width:0.37600002;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 127,81.364584 h 7.9375"
+       id="path9976"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="67.327003"
+       y="79.474701"
+       id="text9980"><tspan
+         sodipodi:role="line"
+         id="tspan9978"
+         x="67.327003"
+         y="79.474701"
+         style="stroke-width:0.26458332">freq_diff</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="128.84262"
+       y="79.569191"
+       id="text9980-5"><tspan
+         sodipodi:role="line"
+         id="tspan9978-3"
+         x="128.84262"
+         y="79.569191"
+         style="stroke-width:0.26458332">ref_out</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="101.20189"
+       y="79.502373"
+       id="text9980-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan9978-3-5"
+         x="101.20189"
+         y="79.502373"
+         style="stroke-width:0.26458332">phi</tspan></text>
+  </g>
+</svg>
