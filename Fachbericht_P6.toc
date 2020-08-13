@@ -7,25 +7,24 @@
 \contentsline {subsection}{\numberline {2.1}analoges Theremin}{2}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}digitales Theremin}{2}{subsection.2.2}% 
 \contentsline {section}{\numberline {3}Realisierung}{3}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Antennenoszillator}{4}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Clock}{4}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}CPU}{4}{subsection.3.3}% 
-\contentsline {paragraph}{JTAG, Timer und System ID}{4}{section*.7}% 
-\contentsline {paragraph}{Speicher}{4}{section*.8}% 
-\contentsline {subsection}{\numberline {3.4}Pitch Generation}{4}{subsection.3.4}% 
-\contentsline {paragraph}{Referenzoszillator}{4}{figure.caption.12}% 
-\contentsline {paragraph}{Filter}{4}{figure.caption.14}% 
-\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{4}{figure.caption.16}% 
-\contentsline {subsection}{\numberline {3.5}Volume Generation}{5}{subsection.3.5}% 
-\contentsline {paragraph}{Filter}{5}{figure.caption.20}% 
-\contentsline {paragraph}{Frequenzmessung \& Kalibration}{6}{figure.caption.22}% 
-\contentsline {section}{\numberline {4}Validierung}{8}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}PCB}{8}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Frequenzmessung}{8}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Glissando Effekt}{8}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Ton Display}{8}{subsection.4.4}% 
-\contentsline {section}{\numberline {5}Schlusswort}{9}{section.5}% 
-\contentsline {section}{\numberline {6}Ehrlichkeitserkl\IeC {\"a}rung}{10}{section.6}% 
-\contentsline {section}{\numberline {A}Projektkl\IeC {\"a}rung}{11}{appendix.A}% 
-\contentsline {section}{\numberline {B}Schema Antennenoszillator}{21}{appendix.B}% 
-\contentsline {section}{\numberline {C}PCB Antennenoszillator}{22}{appendix.C}% 
+\contentsline {subsection}{\numberline {3.1}Antennenoszillator}{3}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Clock}{3}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}CPU}{5}{subsection.3.3}% 
+\contentsline {paragraph}{JTAG, Timer und System ID}{5}{section*.6}% 
+\contentsline {paragraph}{Speicher}{5}{section*.7}% 
+\contentsline {paragraph}{LCD Controller \& Reset}{5}{section*.9}% 
+\contentsline {paragraph}{Touchscreen}{5}{section*.10}% 
+\contentsline {subsection}{\numberline {3.4}Pitch Generation}{6}{subsection.3.4}% 
+\contentsline {paragraph}{Referenzoszillator}{6}{figure.caption.13}% 
+\contentsline {paragraph}{Filter}{6}{figure.caption.15}% 
+\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{6}{figure.caption.17}% 
+\contentsline {subsection}{\numberline {3.5}Volume Generation}{6}{subsection.3.5}% 
+\contentsline {paragraph}{Filter}{6}{figure.caption.21}% 
+\contentsline {paragraph}{Frequenzmessung \& Kalibration}{7}{figure.caption.23}% 
+\contentsline {section}{\numberline {4}Validierung}{9}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}PCB}{9}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Frequenzmessung}{9}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Glissando Effekt}{9}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Ton Display}{9}{subsection.4.4}% 
+\contentsline {section}{\numberline {5}Schlusswort}{10}{section.5}% 
+\contentsline {section}{\numberline {6}Ehrlichkeitserkl\IeC {\"a}rung}{11}{section.6}% 

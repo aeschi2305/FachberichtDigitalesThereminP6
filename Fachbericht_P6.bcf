@@ -1998,6 +1998,9 @@
   <bcf:section number="0">
     <bcf:citekey order="1">Theremin_h</bcf:citekey>
     <bcf:citekey order="2">Goast_m</bcf:citekey>
+    <bcf:citekey order="3">non_volatile</bcf:citekey>
+    <bcf:citekey order="4">LCD_Chip</bcf:citekey>
+    <bcf:citekey order="5">Touch_ADC</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
