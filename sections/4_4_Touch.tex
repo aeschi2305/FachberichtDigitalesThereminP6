@@ -1,0 +1,9 @@
+\subsection{Touch}\label{subsec:touch}
+ Die von Terasic zur Verfügung gestellte Datei zur auslesen des Touch ist leider sehr unübersichtlich aufgebaut. Es ist sehr schwierig die darin enthaltenen Funktionen auf unser Projekt anzuwenden. Daher entschieden wir uns selbst ein Touch Interrupt Routine zu erstellen. 
+ 
+ Der Resistive Touch Display des LT24 LCD touch module ist mit dem AD783 Analoge Devices Chip verbunden. Sobald der Touch Display berührt wird lösst der Chip am Pen Interrupt Pin ein Interrupt aus welches vom NIOS II detektiert wird. Der AD783 Chip speicher die X und Y Koordinaten zum Zeitpunkt des Interrupts ab. Diese können über den SPI Bus ausgelesen werden. \todo{Quelle Datenblatt AD7843}
+ 
+ Für unser Projekt sind wir daran interessiert den Pen Interrupt zu dedektieruen und die X und Y Koordinaten auszulesen, damit wir sagen können welcher Taster gedrückt worden ist.
+ 
+Das ganze realisierten wir im Modul \textbf{touch\_isr.c}. Darin befindet sich eine Funktion \textit{touch\_init(void*context)}. Diese aktiviert das Touch Pen Interrupt  und registriert die Funktion welche durch das Interrupt aufgerufen wird. 
+In der Interrupt Funktion \textit{touch\_isr(void*context)} wird zuerst das Touch Pen Interrupt  deaktiviert. So das in dieser Zeit kein weiteres Interrupt auftreten kann. Nach dem deaktivieren des Interrupts liesst der \textit{alt\_avalon\_spi\_command} die X und Y Koordinaten aus.

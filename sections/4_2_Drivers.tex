@@ -1,0 +1,19 @@
+\subsection{Treiber}\label{subsec:drivers}
+In diesem Unterkapitel sind die verschiedenen Funktionen der selbst geschriebenen Treiber für die Custom IP componenten Pitch generation und Volume generation beschrieben. Zusätzlich musste noch eine Treiber für den LT24 Controller erstellt werden, da der von TerasIC zur Verfügung gestellte Treiber nicht nach dem Konventionen von Intel erstellt ist.
+
+Damit ein selbst erstellter Treiber dem Board Support Package (BSP) hinzugefügt werden kann, muss man einige Bedingungen zu der Benennung und Ablage der Files beachtet. Die Treiber Dateien müssen in einem Ordner IP abgelegt sein, welcher sich im quartus Ordner befinden muss. Darin muss ein Skript mit der Endung sw.tcl abgelegt sein. In diesem Skript muss ein eindeutiger Name für den Treiber angegeben werden. Zudem muss der Pfad zu den Treiber Daten angegeben werden. Intel empfiehlt drei Treiber Daten zu erstellen. Das file mit der Endung regs.h definiert hardware interface spezifische Abläufe. Dieses wird im Ordner inc abgelegt. Im HAL Ordner wurden ein c und ein h file erstellt, welche die Integration mit dem hardware abstracten layer(HAL) ermöglichen.\todo{Quelle NiosII Handbuch mit points arbeiten}
+
+\paragraph{LT24 Controller}
+
+Wie in der Einleitung dieses Unterkapitels erwähnt erfüllt der von TerasIC mitgelieferte Treiber nicht die Konventionen welche Intel verlangt. Zudem sind die meisten Funktionen des Treibers sehr ineffizient gestaltet. Darum haben wir uns entschieden den Treiber für den LT24 Controller selbst zu schreiben. Im folgenden Teil ist beschrieben welche Funktionen wir für die Steuerung des LCD erstellt haben.
+
+Das Mudul \textbf{LT24\_Controller.c} ermöglicht es auf dem LCD einzelne Pixel und Rechteckflächen zu zeichnen und zu löschen. Die Funktion \textit{LCD\_DrawPoint(x,y,color)} setzt ein Cursor an die gewünschte Stelle auf dem LCD und zeichnet ein Pixel in der entsprechenden Farbe. Auf diese Art ein Rechteck zu zeichnen ist sehr ineffizient. Da der Treiber von TerasIC Rechtecke auf diese Art zeichnet, haben wir entschieden eine bessere Lösung zu finden. Mit der Funktion \textit{LCD\_DrawRect(xs,ys,xe,ye,color)}  werden Rechtecke effizienter gezeichnet. Es wird dabei nur einmal für das ganze Rechteck ein Cursor Feld gesetzt und danach alle Pixel eingefärbt. Da durch das setzen des Cursor Feld nicht für jeden einzelnen Pixel ein Cursor gesetzt werden muss, wird  Zeit eingespart. Dadurch ist es für das Menschliche Auge nicht mehr ersichtlich wie einzelne Pixel gezeichnet werden, wie dies bei der Funktion von TerasIC der Fall ist. 
+
+\paragraph{Pitch generation}
+Das Modul \textbf{Pitch\_generation.c} ermöglicht auf das Kontroll und das Glissando Delay Register zu schreiben und diese zu lesen. Das Register freq data ist nur lesbar. Dieses liefert die aktuelle Frequenz der Pitch Antenne und der Index des Tones bei dem die Frequenz am nächsten liegt. 
+Mit der Funktion \textit{get\_pixel\_pitch\_accuracy(penta\_on\_off,pitch\_freq)} wird das freq data Register ausgelesen. Für den Modus Pitch Display ist es nötig anzuzeigen auf welcher Seite sich der User von einem Ton befindet. Daher wird in dieser Funktion das Verhältnis der aktuellen Pitch Antenna Frequenz mit dem Abstand zum nächsten Ton gebildet und so ein Pixel Wert berechnet. Der Pixel Wert wird dann im GUI verwendet um den Cursor auf dem Display zu setzen.
+
+ Die Formate der einzelnen Register wurden bereits im Kapitel gezeigt\todo{Dennis fragen wo dies erwähnt ist}.
+
+\paragraph{Volume generation}
+Die einzige Kominikation welche die Volume generation Komponente mit dem NIOS II hat ist das schreiben und lesen des KSontroll Registers um die Kalibrierung zu starten. Das Module  \textit{Volume\_generation.c} ermöglicht dies. 

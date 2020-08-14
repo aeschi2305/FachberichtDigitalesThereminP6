@@ -1,0 +1,5 @@
+\clearpage
+\section{Realisierung Software}\label{sec:Realisierung_Software}
+Im folgenden Teil des Fachberichtes wird der Aufbau der Software beschrieben. Es folgt zu Beginn eine Gesamtübersicht.
+Übersicht: 
+Die Software ermöglicht die Bedienung des Theremin. Zur Steuerung des Theremin ist auf dem NIOS II eine in C programmierten Statemachine realisiert. Die Bedienung geschieht über das LT24 LCD touch module von Terasic. Die von Terasic zur Verfügung gestellten C Dateien zur Ansteuerung des LCD und des Touch, sowie die Dateien zur Darstellung des GUI, stellten sich als wenig brauchbar heraus. Die darin enthaltenen Funktionen sind oft zu ineffizient. Daher entschieden wir uns diese Funktionen selber zu schreiben.
