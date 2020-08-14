@@ -2001,6 +2001,8 @@
     <bcf:citekey order="3">non_volatile</bcf:citekey>
     <bcf:citekey order="4">LCD_Chip</bcf:citekey>
     <bcf:citekey order="5">Touch_ADC</bcf:citekey>
+    <bcf:citekey order="6">Cordic</bcf:citekey>
+    <bcf:citekey order="7">Cyclone_V</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

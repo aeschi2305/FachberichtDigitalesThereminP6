@@ -15,16 +15,29 @@
 \contentsline {paragraph}{LCD Controller \& Reset}{5}{section*.9}% 
 \contentsline {paragraph}{Touchscreen}{5}{section*.10}% 
 \contentsline {subsection}{\numberline {3.4}Pitch Generation}{6}{subsection.3.4}% 
-\contentsline {paragraph}{Referenzoszillator}{6}{figure.caption.13}% 
-\contentsline {paragraph}{Filter}{6}{figure.caption.15}% 
-\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{6}{figure.caption.17}% 
-\contentsline {subsection}{\numberline {3.5}Volume Generation}{6}{subsection.3.5}% 
-\contentsline {paragraph}{Filter}{6}{figure.caption.21}% 
-\contentsline {paragraph}{Frequenzmessung \& Kalibration}{7}{figure.caption.23}% 
-\contentsline {section}{\numberline {4}Validierung}{9}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}PCB}{9}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Frequenzmessung}{9}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Glissando Effekt}{9}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Ton Display}{9}{subsection.4.4}% 
-\contentsline {section}{\numberline {5}Schlusswort}{10}{section.5}% 
-\contentsline {section}{\numberline {6}Ehrlichkeitserkl\IeC {\"a}rung}{11}{section.6}% 
+\contentsline {paragraph}{Referenzoszillator}{6}{section*.12}% 
+\contentsline {paragraph}{Mixer}{8}{section*.17}% 
+\contentsline {paragraph}{Filter}{8}{section*.18}% 
+\contentsline {paragraph}{Amplifier}{9}{section*.23}% 
+\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{9}{section*.26}% 
+\contentsline {subsection}{\numberline {3.5}Volume Generation}{10}{subsection.3.5}% 
+\contentsline {paragraph}{Filter}{11}{figure.caption.34}% 
+\contentsline {paragraph}{Frequenzmessung \& Kalibration}{12}{figure.caption.36}% 
+\contentsline {section}{\numberline {4}Realisierung Software}{13}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Hauptprogramm State Machine}{13}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Treiber}{14}{subsection.4.2}% 
+\contentsline {paragraph}{LT24 Controller}{14}{section*.39}% 
+\contentsline {paragraph}{Pitch generation}{14}{section*.40}% 
+\contentsline {paragraph}{Volume generation}{15}{section*.42}% 
+\contentsline {subsection}{\numberline {4.3}Audio}{15}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Touch}{15}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}GUI}{16}{subsection.4.5}% 
+\contentsline {paragraph}{simple\_text.c}{16}{section*.47}% 
+\contentsline {paragraph}{gui.c}{16}{section*.49}% 
+\contentsline {section}{\numberline {5}Validierung}{17}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}PCB}{17}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Frequenzmessung}{17}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Glissando Effekt}{17}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Ton Display}{17}{subsection.5.4}% 
+\contentsline {section}{\numberline {6}Schlusswort}{18}{section.6}% 
+\contentsline {section}{\numberline {7}Ehrlichkeitserkl\IeC {\"a}rung}{19}{section.7}% 
