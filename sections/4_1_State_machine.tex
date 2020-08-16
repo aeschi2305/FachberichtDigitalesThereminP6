@@ -1,30 +1,66 @@
 \subsection{Hauptprogramm State Machine}\label{subsec:State_Machine}
-Abbildung bla zeigt die Initialisierung und den Hauptprogrammfluss der Software.
+Abbildung \ref{img:state_machine} zeigt die Initialisierung und den Hauptprogrammfluss der Software.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{state_machine.pdf}
 	\caption{State Machine und Initailisierung.}
-	\label{img:Blockschaltbild_digital}
+	\label{img:state_machine}
 \end{figure}
 
-In der Initialisierung werden als erstes alle Treiber, der Touch, das LCD, und der Codec, und  konfiguriert. Anschlissend wird in einer Endlosschlaufe die state machine aufgerufen.
+Als erstes initialisiert das Programm alle Treiber, der Touch, das LCD, und der Codec. Anschlissend führt das Programm in einer Endlosschlaufe die state machine durch.
 
 \textbf{Main}:
-Dies ist der erste State nach dem Initialisierungsvorgang. In diesem State wird gewartet bis der Benutzer einer der drei in Abbildung bla gezeigten Tasten drückt. Danach wird je nachdem welcher Taster betätigt wurde in den entsprechende State gewechselt. 
+Dies ist der erste State nach dem Initialisierungsvorgang. Der Main State wartet auf eine Betätigung der drei in Abbildung \ref{img:main_screen} gezeigten Tastern. Eine Betätigung der drei Tastern führt zu einem Wechsel in den entsprechenden State. 
  
 \textbf{Calibration}:
-Im Calibration State wird der Benutzer gebeten seine Hände in die Nähe der Antenne zu halten.
-Nach zwei Sekunden wird die Kalibrierung gestartet. Sobald die Kalibrierung abgeschlossen ist kann der Benutzer über den \textbf{\textit{back}} Taste zurück in den Main State gelangen.  
+Der Calibration State fordert den Benutzer auf seine Hände in die Nähe der Antenne zu halten.
+Nach zwei Sekunden startet die Kalibrierung. Sobald die Kalibrierung abgeschlossen ist kann der Benutzer über den \textbf{\textit{back}} Taster zurück in den Main State gelangen. Abbildung \ref{img:calibration_screen} zeigt die Darstellung des LCD nach erfolgreicher Kalibrierung.
 
 \textbf{Volume}:
-In diesem State kann der Benutzer die Lautstärke ändern und die Volume Antenne aktivieren und deaktivieren. Die Lautstärke kann in 10 verschiedene Pegel eingestellt werden. Dies geschieht mithilfe der in Abbildung bla gezeigten \textbf{\textit{+}} und \textbf{\textit{-}} Tasten. Beim betätigen der \textbf{\textit{vol antenna}} taste wird die Volume Antenne je nach aktuellem Zustand deaktiviert oder aktiviert. Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Main State.
+In diesem State kann der Benutzer die Lautstärke ändern und die Volume Antenne aktivieren und deaktivieren. Die Lautstärke kann in 10 verschiedene Pegeln eingestellt werden. Dies geschieht mithilfe der in Abbildung \ref{img:vol_screen} gezeigten \textbf{\textit{+}} und \textbf{\textit{-}} Tasten. Beim betätigen der \textbf{\textit{vol antenna}} Taste wird die Volume Antenne je nach aktuellem Zustand deaktiviert oder aktiviert. Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Main State.
  
-\textbf{Play Help}:
-Im State Play Help kann mit der\textbf{\textit{Glissando on}} Taste der Glissando Effekt akieviert und deaktiviert werden. Über die \textbf{\textit{Set}} Taste gelangt man in den State Settings. Durch betätigen des \textbf{\textit{display pitch}} Taste wird in den State Pitch Display gewechselt.  Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Main State.
+\textbf{Playing-Aids}:
+Im State Playing Aids kann der Benutzer mit der\textbf{\textit{Glissando on}} Taste der Glissando Effekt akieviert und deaktiviert. Die Abbildungen \ref{img:play_aids_off} und \ref{img:play_aids_on} zeigen die grafische Realisierung dieser Taste. Über die \textbf{\textit{Set}} Taste gelangt der Benutzer in den State Settings. Durch betätigen des \textbf{\textit{display pitch}} Taste wird in den State Pitch Display gewechselt. Zurück in den Main State gelangt man über die \textbf{\textit{back}} Taste.
 
 \textbf{Settings}:
-Im Settings State können Einstellungen zum Glissando Effekt gemacht werden. Das Delay des Glissando Effekts kann in 10 Stufen eingestellt werden. Zudem kann mit dem Taster \textbf{\textit{penta}} zwischen der Pentatonischer und der normalen Tonleiter gewechselt werden. Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Main State.
+Im Settings State können Einstellungen zum Glissando Effekt gemacht werden. Das Delay des Glissando Effekts ist in 10 Stufen einstellbar. Zudem kann der Anwender mit dem Taster \textbf{\textit{penta}} zwischen der Pentatonischer und der normalen Tonleiter wechseln. Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Playing-Aids State. Abbildung \ref{img:settings_screen} zeigt wie der Setting State grafisch auf dem LCD aussieht.
 
 \textbf{Pitch Display}:
-Im Pitch Display State kann der Benutzer sehen welcher Ton gespielt wird. Ist die Pentatonische Tonleiter aktiv wird angezeigt wie weit man von einem Ton entfernt ist. Falls die normale Tonleiter aktiv ist wird der Ton angezeigt bei welchem man sich am nächsten befindet.
+Dieser State unterstützt den Theremin Spieler dabei Töne der Tonleiter zu treffen.   Abbildung \ref{img:play_help_screen} zeigt die graphische Darstellung dieses States.  
+Der Schriftzug oberhalb des LCD zeigt den Ton an, der sich in der Region der gespielten Frequenz befindet. 
+Der kleine vertikale Strich zeigt dem Spieler graphisch an wie weit weg die aktuell gespielte Frequenz von dem Ton der Tonleiter ist. 
+Diese graphische Untertützung kann jedoch nur bei der Pentatonischen Tonleiter angewendet werden.  Da die Antenne sehr empfindlich auf Änderungen ist, ist es mit der normalen Tonleiter nicht möglich den Vertikalen Strich anzuzeigen. Daher wird dieses Anzeige nur bei der Pentatonischen Tonleiter verwendet.
 
+\begin{figure}[!ht]
+	\subfloat[Main Menu\label{img:main_screen}]{%
+		\includegraphics[width=0.3\textwidth]{Main.pdf}
+	}
+	\hfill
+	\subfloat[Calibration Menu\label{img:calibration_screen}]{%
+		\includegraphics[width=0.3\textwidth]{calibrating_done.pdf}
+	}
+	\hfill
+	\subfloat[Volume Menu\label{img:vol_screen}]{%
+		\includegraphics[width=0.3\textwidth]{volume.pdf}
+	}
+	\\
+	\subfloat[Playing-Aids Menu, Glissando off\label{img:play_aids_off}]{%
+		\includegraphics[width=0.3\textwidth]{play_aids.pdf}
+	}
+	\hfill
+	\subfloat[Playing-Aids Menu, Glissando on\label{img:play_aids_on}]{%
+		\includegraphics[width=0.3\textwidth]{play_aids_on.pdf}
+	}
+	\hfill
+	\subfloat[Settings Menu\label{img:settings_screen}]{%
+		\includegraphics[width=0.3\textwidth]{settings.pdf}
+	}
+	\\
+	\subfloat[Play help Menu\label{img:play_help_screen}]{%
+		\includegraphics[width=0.3\textwidth]{pitch_display.pdf}
+	}
+	\hfill
+
+	\caption{Dummy figure}
+	\label{fig:dummy}
+\end{figure}
