@@ -97,8 +97,8 @@ Die Dämpfung des Audiosignals könnte auch über den Codec gemacht werden. Wesh
 
 Die Komponente Frequency Measurement hat mehrere Aufgaben und ist diejenige Komponente mit welcher über den Nios Prozessor die gesammte Pitch Generation gesteuert werden kann. Der Aufbau dieser Komponente ist in Abbildung \ref{freq_meas_pitch} aufgezeigt.\\
 Zum einen wird hier die Frequenzmessung durchgeführt. Dies geschieht über die drei Komponenten FIR, Period Counter und Goldschmidt divider. FIR ist wie der Name sagt ein FIR Filter. Dieses ist nötig um das Signal aus dem Filter, welches noch Hochfrequente Signale enthält zu Filtern. Das Filter hat eine Grenzfrequenz von ... \todo{Grenzfrequenz und Dämpfung einfügen}. Das Filter wurde mit dem Tool filterDesigner in Matlab berechnet. Wir haben entschieden die Filterkoeffizienten als fixed-point signed Zahlen in einem Array mit \SI{18}{bit} länge abzuspeichern. Auf dieser Koeffizientenlänge kann Quartus die DSP-Blöcke so nutzen, dass nach der Multiplikation des Signals mit den Koeffizienten die Resultate gleich in den Blöcken addiert wird. Dies ermöglicht längereMultiplikationsketten. \todo{Nochmal über DSP blöcke nachlesen und referenzieren} \\
-Anschliessend wird das Signal \textit{fir\_out} im \textit{Period Counter ausgemessen}. Diese zählt von Nulldurchgang zu Nulldurchgang einen Zähler hoch. Bei einem Nulldurchgang wird der Wert dieses Zählers am Signal \textit{per\_cnt} ausgegeben. Der Zählerwert entspricht der Anzahl Abtastwerte des Signals in einer Signalperiode. \\
-Das Signal hat eine Abtastfrequenz von \SI{1.2}{MHz}. Dividiert man diese Abtastfrequenz durch die zuvor gezählte Anzahl Abtastperioden erhält man die Frequenz des Signals.
+Anschliessend wird das Signal \textit{fir\_out} im \textit{Period Counter} ausgemessen. Diese zählt von Nulldurchgang zu Nulldurchgang einen Zähler hoch. Bei einem Nulldurchgang wird der Wert dieses Zählers am Signal \textit{per\_cnt} ausgegeben. Der Zählerwert entspricht der Anzahl Abtastwerte des Signals in einer Signalperiode. \\
+Das Signal hat eine Abtastfrequenz von \SI{1.2}{MHz}. Dividiert man diese Abtastfrequenz durch die zuvor gezählte Anzahl Abtastperioden erhält man die Frequenz des Signals.\\ Um diese Division zu berechnen haben wir uns entschieden den Goldschmidt Algorithmus aus Kapitel ... \todo{referenz auf theorie goldschmidt einfügen} einzusetzen. Dieser hat den Vorteil, dass er auch Nachkommastellen berechnen kann um die nötige Genauigkeit bei den Tiefen Frequenzen zu erreichen wie in Kapitel ... \todo{Referenz auf Musikkapitel einfügen} beschrieben. Dass die Berechnungsdauer des Algorithmus nicht für alle Zahlen gleich ist, ist nicht Problematisch, da diese Zeiten im Nanosekundenbereich liegen und nicht hörbar sind.
 
 \begin{figure}[h!]
 	\centering
@@ -107,3 +107,15 @@ Das Signal hat eine Abtastfrequenz von \SI{1.2}{MHz}. Dividiert man diese Abtast
 	\label{img:freq_meas_pitch}
 \end{figure}  
 \todo{Bild überarbeiten und namen an Signalen anbringen wie in Text}
+
+Die gemessene Frequenz wird anschliessend in der Komponente \textit{Calibration \& Glissando} benötigt. Diese ist dafür zuständig einerseits die Tonhöhe zu kalibrieren und andererseits den Glissando-Effekt zu steuern. Um die Frequenz des Referenzoszillator zu steuern wird die Differenz welche den Glissandoeffekt hervorruft und die Änderung welche während der Kalibration berechnet wurde addiert und dem Referenzoszillator als Frequenzdifferenz übergeben. Die Steuerung dieser Funktionen ist als State-Machine aufgebaut wie in Abbildung \ref{img:state_event_Cal_Glis} zu sehen ist. Es folgt eine Erklärung, was in den einzelnen Zuständen geschieht:
+
+\textbf{Idle}:
+Sind beide Funktionen deaktiviert, wird das die Frequenznderung des  zum Referenzoszillator auf 0Hz gesetzt.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\textwidth]{state_machine_Cal_Glis.pdf}
+	\caption{State Event Diagramm der Kalibration \& Glissando Komponente} 
+	\label{img:state_event_Cal_Glis}
+\end{figure} 
