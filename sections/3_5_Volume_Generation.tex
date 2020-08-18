@@ -1,16 +1,17 @@
-\subsection{Volume Generation}\label{subsec:Volume_Generation}
-Das digitale Theremin ist auf dem Entwicklungsboard DE1-SOC von terasIC aufgebaut. Dieses enthält ein Cyclone V 5CSEMA5 FPGA von Intel. Weiter befindet sich auf dem Board der Audio Codec WM8731 von Wolfson für die Ausgabe an einem Lautsprecher. In Abbildung ... \todo{Referenz auf Blockschaltbild} ist der Aufbau des Digitalen Theremin aufgezeigt inklusive der Peripherie ausserhalb des FPGA.
+\subsection{Lautstärkeverarbeitung}\label{subsec:Volume_Generation}
+Die Aufgabe der \textit{Lautstärkenverarbeitung} ist es aus dem Signal des Lautstärkenoszillators einen Dämpfungsfaktor zu berechnen, mit welchem das Signal der Tonhöhenverarbeitung multipliziert wird. So kann der Spieler die Lautstärke während dem Spielen wie die Tonhöhe über eine Antenne einstellen. Wie Abbildung \ref{img:Blockschaltbild_volume} zeigt sind die beiden Verarbeitungskomponenten auch sehr ähnlich. Der Referenzoszillator und der Mischer sind gleich wie in der Tonverarbeitung. In den nächsten Abschnitten sind die Unterschiede zu den Komponenten der Tonverarbeitung aufgezeigt.
 
 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.75\textwidth]{Blockschaltbild_Volume.pdf}
+	\includegraphics[width=1\textwidth]{Blockschaltbild_Volume.pdf}
 	\caption{Blockschaltbild der Custom IP Volume Generation} 
 	\label{img:Blockschaltbild_volume}
 \end{figure}  
 
-\paragraph{Filter}
+\paragraph{Filter}\mbox{}\\
+Beim \textit{Filter} der Laustsärkeverarbeitung wurde die Frequenzmessung erst nach dem dritten CIC Filter angeschlossen. Wir haben dies so gemacht, um beim FIR-Filter der Frequenzmessungskomponente weniger Koeffizienten und somit weniger Ressourcen zu benötigen. Das FIR-Filter benötigt deshalb weniger Koeffizienten, da nach CIC 3 die Abtastfrequenz des Signals um den Faktor 45 kleiner ist. Zudem ist das FIR-Filter in dieser Komponente deshalb nicht mehr nötig.
 
 \begin{figure}[h!]
 	\centering
@@ -19,7 +20,8 @@ Das digitale Theremin ist auf dem Entwicklungsboard DE1-SOC von terasIC aufgebau
 	\label{img:Filter_Volume}
 \end{figure}  
 
-\paragraph{Frequenzmessung \& Kalibration}
+\paragraph{Frequenzmessung \& Kalibration}\mbox{}\\
+Auch bei der Komponente \textit{Frequenzmessung} waren Anpassungen nötig.
 
 \begin{figure}[h!]
 	\centering

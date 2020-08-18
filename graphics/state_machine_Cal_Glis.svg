@@ -1143,15 +1143,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1866779"
-     inkscape:cx="356.27438"
-     inkscape:cy="945.01174"
+     inkscape:zoom="1.678216"
+     inkscape:cx="224.08484"
+     inkscape:cy="943.45032"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:snap-global="false">
@@ -1167,7 +1167,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1335,20 +1335,7 @@
            height="100%"
            transform="translate(-37.995457,-3.8056301)" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         id="flowPara2037-8">freq_raff</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.381;stroke-miterlimit:4;stroke-dasharray:none"
-       id="flowRoot4267"><flowRegion
-         id="flowRegion4269"><use
-           x="0"
-           y="0"
-           xlink:href="#path869-7-0-9-3-0-9"
-           id="use4271"
-           transform="translate(6.9118025,94.312661)"
-           width="100%"
-           height="100%" /></flowRegion><flowPara
-         id="flowPara4273"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.381;stroke-miterlimit:4;stroke-dasharray:none">freq range</flowPara></flowRoot>    <ellipse
+         id="flowPara2037-8">freq_raff</flowPara></flowRoot>    <ellipse
        style="opacity:0.93999999;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38100001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="path869-7-0-9-3-0-9-1"
        cx="38.597118"
@@ -1376,21 +1363,7 @@
        cy="105.57032"
        rx="12.654493"
        ry="6.9504957" />
-    <flowRoot
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38100001;stroke-miterlimit:4;stroke-dasharray:none"
-       id="flowRoot4361"
-       transform="translate(0,0.52916667)"><flowRegion
-         id="flowRegion4363"><use
-           x="0"
-           y="0"
-           xlink:href="#path869-7-0-9-3-0-9-1-0"
-           id="use4365"
-           width="100%"
-           height="100%"
-           transform="translate(6.9118025,93.783494)" /></flowRegion><flowPara
-         id="flowPara4367"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.38100001;stroke-miterlimit:4;stroke-dasharray:none">step cnt</flowPara></flowRoot>    <path
+    <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1919-5-6)"
        d="m 165.86715,43.531611 c 8.81508,7.09883 9.13336,10.7737 10.83669,19.75589"
        id="path1543-0-8"
@@ -1642,5 +1615,27 @@
          y="79.698036"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
          id="tspan16694-0-2-1-8-7" /></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38100001;stroke-miterlimit:4;stroke-dasharray:none"
+       id="flowRoot1996"><flowRegion
+         id="flowRegion1998"><use
+           x="0"
+           y="0"
+           xlink:href="#path869-7-0-9-3-0-9-1-0"
+           id="use2000"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.38100001;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowPara2002">step count</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.381;stroke-miterlimit:4;stroke-dasharray:none"
+       id="flowRoot2004"><flowRegion
+         id="flowRegion2006"><use
+           x="0"
+           y="0"
+           xlink:href="#path869-7-0-9-3-0-9"
+           id="use2008" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.381;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowPara2010">freq range</flowPara></flowRoot>  </g>
 </svg>

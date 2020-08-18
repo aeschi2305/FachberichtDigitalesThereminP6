@@ -27,14 +27,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="275.79907"
+     inkscape:cx="190.69372"
      inkscape:cy="799.44288"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,19 +66,19 @@
        y="74.75" />
     <flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot9915"
        transform="translate(0,2.1166667)"><flowRegion
          id="flowRegion9917"
-         style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><use
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"><use
            x="0"
            y="0"
            xlink:href="#rect4518-3"
            id="use9919"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara9921">Cordic Control</flowPara></flowRoot>    <rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara9921">Cordic Controller</flowPara></flowRoot>    <rect
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4518-3-5"
        width="18.520834"

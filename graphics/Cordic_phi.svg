@@ -90,14 +90,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="124.92575"
-     inkscape:cy="932.67308"
+     inkscape:cx="348.42017"
+     inkscape:cy="896.79896"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
-     inkscape:window-x="2391"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -112,7 +112,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -126,8 +126,8 @@
        id="path2075"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.33843166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="M 42.333724,55.402465 H 162.27714"
+       style="fill:none;stroke:#000000;stroke-width:0.28705284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 42.333724,55.402465 H 144.19792"
        id="path2077"
        inkscape:connector-curvature="0" />
     <path
@@ -199,64 +199,64 @@
        id="text2776-3"
        y="69.68766"
        x="46.599022"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;line-height:125%;font-family:'Latin Modern Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        xml:space="preserve"
        transform="scale(1.1720629,0.8531965)"><tspan
          id="tspan2774-01"
          y="69.68766"
          x="46.599022"
          sodipodi:role="line"
-         style="stroke-width:0.17770469"><tspan
+         style="stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.62113888px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
            id="tspan2772-6"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;font-family:Calibri;fill:#000000;stroke-width:0.17770469"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;font-family:'Latin Modern Roman';fill:#000000;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
            dy="0 0"
            dx="0 0">I </tspan></tspan></text>
     <text
        id="text2776-3-8"
        y="69.703491"
        x="63.82196"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;line-height:125%;font-family:'Latin Modern Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        xml:space="preserve"
        transform="scale(1.1720629,0.8531965)"><tspan
          id="tspan2774-01-3"
          y="69.703491"
          x="63.82196"
          sodipodi:role="line"
-         style="stroke-width:0.17770469"><tspan
+         style="stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.62113888px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
            id="tspan2772-6-3"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;font-family:Calibri;fill:#000000;stroke-width:0.17770469"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;font-family:'Latin Modern Roman';fill:#000000;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
            dy="0 0 0"
            dx="0 0 0">II </tspan></tspan></text>
     <text
        id="text2776-3-8-3"
        y="69.703491"
        x="83.649429"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;line-height:125%;font-family:'Latin Modern Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        xml:space="preserve"
        transform="scale(1.1720629,0.8531965)"><tspan
          id="tspan2774-01-3-5"
          y="69.703491"
          x="83.649429"
          sodipodi:role="line"
-         style="stroke-width:0.17770469"><tspan
+         style="stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.62113888px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
            id="tspan2772-6-3-2"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;font-family:Calibri;fill:#000000;stroke-width:0.17770469"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;font-family:'Latin Modern Roman';fill:#000000;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
            dy="0 0 0 0"
            dx="0 0 0 0">III </tspan></tspan></text>
     <text
        id="text2776-3-8-3-7"
        y="69.697021"
        x="99.881622"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;line-height:125%;font-family:'Latin Modern Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        xml:space="preserve"
        transform="scale(1.1720629,0.8531965)"><tspan
          id="tspan2774-01-3-5-9"
          y="69.697021"
          x="99.881622"
          sodipodi:role="line"
-         style="stroke-width:0.17770469"><tspan
+         style="stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.62113888px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
            id="tspan2772-6-3-2-8"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.62114429px;font-family:Calibri;fill:#000000;stroke-width:0.17770469"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-size:2.62113888px;font-family:'Latin Modern Roman';fill:#000000;stroke-width:0.17770469;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
            dy="0 0 0"
            dx="0 0 0">IV </tspan></tspan></text>
     <path
@@ -310,7 +310,9 @@
          id="tspan3062"
          x="108.86287"
          y="39.631622"
-         style="font-size:2.11666656px;stroke-width:0.26458332">Sägezahn Winkel</tspan></text>
+         style="font-size:2.11666656px;stroke-width:0.26458332"><tspan
+   style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.11666667px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
+   id="tspan921">Sägezahn Wink</tspan>el</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -321,7 +323,7 @@
          id="tspan3062-1"
          x="108.8653"
          y="42.554882"
-         style="font-size:2.11666656px;stroke-width:0.26458332">Dreiecks Winkel</tspan></text>
+         style="font-size:2.11666667px;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">Dreiecks Winkel</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -353,5 +355,27 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.85639071px;font-family:Calibri;fill:#000000;stroke-width:0.19365361"
            dy="0"
            dx="0"> </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="39.35677"
+       y="25.093378"
+       id="text925"><tspan
+         sodipodi:role="line"
+         id="tspan923"
+         x="39.35677"
+         y="25.093378"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">phi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="143.03751"
+       y="58.981533"
+       id="text925-7"><tspan
+         sodipodi:role="line"
+         id="tspan923-1"
+         x="143.03751"
+         y="58.981533"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">t</tspan></text>
   </g>
 </svg>

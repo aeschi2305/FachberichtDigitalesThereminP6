@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="377.35821"
-     inkscape:cy="792.14064"
+     inkscape:zoom="3.959798"
+     inkscape:cx="226.37612"
+     inkscape:cy="813.234"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -212,11 +212,11 @@
          style="stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">meas_in</tspan></text>
     <flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot8724"
        transform="translate(34.141986,4.233336)"><flowRegion
          id="flowRegion8726"
-         style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><use
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"><use
            x="0"
            y="0"
            xlink:href="#rect4518"
@@ -224,8 +224,8 @@
            width="100%"
            height="100%"
            transform="translate(-34.141986,-2.1166692)" /></flowRegion><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara8730">Reference-oscillator</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara8730">Referenz-oszillator</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        id="flowRoot8756"
@@ -257,21 +257,21 @@
          style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
          id="flowPara8794">Filter</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot7864-7-1-4"
-       transform="translate(31.715626,114.85199)"><flowRegion
+       transform="translate(29.069791,114.85199)"><flowRegion
          id="flowRegion7866-5-4-2"
-         style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;" /><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara7870-4-4-2">Volume</flowPara><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara8823">Oscillator</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara8823">Lautstärken-</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara893">oszillator</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot8849"
-       transform="translate(34.141986,2.1166692)"><flowRegion
+       transform="translate(34.141986,3.1750026)"><flowRegion
          id="flowRegion8851"
-         style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><use
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"><use
            x="0"
            y="0"
            xlink:href="#rect4518-3-7-5"
@@ -279,18 +279,18 @@
            width="100%"
            height="100%"
            transform="translate(-34.141986,-1.0583358)" /></flowRegion><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara8855">Frequency Measure-ment</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara8855">Frequenz-messung</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot7864-7-1-4-0"
-       transform="translate(158.4965,80.432192)"><flowRegion
+       transform="translate(160.23375,80.432192)"><flowRegion
          id="flowRegion7866-5-4-2-2"
-         style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;" /><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara8823-7">Pitch</flowPara><flowPara
-         style="font-size:2.82222222px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         id="flowPara8883">Generation</flowPara></flowRoot>    <text
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara8883">Tonhöhen-</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="flowPara897">verarbeitung</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        x="133.57405"
@@ -356,18 +356,18 @@
        inkscape:connector-curvature="0" />
     <flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:2.82222222px;line-height:1.25;font-family:'Latin Modern Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37599999;stroke-miterlimit:10;stroke-dasharray:1.504, 1.50400000000000000;stroke-dashoffset:0;-inkscape-font-specification:'Latin Modern Roman, Bold';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37599999;stroke-miterlimit:10;stroke-dasharray:1.504, 1.504;stroke-dashoffset:0"
        id="flowRoot9318"
-       transform="translate(0.52916667,0.52916667)"><flowRegion
+       transform="translate(1.0583333,0.52916667)"><flowRegion
          id="flowRegion9320"
-         style="-inkscape-font-specification:'Latin Modern Roman, Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><use
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><use
            x="0"
            y="0"
            xlink:href="#rect8937"
            id="use9322"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara9324">Volume Generation</flowPara></flowRoot>    <flowRoot
+         id="flowPara9324">Lautstärkenverarbeitung</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944451px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot9077"
