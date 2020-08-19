@@ -7,17 +7,17 @@ Abbildung \ref{img:state_machine} zeigt die Initialisierung und den Hauptprogram
 	\label{img:state_machine}
 \end{figure}
 
-Als erstes initialisiert das Programm alle Treiber, der Touch, das LCD, und der Codec. Anschlissend führt das Programm in einer Endlosschlaufe die state machine durch.
+Als erstes initialisiert das Programm alle Treiber, den Touch, das LCD, und den Codec. Anschlissend führt das Programm in einer Endlosschlaufe die state machine durch.
 
 \textbf{Main}:
-Dies ist der erste State nach dem Initialisierungsvorgang. Der Main State wartet auf eine Betätigung der drei in Abbildung \ref{img:main_screen} gezeigten Tastern. Eine Betätigung der drei Tastern führt zu einem Wechsel in den entsprechenden State. 
+Dies ist der erste State nachdem Initialisierungsvorgang. Der Main State wartet auf eine Betätigung der drei in Abbildung \ref{img:main_screen} gezeigten Tastern. Eine Betätigung der drei Tastern führt zu einem Wechsel in den entsprechenden State. 
  
 \textbf{Calibration}:
-Der Calibration State fordert den Benutzer auf seine Hände in die Nähe der Antenne zu halten.
-Nach zwei Sekunden startet die Kalibrierung. Sobald die Kalibrierung abgeschlossen ist kann der Benutzer über den \textbf{\textit{back}} Taster zurück in den Main State gelangen. Abbildung \ref{img:calibration_screen} zeigt die Darstellung des LCD nach erfolgreicher Kalibrierung.
+Der Calibration State fordert den Benutzer auf seine rechte Hand in die Nähe der rechten Antenne zu halten.
+Nach zwei Sekunden startet die Kalibrierung. Sobald die Kalibrierung abgeschlossen ist, kann der Benutzer über den \textbf{\textit{back}} Taster zurück in den Main State gelangen. Abbildung \ref{img:calibration_screen} zeigt die Darstellung des LCD nach erfolgreicher Kalibrierung.
 
 \textbf{Volume}:
-In diesem State kann der Benutzer die Lautstärke ändern und die Volume Antenne aktivieren und deaktivieren. Die Lautstärke kann in 10 verschiedene Pegeln eingestellt werden. Dies geschieht mithilfe der in Abbildung \ref{img:vol_screen} gezeigten \textbf{\textit{+}} und \textbf{\textit{-}} Tasten. Beim betätigen der \textbf{\textit{vol antenna}} Taste wird die Volume Antenne je nach aktuellem Zustand deaktiviert oder aktiviert. Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Main State.
+In diesem State kann der Benutzer die Lautstärke ändern und die Lautstärkenantenne aktivieren und deaktivieren. Die Lautstärke kann in 10 verschiedene Pegeln eingestellt werden. Dies geschieht mithilfe der in Abbildung \ref{img:vol_screen} gezeigten \textbf{\textit{+}} und \textbf{\textit{-}} Tasten. Beim betätigen der \textbf{\textit{vol antenna}} Taste wird die Lautstärkenantenne je nach aktuellem Zustand deaktiviert oder aktiviert. Mit dem betätigen der \textbf{\textit{back}} Taste gelangt der Benutzer in den Main State.
  
 \textbf{Playing-Aids}:
 Im State Playing Aids kann der Benutzer mit der\textbf{\textit{Glissando on}} Taste der Glissando Effekt akieviert und deaktiviert. Die Abbildungen \ref{img:play_aids_off} und \ref{img:play_aids_on} zeigen die grafische Realisierung dieser Taste. Über die \textbf{\textit{Set}} Taste gelangt der Benutzer in den State Settings. Durch betätigen des \textbf{\textit{display pitch}} Taste wird in den State Pitch Display gewechselt. Zurück in den Main State gelangt man über die \textbf{\textit{back}} Taste.
@@ -30,7 +30,7 @@ Dieser State unterstützt den Theremin Spieler dabei Töne der Tonleiter zu tref
 Abbildung \ref{img:play_help_screen} zeigt die graphische Darstellung dieses States.  
 Der Schriftzug oberhalb des LCD zeigt den Ton an, der sich in der Region der gespielten Frequenz befindet. 
 Der kleine vertikale Strich zeigt dem Spieler graphisch an wie weit weg die aktuell gespielte Frequenz von dem Ton der Tonleiter ist. 
-Diese graphische Untertützung kann jedoch nur bei der Pentatonischen Tonleiter angewendet werden.  Da die Antenne sehr empfindlich auf Änderungen ist, ist es mit der normalen Tonleiter nicht möglich den Vertikalen Strich anzuzeigen. Daher wird dieses Anzeige nur bei der Pentatonischen Tonleiter verwendet.
+Diese graphische Unterstützung kann jedoch nur bei der Pentatonischen Tonleiter angewendet werden.  Da die Antenne sehr empfindlich auf Änderungen ist, ist es mit der normalen Tonleiter nicht möglich den Vertikalen Strich anzuzeigen. Daher wird dieses Anzeige nur bei der Pentatonischen Tonleiter verwendet.
 
 \begin{figure}[!ht]
 	\subfloat[Main Menu\label{img:main_screen}]{%
