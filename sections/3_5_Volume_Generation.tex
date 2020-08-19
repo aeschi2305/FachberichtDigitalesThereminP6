@@ -11,7 +11,7 @@ Die Aufgabe der \textit{Lautstärkenverarbeitung} ist es aus dem Signal des Laut
 \end{figure}  
 
 \paragraph{Filter}\mbox{}\\
-Beim \textit{Filter} der Laustsärkeverarbeitung wurde die Frequenzmessung erst nach dem dritten CIC Filter angeschlossen. Wir haben dies so gemacht, um beim FIR-Filter der Frequenzmessungskomponente weniger Koeffizienten und somit weniger Ressourcen zu benötigen. Das FIR-Filter benötigt deshalb weniger Koeffizienten, da nach CIC 3 die Abtastfrequenz des Signals um den Faktor 45 kleiner ist. Zudem ist das FIR-Filter in dieser Komponente deshalb nicht mehr nötig.
+Beim \textit{Filter} der Laustsärkeverarbeitung wurde die Frequenzmessung erst nach dem dritten CIC Filter angeschlossen. Wir haben dies so gemacht, um beim FIR-Filter der Frequenzmessungskomponente weniger Koeffizienten und somit weniger Ressourcen zu benötigen. Das FIR-Filter benötigt deshalb weniger Koeffizienten, da nach CIC 3 die Abtastfrequenz des Signals um den Faktor 45 kleiner ist, nämlich 240kHz. Zudem ist das FIR-Filter in dieser Komponente deshalb nicht mehr nötig.
 
 \begin{figure}[h!]
 	\centering
@@ -21,7 +21,12 @@ Beim \textit{Filter} der Laustsärkeverarbeitung wurde die Frequenzmessung erst 
 \end{figure}  
 
 \paragraph{Frequenzmessung \& Kalibration}\mbox{}\\
-Auch bei der Komponente \textit{Frequenzmessung} waren Anpassungen nötig.
+Auch bei der Komponente \textit{Frequenzmessung} waren Anpassungen nötig. 
+Die Abtastfrequenz des Signals aus dem Filter haben wir wie im vorherigen Abschnitt besprochen auf 240kHz gesetzt. Dies bedeutet, dass die Frequenzmessung weniger genau ist, was jedoch für die Einstellung der Lautstärke nicht so problematisch ist wie für die Tonhöhe. Der Vorteil von einer tieferen Abtastfrequenz ist, dass das FIR-Filter weniger Filterkoeffizienten hat und somit Ressourcen einspart.\\
+Der Periodenzähler ist gleich geblieben wie in der Tonhöhenverarbeitung.\\
+Anders als zuvor sind nun zwei Goldschmidtdividierer verbaut. Dies um am Ausgang zu der Tonhöhenverarbeitung die in Kapitel \ref{subsec:Pitch_Generation} besprochenen Dämpfungsfaktor zu berechnen. Wie zuvor berechnet der \textit{Goldschmidtdividierer 1} aus der Anzahl Abtastperioden aus per\_cnt die entsprechende Frequenz. \textit{Goldschmidtdividierer 2} berechnet aus der Frequenz den erwähnten Dämpfungsfaktor. Wir haben uns dafür entschieden diese Berechnung so einzustellen, dass alle Messungen unter \SI{300}{Hz} einen Dämpfungsfaktor 0 oder kein Ton ergibt. Das Maximum oder 1 haben wir auf \SI{3500}{Hz} eingestellt. Da die Frequenz des Signals welches vom Filter kommt exponential Ansteigt, muss keine Umrechnung stattfinden um die Eigenschaft des logarithmischen Hörens zu kompensieren.
+
+Anders als bei der der gleichen Komponente in der Tonhöhenverarbeitung ist die Funktionalität des Glissando-Effekts in der Lautstärkeverarbeitung nicht nötig. Die Kalibration funktioniert jedoch gleich wie in der Tonhöhenverarbeitung.
 
 \begin{figure}[h!]
 	\centering
@@ -29,3 +34,28 @@ Auch bei der Komponente \textit{Frequenzmessung} waren Anpassungen nötig.
 	\caption{Aufbau der Frequenzmessung und Kalibration in der Komponente Volume Generation} 
 	\label{img:freq_meas_volume}
 \end{figure}  
+
+\paragraph{Register}\mbox{}\\
+Um mit der Komponente \textit{Lautstärkenverarbeitung} über das Memory-Mapped Interface kommunizieren zu können wurde das folgende Register definiert:
+
+
+\begin{table}[H]
+	\centering
+	\caption{Control Register Flags}
+	\label{tab:Register_volume_cntrl}
+	\begin{tabular}{l|l|l|l}
+		\textbf{Bits} & \textbf{Kürzel} & \textbf{R/W} &	\textbf{Beschreibung}\\
+		\hline \hline
+		
+		0 & ant\_on & W &  1 = Lautstärkeantenne aktiviert \\ 
+		&      &   &  0 = Lautstärkenantenne deaktiviert \\ 
+		\hline
+		1 & cal & R/W &  1 = Kalibration aktiviert \\ 
+		&     &     &  0 = Kalibration beendet \\ 
+		\hline
+	
+	\end{tabular}
+\end{table}
+
+Ist das Flag ant\_on auf 0 gesetzt, lässt sich das Theremin nur über die Tonhöhenantenne spielen. Die Lautstärke ist dabei immer konstant.
+
