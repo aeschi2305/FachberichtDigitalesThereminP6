@@ -1,11 +1,11 @@
 \subsection{Audioserialisierer}\label{subsec:Audio_Serializer}
 
 Für die Übertragung der Audiodaten zum Codec ist der \textit{Audioserialisierer} zuständig. Obwohl es von Intel bereits eine IP gäbe, um diese Übertragung zu übernehmen, mussten wir diese Komponente nochmals selber schreiben. Dies, da wir sicherstellen mussten, dass die Clocks dieser Komponente und der Tonhöhenverarbeitung vom selben PLL generiert werden, da ansonsten Werte übersprungen oder verloren gehen. Leider kann die IP von Intel nur mit \SI{12.288}{MHz} betrieben werden. Der IP Core kann jedoch nicht eine solche Frequenz und die gewünschten \SI{54}{MHz} für die Tonhöhenverarbeitung in einem PLL generieren.\\
-Wie der Name der Komponente schon sagt serialisiert sie die Parallelen Daten für die Übertragung. Dabei sieht der gewünschte Signalverlauf des Codec wie folgt aus:
+Wie der Name der Komponente schon sagt serialisiert sie die Parallelen Daten für die Übertragung. Dabei sieht der geforderte Signalverlauf des Codec wie in Abbildung \ref{img:Codec_Signals} dargestellt aus. Der Audioserialisierer gibt jeweils für den linken und rechten Kanal dieselben Daten aus. Die Signale DACLRC und BCLK werden vom Codec nach der Konfiguration beschrieben in Kapitel \ref{subsec:audio} vom Codec generiert und sind Eingänge des Audioserialisierers. Bei jeder positiven Flanke lädt der Serialisierer einen neuen Audiosignalwert ins Schieberegister und schiebt bei jeder negativen Flanke des BCLK ein neues Bit ins Signal DACDAT.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{Codec_Signals_Serializer.pdf}
+	\includegraphics[width=\textwidth]{Codec_Signals_Serializer.pdf}
 	\caption{Signalverlauf des Codec Interface} 
 	\label{img:Codec_Signals}
 \end{figure}  
