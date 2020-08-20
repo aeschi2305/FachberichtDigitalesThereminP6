@@ -1,52 +1,32 @@
 \clearpage
 \section{Schlusswort}\label{sec:Schlusswort}
-Nach Abschluss der Entwicklung wurde das Produkt validiert. Die Resultate sind in Kapitel \ref{sec:Inbetriebnahme} dokumentiert.  In diesem Kapitel soll aufgelistet werden, welche Teilsysteme funktionieren und welche nicht bzw. welche Zielsetzungen aus dem Pflichtenheft erfüllt wurden. Im letzten Abschnitt wird Verbesserungspotenzial für eine mögliche Weiterentwicklung erfasst.
+Das Projekt 6 umfasste die abschliessende Entwicklung eines digitalen Theremin auf einem FPGA. Die Grundlagen für die Weiterentwicklung stammen aus der Arbeit des Projekt 5 ein Semester zuvor. Diese Grundlagen beinhalteten die Verarbeitung des Antennensignals. 
 
-Die entwickelte Leiterplatte erfüllt einen Grossteil der in Kapitel \ref{subsec:Kriterien} formulierten Kriterien. Das Produkt umfasst den ersten Prototyp der Steuerleiterplatte und die Mechanik des 3D-Druckers mit diversen Modifikationen. Die Software   besteht aus den beiden Firmwares \textit{Marlin} und \textit{ESP3D}. Bei der Steuerung der Motoren funktionieren folgende Punkte einwandfrei:
+\paragraph{Ergebnisse}\mbox{}\\
 
-\begin{itemize}
-	\item[-] Alle vier Motoren (x-, y-, z-Achse und Filamentzuführung) können unabhängig und ohne Schrittverlust angesteuert werden. 
-	\item[-] Die Nullpositions-Erkennung der x-, y- und z-Achse funktioniert und diese wird jedes mal automatisch vor jedem 3D-Druck ausgeführt.
-\end{itemize}
+Die Implementierung der Lautstärkesteuerung über eine zweite Antenne ist abgeschlossen und funktioniert einwandfrei. 
+Damit diese auch ein Signal erhält ist der zweite analoge Oszillator in einem Redesign des PCB hinzugefügt worden. Dieses Redesign umfasst nebst des zweiten Oszillators eine Speisung der beiden Schaltungen über das gleiche Netzteil wie das FPGA.
 
-Die Bedienung des 3D-Druckers von Hand wie auch auf dem Webinterface funktioniert:
-\begin{itemize}
-	\item[-] Die Steuerung des 3D-Druckers erfolgt über Bedienelemente direkt am 3D-Drucker (Encoder, LCD und LEDs).
-	\item[-] Alle Achsen und Motoren können manuell durch Encoder und Display oder das Webinterface gesteuert werden.
-	\item[-] Eine Verwaltung der Druckaufträge kann über das Webinterface durchgeführt werden. Weiter wird auf diesem der Status (Temperatur, Position usw.) angezeigt.
-\end{itemize}
+Die Bedienung des FPGA läuft über den implementierten Nios-Prozessor und den von ihm gesteuerten LCD Display. Über den integrierten Touchscreen können diverse Einstellungen vorgenommen werden oder Funktionen des Theremin aktiviert oder deaktiviert werden. Der Benutzer kann über den Touchscreen diverse Einstellungen vornehmen und Funktionen des Theremin einfach aktivieren und deaktivieren.
 
-Auch die zusätzlich eingebaute Sensorik funktioniert ohne Probleme.
+Der Spieler kann die automatische Kalibration des Theremin über das Menu starten um es auf seinen Spielstil abzustimmen. Dazu gleicht das Theremin die beiden digitalen Referenzoszillatoren auf die analogen Antennenoszillatoren ab.
 
-\begin{itemize}
-\item[-] Ein Sensor erkennt automatisch eine Erschöpfung des Filaments und meldet dies an das Programm.
-\item[-] Durch den \textit{BLTouch} Bed-Level-Sensors kann die z-Achse automatisch nivelliert werden. Der Bed-Level-Sensor ist dabei auch für die Nullpositions-Erkennung zuständig.
-\end{itemize}
+Das Spielen von schönen Tönen ist nun auch möglich, wenn der Spieler keine ruhige Hand hat. Der eingebaute Glissando-Effekt korrigiert während dem Spielen die Töne auf den nächstgelegenen Ton. Gespielt werden kann in zwei Tonsystemen: normale Tonleiter mit Halbtönen oder eine pentatonische Tonleiter. Die pentatonische Tonleiter ist praktisch um ohne grossen Aufwand ansprechend klingende Melodien zu spielen. 
 
-Die Temperatursteuerung der verschiedenen Komponenten im 3D-Drucker funktioniert ebenfalls:
+Während dem Spielen ermöglicht es die Anzeige der Spielgenauigkeit zu sehen wie falsch der Spieler seine Hand hält, wenn die pentatonische Tonleiter aktiv ist. Wenn die normale Tonleiter aktiviert ist, wird der nächstgelegene Ton angezeigt. Dies hilft denjenigen Spielern mit weniger musikalischen Talenten.
 
-\begin{itemize}
-	\item[-] Die Temperaturen von Extruder und Heizbett werden erfasst und können über das Webinterface ausgelesen werden.
-	\item[-] Die Leiterplatte, das Filament und der 3D-Druck werden durch Ventilatoren gekühlt.
-\end{itemize}
+Schlussendlich wurde das Gerät in ein ansprechendes Gehäuse verpackt. Damit wir ein etwas ausgefalleneres Gehäuse fertigen konnten, entschieden wir uns dieses mit einem 3D-Drucker herzustellen.
 
-Leider gibt es auch noch Dinge die noch nicht funktionieren.
+\paragraph{Schwierigkeiten}\mbox{}\\
 
-\begin{itemize}
-	\item[-] Das senden von G-Code Dateien über das Webinterface auf den 3D-Drucker funktioniert nicht richtig. Überschreitet die Datei eine bestimmte Grösse scheitert das Laden.
-	\item[-] Die Temperaturmessung ist auf $\sim 10^{\circ}$ genau. Somit konnte das Kriterium der genauen Regelung des Heizbettes und des Extruders nur teilweise erreicht werden. 
-\end{itemize}
+Weil wir viel Zeit für die Inbetriebnahme der ganzen Signalverarbeitung benötigten und wegen Umwelteinflüssen ausserhalb unserer Kontrolle, konnten wir die zusätzlichen Klangeffekte nicht implementieren.\\
+Weiter ist beim Spielen bei höheren Frequenzen ein leichtes Aliasing zu hören, was auf den Aufbau der Filter zurückzuführen ist. Die Filter sind so eingestellt, dass dieses Aliasing möglichst minimiert ist.\\
+Zuletzt kann bei der höchsten Lautstärkeeinstellung auf dem Display und der tiefsten Einstellung über die entsprechende Antenne ein Rauschen gehört werden. Dies ist auf die Implementierung der Lautstärkeeinstellung zurückzuführen. Bei dieser mussten wir Kompromisse eingehen, wegen Schwierigkeiten mit dem verbauten Codec.
 
-Wie die Validierung zeigt, funktioniert der erste Prototyp. Jedoch gibt es einige Kriterien die zu diesem Zeitpunkt noch nicht erfüllt sind. Diese könnten in einem weiterführenden Projekt noch realisiert werden, bzw. der 3D-Drucker noch weiter verbessert werden.\\
-\\
-Da der verwendete $8MHz$ Mikrocontroller viele Probleme mit sich bringt, müsste man bei einer Weiterentwicklung ein anderer Mikroprozessor mit $>16MHz$ Taktfrequenz verwenden. Damit könnte die Übertragungsrate des Webinterface erhöht werden. Dies würde womöglich auch das Problem des Ladens der G-Code Dateien über Wi-Fi beheben, welches ebenfalls in einer weiterführenden Entwicklung behoben werden müsste.
-\\
-Es könnte eine Nullpositionserkennung durch Überstromdetektion der Motoren implementiert werden. Dazu müsste lediglich die Firmware angepasst werden, da auf der Leiterplatte diese Funktion schon vorgesehen wurde. Der Vorteil daran wäre, dass weniger mechanische Teile verwendet werden würden (kein Verschleiss, daher weniger Standzeit des 3D-Druckers), sowie das die Verkabelung reduziert werden könnte.
-\\
-\\
-Die Messung der Temperaturen bräuchte eine Überarbeitung, um eine verbesserte Genauigkeit zu erreichen. Dazu müssten andere Komponenten gewählt werden und in der Firmware eine Anpassung getätigt werden.
+\paragraph{Weiterentwicklung}\mbox{}\\
 
+Das Aliasingproblem könnte durch die Verwendung eines Analog-Digital-Wandlers verkleinert werden. Dies da ein Analog-Digital-Wandler anstelle des Rechtecksignals direkt den Sinus des analogen Oszillators einlesen könnte. Die Multiplikation der Sinusse des Referenzoszillators und des analogen Oszillators würde nur einen hochfrequente Komponente bedeuten ohne Oberwellen. Nötig wäre dazu jedoch ein Wandler mit sehr hoher Abtastfrequenz.
 
+Die Verwendung eines neuen Codec, mit welchem Nullstellenerkennung möglich wäre ist ein Entfernen das Rauschens erreichbar, welches bei bestimmten Gegebenheiten hörbar ist.
 
-
-
+Für die zwei zuvor genannten Verbesserungen ist ein Redesign des PCB nötig, bei dem eine Überarbeitung der Oszillatoren nötig ist. Eine Schutzbeschaltung der JFet ist nötig um diese vor statischer Entladung zu schützen.

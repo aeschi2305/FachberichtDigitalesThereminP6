@@ -1,5 +1,6 @@
 \subsection{Glissando Effekt}\label{subsec:Glissando_Effekt}
-Auch für den Glissando-Effekt war es nötig einen Test durchzuführen um die Genauigkeit der Töne festzustellen. Wir verwendeten dazu anstatt unseres PCB einen Funktionsgenerator, da keine genaue Messung mit dem PCB möglich ist. Um die Frequenz einzustellen, wurde das Tool \textit{SignalTap Logic Analyzer} in Quartus eingesetzt um auf das Register der Frequenzmessung mit den Messresultaten zugegriffen. Schlussendlich wurde der Ton mit der App \textit{Tonal Energy Tuner} auf dessen Genauigkeit gemessen. Die App gibt diese Genauigkeit direkt in Cent an. Die Messung umfasst alle Frequenzen aus der Tabelle \ref{tab:Toene_Frequenzen} in Kapitel \ref{subsec:Musiktheorie}. In Abbildung \ref{img:Validierung_Glissando} sind alle diese Abweichungen aufgezeigt. Die blaue Kurve  zeigt die Resultate, wenn die Frequenz kleiner eingestellt wurde als der anzunähernde Ton. Die orange Kurve zeigt die Resultate, wenn die Frequenz grösser eingestellt wurde als der anzunähernde Ton. Wie zu sehen ist, ist auch diese Funktion genauer als \SI{10}{Cent}. Interessanterweise nimmt bei beiden Einstellungen offenbar die angenäherte Frequenz mit höheren Tönen immer mehr ab. Das Verhalten ist gleich wie das aus Abbildung \todo{Referenz auf Bild Validierung Frequenzmessung} der Frequenzmessung. Dies ist auch zu erwarten, da der Glissando-Effekt durch diese Messung entsteht und somit die gleiche ''Irregularität`` hat.
+Auch für den Glissando-Effekt war es nötig einen Test durchzuführen um die Genauigkeit der Töne festzustellen. Wir verwendeten dazu anstatt unseres PCB einen Funktionsgenerator, da eine genaue und konstante Messung mit dem PCB schwierig ist. Um die Frequenz einzustellen, wurde das Tool \textit{SignalTap Logic Analyzer} in Quartus eingesetzt um auf das Register der Frequenzmessung mit den Messresultaten zugegriffen. Schlussendlich wurde der Ton mit der App \textit{Tonal Energy Tuner} auf dessen Genauigkeit gemessen. Die App gibt diese Genauigkeit direkt in Cent an. Die Messung umfasst alle Frequenzen aus der Tabelle \ref{tab:Toene_Frequenzen} in Kapitel \ref{subsec:Musiktheorie}. In Abbildung \ref{img:Validierung_Glissando} sind alle diese Abweichungen aufgezeigt. Die blaue Kurve  zeigt die Resultate, wenn die Frequenz kleiner eingestellt wurde als der anzunähernde Ton. Die orange Kurve zeigt die Resultate, wenn die Frequenz grösser eingestellt wurde als der anzunähernde Ton. Wie zu sehen ist, ist auch diese Funktion genauer als \SI{8}{Cent}. Interessanterweise nimmt bei beiden Einstellungen offenbar die angenäherte Frequenz mit höheren Tönen immer mehr ab. Da die Frequenzmessung wie zuvor besprochen mit grösseren Frequenzen immer mehr Abweichung hat ist dies auch erklärbar.\\
+Weshalb die Kurve nicht wie in der Frequenzmessung immer mehr positiv wird erklärt die Abbildung \ref{img:Erklärung_Glissando}. Da bei tiefen Frequenzen die gemessene Frequenz eher tiefer ist als die wirkliche bedeutet dies, dass der ist-Wert grösser ist als der Messungs-Wert. Der Glissando-Effekt nähert nun die Differenz zwischen dem gemessenen Wert und dem soll-Wert an. Dies bedeutet dass der angenäherte Wert jedoch immer noch die Abweichung zwischen ist und Messung hat. Bei den hohen Frequenzen ist es genau umgekehrt. Die Messung ist nun höher im Vergleich zum ist-Wert. Somit bewirkt der Glissando-Effekt in diesem Szenario, dass die angenäherte Frequenz kleiner ist als der soll-Wert.
 
 
 \begin{figure}[h!]
@@ -8,6 +9,13 @@ Auch für den Glissando-Effekt war es nötig einen Test durchzuführen um die Ge
 	\caption{Resultate der Validierung des Glissando-Effekts} 
 	\label{img:Validierung_Glissando}
 \end{figure}  
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Erklaerung_Glissando.pdf}
+	\caption{Erklärung der beobachteten Änderungen} 
+	\label{img:Erklärung Glissando}
+\end{figure} 
 
 \begin{table}[H]
 	\centering
