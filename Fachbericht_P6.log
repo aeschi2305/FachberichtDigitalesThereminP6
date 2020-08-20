@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.10)  16 AUG 2020 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.10)  20 AUG 2020 10:24
 entering extended mode
 **./Fachbericht_P6.tex
 (Fachbericht_P6.tex
@@ -1633,57 +1633,78 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip75
 \sf@bottom=\skip76
 )
+("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen351
+\lightrulewidth=\dimen352
+\cmidrulewidth=\dimen353
+\belowrulesep=\dimen354
+\belowbottomsep=\dimen355
+\aboverulesep=\dimen356
+\abovetopsep=\dimen357
+\cmidrulesep=\dimen358
+\cmidrulekern=\dimen359
+\defaultaddspace=\dimen360
+\@cmidla=\count364
+\@cmidlb=\count365
+\@aboverulesep=\dimen361
+\@belowrulesep=\dimen362
+\@thisruleclass=\count366
+\@lastruleclass=\count367
+\@thisrulewidth=\dimen363
+)
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
 sty"
 Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
 
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count364
+\lrq@indent=\count368
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count365
-\c@listtotal=\count366
-\c@listcount=\count367
-\c@liststart=\count368
-\c@liststop=\count369
-\c@citecount=\count370
-\c@citetotal=\count371
-\c@multicitecount=\count372
-\c@multicitetotal=\count373
-\c@instcount=\count374
-\c@maxnames=\count375
-\c@minnames=\count376
-\c@maxitems=\count377
-\c@minitems=\count378
-\c@citecounter=\count379
-\c@maxcitecounter=\count380
-\c@savedcitecounter=\count381
-\c@uniquelist=\count382
-\c@uniquename=\count383
-\c@refsection=\count384
-\c@refsegment=\count385
-\c@maxextratitle=\count386
-\c@maxextratitleyear=\count387
-\c@maxextraname=\count388
-\c@maxextradate=\count389
-\c@maxextraalpha=\count390
-\c@abbrvpenalty=\count391
-\c@highnamepenalty=\count392
-\c@lownamepenalty=\count393
-\c@maxparens=\count394
-\c@parenlevel=\count395
-\blx@tempcnta=\count396
-\blx@tempcntb=\count397
-\blx@tempcntc=\count398
-\blx@maxsection=\count399
-\blx@maxsegment@0=\count400
-\blx@notetype=\count401
-\blx@parenlevel@text=\count402
-\blx@parenlevel@foot=\count403
-\blx@sectionciteorder@0=\count404
-\blx@entrysetcounter=\count405
+\c@tabx@nest=\count369
+\c@listtotal=\count370
+\c@listcount=\count371
+\c@liststart=\count372
+\c@liststop=\count373
+\c@citecount=\count374
+\c@citetotal=\count375
+\c@multicitecount=\count376
+\c@multicitetotal=\count377
+\c@instcount=\count378
+\c@maxnames=\count379
+\c@minnames=\count380
+\c@maxitems=\count381
+\c@minitems=\count382
+\c@citecounter=\count383
+\c@maxcitecounter=\count384
+\c@savedcitecounter=\count385
+\c@uniquelist=\count386
+\c@uniquename=\count387
+\c@refsection=\count388
+\c@refsegment=\count389
+\c@maxextratitle=\count390
+\c@maxextratitleyear=\count391
+\c@maxextraname=\count392
+\c@maxextradate=\count393
+\c@maxextraalpha=\count394
+\c@abbrvpenalty=\count395
+\c@highnamepenalty=\count396
+\c@lownamepenalty=\count397
+\c@maxparens=\count398
+\c@parenlevel=\count399
+\blx@tempcnta=\count400
+\blx@tempcntb=\count401
+\blx@tempcntc=\count402
+\blx@maxsection=\count403
+\blx@maxsegment@0=\count404
+\blx@notetype=\count405
+\blx@parenlevel@text=\count406
+\blx@parenlevel@foot=\count407
+\blx@sectionciteorder@0=\count408
+\blx@entrysetcounter=\count409
 \labelnumberwidth=\skip77
 \labelalphawidth=\skip78
 \biblabelsep=\skip79
@@ -1695,9 +1716,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language82
-\c@mincomprange=\count406
-\c@maxcomprange=\count407
-\c@mincompwidth=\count408
+\c@mincomprange=\count410
+\c@maxcomprange=\count411
+\c@mincompwidth=\count412
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1709,74 +1730,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count409
-\c@savedafterword=\count410
-\c@annotator=\count411
-\c@savedannotator=\count412
-\c@author=\count413
-\c@savedauthor=\count414
-\c@bookauthor=\count415
-\c@savedbookauthor=\count416
-\c@commentator=\count417
-\c@savedcommentator=\count418
-\c@editor=\count419
-\c@savededitor=\count420
-\c@editora=\count421
-\c@savededitora=\count422
-\c@editorb=\count423
-\c@savededitorb=\count424
-\c@editorc=\count425
-\c@savededitorc=\count426
-\c@foreword=\count427
-\c@savedforeword=\count428
-\c@holder=\count429
-\c@savedholder=\count430
-\c@introduction=\count431
-\c@savedintroduction=\count432
-\c@namea=\count433
-\c@savednamea=\count434
-\c@nameb=\count435
-\c@savednameb=\count436
-\c@namec=\count437
-\c@savednamec=\count438
-\c@translator=\count439
-\c@savedtranslator=\count440
-\c@shortauthor=\count441
-\c@savedshortauthor=\count442
-\c@shorteditor=\count443
-\c@savedshorteditor=\count444
-\c@labelname=\count445
-\c@savedlabelname=\count446
-\c@institution=\count447
-\c@savedinstitution=\count448
-\c@lista=\count449
-\c@savedlista=\count450
-\c@listb=\count451
-\c@savedlistb=\count452
-\c@listc=\count453
-\c@savedlistc=\count454
-\c@listd=\count455
-\c@savedlistd=\count456
-\c@liste=\count457
-\c@savedliste=\count458
-\c@listf=\count459
-\c@savedlistf=\count460
-\c@location=\count461
-\c@savedlocation=\count462
-\c@organization=\count463
-\c@savedorganization=\count464
-\c@origlocation=\count465
-\c@savedoriglocation=\count466
-\c@origpublisher=\count467
-\c@savedorigpublisher=\count468
-\c@publisher=\count469
-\c@savedpublisher=\count470
-\c@language=\count471
-\c@savedlanguage=\count472
-\c@origlanguage=\count473
-\c@savedoriglanguage=\count474
-\c@pageref=\count475
-\c@savedpageref=\count476
+\c@afterword=\count413
+\c@savedafterword=\count414
+\c@annotator=\count415
+\c@savedannotator=\count416
+\c@author=\count417
+\c@savedauthor=\count418
+\c@bookauthor=\count419
+\c@savedbookauthor=\count420
+\c@commentator=\count421
+\c@savedcommentator=\count422
+\c@editor=\count423
+\c@savededitor=\count424
+\c@editora=\count425
+\c@savededitora=\count426
+\c@editorb=\count427
+\c@savededitorb=\count428
+\c@editorc=\count429
+\c@savededitorc=\count430
+\c@foreword=\count431
+\c@savedforeword=\count432
+\c@holder=\count433
+\c@savedholder=\count434
+\c@introduction=\count435
+\c@savedintroduction=\count436
+\c@namea=\count437
+\c@savednamea=\count438
+\c@nameb=\count439
+\c@savednameb=\count440
+\c@namec=\count441
+\c@savednamec=\count442
+\c@translator=\count443
+\c@savedtranslator=\count444
+\c@shortauthor=\count445
+\c@savedshortauthor=\count446
+\c@shorteditor=\count447
+\c@savedshorteditor=\count448
+\c@labelname=\count449
+\c@savedlabelname=\count450
+\c@institution=\count451
+\c@savedinstitution=\count452
+\c@lista=\count453
+\c@savedlista=\count454
+\c@listb=\count455
+\c@savedlistb=\count456
+\c@listc=\count457
+\c@savedlistc=\count458
+\c@listd=\count459
+\c@savedlistd=\count460
+\c@liste=\count461
+\c@savedliste=\count462
+\c@listf=\count463
+\c@savedlistf=\count464
+\c@location=\count465
+\c@savedlocation=\count466
+\c@organization=\count467
+\c@savedorganization=\count468
+\c@origlocation=\count469
+\c@savedoriglocation=\count470
+\c@origpublisher=\count471
+\c@savedorigpublisher=\count472
+\c@publisher=\count473
+\c@savedpublisher=\count474
+\c@language=\count475
+\c@savedlanguage=\count476
+\c@origlanguage=\count477
+\c@savedoriglanguage=\count478
+\c@pageref=\count479
+\c@savedpageref=\count480
 \shorthandwidth=\skip85
 \shortjournalwidth=\skip86
 \shortserieswidth=\skip87
@@ -1804,19 +1825,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
 def"
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count477
-\c@textcitetotal=\count478
-\c@textcitemaxnames=\count479
-\c@biburlbigbreakpenalty=\count480
-\c@biburlbreakpenalty=\count481
-\c@biburlnumpenalty=\count482
-\c@biburlucpenalty=\count483
-\c@biburllcpenalty=\count484
+\c@textcitecount=\count481
+\c@textcitetotal=\count482
+\c@textcitemaxnames=\count483
+\c@biburlbigbreakpenalty=\count484
+\c@biburlbreakpenalty=\count485
+\c@biburlnumpenalty=\count486
+\c@biburlucpenalty=\count487
+\c@biburllcpenalty=\count488
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count485
+\c@smartand=\count489
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -1842,8 +1863,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
 ard.bbx"
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count486
-\c@bbx:relatedtotal=\count487
+\c@bbx:relatedcount=\count490
+\c@bbx:relatedtotal=\count491
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -1857,8 +1878,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numer
 ic-comp.cbx"
 File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count488
-\c@cbx@tempcntb=\count489
+\c@cbx@tempcnta=\count492
+\c@cbx@tempcntb=\count493
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1929,7 +1950,26 @@ Package biblatex Info: ... file 'english.lbx' found.
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engli
 sh.lbx"
 File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
-) (Fachbericht_P6.aux (sections/abstract.aux) (sections/appendix.aux))
+) (Fachbericht_P6.aux (sections/abstract.aux)
+
+LaTeX Warning: Label `equ:mischer_trigo' multiply defined.
+
+
+LaTeX Warning: Label `equ:cordic_3' multiply defined.
+
+
+LaTeX Warning: Label `equ:cordic_3' multiply defined.
+
+
+LaTeX Warning: Label `equ:cordic_3' multiply defined.
+
+
+LaTeX Warning: Label `tab:clocks' multiply defined.
+
+
+LaTeX Warning: Label `sec:Schlusswort' multiply defined.
+
+(sections/appendix.aux))
 \openout1 = `Fachbericht_P6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1998,16 +2038,16 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count490
-\scratchdimen=\dimen351
+\scratchcounter=\count494
+\scratchdimen=\dimen364
 \scratchbox=\box105
-\nofMPsegments=\count491
-\nofMParguments=\count492
+\nofMPsegments=\count495
+\nofMParguments=\count496
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count493
-\MPscratchDim=\dimen352
-\MPnumerator=\count494
-\makeMPintoPDFobject=\count495
+\MPscratchCnt=\count497
+\MPscratchDim=\dimen365
+\MPnumerator=\count498
+\makeMPintoPDFobject=\count499
 \everyMPtoPDFconversion=\toks56
 )
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
@@ -2036,7 +2076,7 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count496
+\c@section@level=\count500
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -2060,7 +2100,7 @@ Dictionary: translator-basic-dictionary, Language: English
 breviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\c@lstlisting=\count497
+\c@lstlisting=\count501
  ABD: EveryShipout initializing macros
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -2069,13 +2109,20 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Fachbericht_P6.bbl' found.
- (Fachbericht_P6.bbl)
+ (Fachbericht_P6.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                cic_b
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 9.
 Package biblatex Info: Reference segment=0 on input line 9.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
 .
-
-("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
+ ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
@@ -2122,7 +2169,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<graphics/fhnw_ht_logo_de.pdf, id=126, 183.81773pt x 28.4543pt>
+<graphics/fhnw_ht_logo_de.pdf, id=154, 183.81773pt x 28.4543pt>
 File: graphics/fhnw_ht_logo_de.pdf Graphic file (type pdf)
 <use graphics/fhnw_ht_logo_de.pdf>
 Package pdftex.def Info: graphics/fhnw_ht_logo_de.pdf  used on input line 16.
@@ -2144,8 +2191,11 @@ fhnw_ht_logo_de.pdf>]
 
 [1
 
-] (sections/1_0_Einleitung.tex)pdfTeX warning (ext4): destination with the same
- identifier (name{page.1}) has been already used, duplicate ignored
+] [2] (sections/1_0_Einleitung.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 10.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.65 
@@ -2153,36 +2203,100 @@ l.65
 
 
 ] (sections/2_0_Technische_Grundlagen.tex)
-(sections/2_1_Theremin_analog.tex) (sections/2_1_Theremin_digital.tex)
-(sections/3_0_Realisierung.texpdfTeX warning (ext4): destination with the same 
-identifier (name{page.2}) has been already used, duplicate ignored
+(sections/2_1_Theremin_analog.tex
+<./graphics/Blockschaltbild_analog.pdf, id=238, 493.14929pt x 408.09468pt>
+File: ./graphics/Blockschaltbild_analog.pdf Graphic file (type pdf)
+<use ./graphics/Blockschaltbild_analog.pdf>
+Package pdftex.def Info: ./graphics/Blockschaltbild_analog.pdf  used on input l
+ine 10.
+(pdftex.def)             Requested size: 455.24408pt x 376.74065pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \clearpage
-               [2
+l.36 \end{equation}
+                    [2
 
 ]
-<./graphics/Blockschaltbild_top.pdf, id=202, 477.31517pt x 435.9103pt>
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+) (sections/2_2_Musiktheorie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 49--1
+
+ []
+
+[3 <./graphics/Blockschaltbild_analog.pdf>]) (sections/2_3_Cordic.tex [4]
+[5]) (sections/2_4_CIC_Filter.tex [6]
+<./graphics/CIC_Filter.pdf, id=330, 298.22375pt x 82.93507pt>
+File: ./graphics/CIC_Filter.pdf Graphic file (type pdf)
+<use ./graphics/CIC_Filter.pdf>
+Package pdftex.def Info: ./graphics/CIC_Filter.pdf  used on input line 33.
+(pdftex.def)             Requested size: 455.24408pt x 126.60294pt.
+<./graphics/CIC_Filter_plot.pdf, id=331, 315.96887pt x 203.59367pt>
+File: ./graphics/CIC_Filter_plot.pdf Graphic file (type pdf)
+<use ./graphics/CIC_Filter_plot.pdf>
+Package pdftex.def Info: ./graphics/CIC_Filter_plot.pdf  used on input line 40.
+
+(pdftex.def)             Requested size: 409.71689pt x 264.02246pt.
+) (sections/2_5_Goldschmidt.tex [7 <./graphics/CIC_Filter.pdf> <./graphics/CIC_
+Filter_plot.pdf
+
+pdfTeX warning: pdflatex.exe (file ./graphics/CIC_Filter_plot.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]) (sections/3_0_Konzept.tex [8]
+<./graphics/Blockschaltbild_digital.pdf, id=362, 582.52904pt x 423.19543pt>
+File: ./graphics/Blockschaltbild_digital.pdf Graphic file (type pdf)
+<use ./graphics/Blockschaltbild_digital.pdf>
+Package pdftex.def Info: ./graphics/Blockschaltbild_digital.pdf  used on input 
+line 18.
+(pdftex.def)             Requested size: 455.24408pt x 330.73685pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/3_0_Realisierung.tex [9
+
+] [10 <./graphics/Blockschaltbild_digital.pdf>]
+<./graphics/Blockschaltbild_top.pdf, id=397, 477.31004pt x 432.18388pt>
 File: ./graphics/Blockschaltbild_top.pdf Graphic file (type pdf)
 <use ./graphics/Blockschaltbild_top.pdf>
 Package pdftex.def Info: ./graphics/Blockschaltbild_top.pdf  used on input line
  11.
-(pdftex.def)             Requested size: 455.24408pt x 415.74867pt.
+(pdftex.def)             Requested size: 455.24408pt x 412.22758pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (sections/3_1_Antennenoszillator.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 3.
-) (sections/3_2_Clock.tex)
-(sections/3_3_CPU.tex [3
-
-]
-Overfull \vbox (82.43695pt too high) has occurred while \output is active []
+<./graphics/colpitts.pdf, id=399, 438.93695pt x 161.65245pt>
+File: ./graphics/colpitts.pdf Graphic file (type pdf)
+<use ./graphics/colpitts.pdf>
+Package pdftex.def Info: ./graphics/colpitts.pdf  used on input line 6.
+(pdftex.def)             Requested size: 455.24408pt x 167.66812pt.
 
 
-[4 <./graphics/Blockschaltbild_top.pdf>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11
+
+]) (sections/3_2_Clock.tex) (sections/3_3_CPU.tex [12 <./graphics/Blockschaltbi
+ld_top.pdf>] [13 <./graphics/colpitts.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -2192,22 +2306,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<./graphics/FlashLayout.pdf, id=236, 232.91779pt x 228.43205pt>
+<./graphics/FlashLayout.pdf, id=437, 232.91779pt x 228.43205pt>
 File: ./graphics/FlashLayout.pdf Graphic file (type pdf)
 <use ./graphics/FlashLayout.pdf>
 Package pdftex.def Info: ./graphics/FlashLayout.pdf  used on input line 18.
 (pdftex.def)             Requested size: 204.85844pt x 200.91974pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-LaTeX Warning: Reference `subsec:Drivers' on page 5 undefined on input line 25.
-
+LaTeX Warning: Reference `subsec:Drivers' on page 14 undefined on input line 25
+.
 
 
 Overfull \hbox (19.26735pt too wide) in paragraph at lines 25--26
@@ -2215,17 +2326,13 @@ Overfull \hbox (19.26735pt too wide) in paragraph at lines 25--26
 ge-stell-te VHDL Kom-po-nen-te LT24_Controller|
  []
 
-) (sections/3_4_Pitch_Generation.tex [5]
-<./graphics/Blockschaltbild_pitch.pdf, id=251, 537.74062pt x 297.92285pt>
+[14 <./graphics/FlashLayout.pdf>]) (sections/3_4_Pitch_Generation.tex
+<./graphics/Blockschaltbild_pitch.pdf, id=455, 489.70705pt x 297.88701pt>
 File: ./graphics/Blockschaltbild_pitch.pdf Graphic file (type pdf)
 <use ./graphics/Blockschaltbild_pitch.pdf>
 Package pdftex.def Info: ./graphics/Blockschaltbild_pitch.pdf  used on input li
 ne 8.
-(pdftex.def)             Requested size: 455.24408pt x 252.22641pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 455.24408pt x 276.93205pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
@@ -2236,168 +2343,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<./graphics/Referenceoscillator.pdf, id=253, 203.54224pt x 44.75381pt>
+[15 <./graphics/Blockschaltbild_pitch.pdf>]
+<./graphics/Referenceoscillator.pdf, id=491, 203.54224pt x 44.75381pt>
 File: ./graphics/Referenceoscillator.pdf Graphic file (type pdf)
 <use ./graphics/Referenceoscillator.pdf>
 Package pdftex.def Info: ./graphics/Referenceoscillator.pdf  used on input line
  21.
 (pdftex.def)             Requested size: 241.2788pt x 53.0535pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./graphics/FlashLayout.pdf>] [7 <./graphics/Blockschaltbild_pitch.pdf> <./g
-raphics/Referenceoscillator.pdf
-
-pdfTeX warning: pdflatex.exe (file ./graphics/Referenceoscillator.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
->]
-<./graphics/Cordic_phi.pdf, id=331, 367.96994pt x 163.14911pt>
+ [16 <./graphics/Referenceoscillator.pdf>]
+<./graphics/Cordic_phi.pdf, id=518, 316.30856pt x 176.82175pt>
 File: ./graphics/Cordic_phi.pdf Graphic file (type pdf)
 <use ./graphics/Cordic_phi.pdf>
 Package pdftex.def Info: ./graphics/Cordic_phi.pdf  used on input line 47.
-(pdftex.def)             Requested size: 241.2788pt x 106.9767pt.
+(pdftex.def)             Requested size: 364.19664pt x 203.60782pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-
-LaTeX Warning: Marginpar on page 8 moved.
-
-[8 <./graphics/Cordic_phi.pdf>]
-<./graphics/Filter_pitch.pdf, id=367, 408.02443pt x 87.04811pt>
+[17 <./graphics/Cordic_phi.pdf>]
+<./graphics/Filter_pitch.pdf, id=556, 414.07831pt x 81.0256pt>
 File: ./graphics/Filter_pitch.pdf Graphic file (type pdf)
 <use ./graphics/Filter_pitch.pdf>
 Package pdftex.def Info: ./graphics/Filter_pitch.pdf  used on input line 65.
-(pdftex.def)             Requested size: 455.24408pt x 97.1266pt.
+(pdftex.def)             Requested size: 455.24408pt x 89.08391pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<./graphics/Zero_Cross.pdf, id=369, 342.00677pt x 113.74826pt>
+<./graphics/Zero_Cross.pdf, id=559, 342.00677pt x 113.74826pt>
 File: ./graphics/Zero_Cross.pdf Graphic file (type pdf)
 <use ./graphics/Zero_Cross.pdf>
 Package pdftex.def Info: ./graphics/Zero_Cross.pdf  used on input line 90.
 (pdftex.def)             Requested size: 455.24408pt x 151.4117pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
+[18 <./graphics/Filter_pitch.pdf> <./graphics/Zero_Cross.pdf
 
-LaTeX Warning: Reference `freq_meas_pitch' on page 9 undefined on input line 98
-.
-
-
-Overfull \hbox (9.82294pt too wide) in paragraph at lines 99--99
-[][]\T1/lmr/m/n/9 Grenzfrequenz |
- []
-
-
-Overfull \hbox (9.82294pt too wide) in paragraph at lines 99--99
-[][]\T1/lmr/m/n/9 Grenzfrequenz |
- []
-
-[9 <./graphics/Filter_pitch.pdf>]
-<./graphics/freq_meas_pitch.pdf, id=393, 398.70465pt x 113.31982pt>
+pdfTeX warning: pdflatex.exe (file ./graphics/Zero_Cross.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+<./graphics/freq_meas_pitch.pdf, id=584, 415.35085pt x 113.31982pt>
 File: ./graphics/freq_meas_pitch.pdf Graphic file (type pdf)
 <use ./graphics/freq_meas_pitch.pdf>
 Package pdftex.def Info: ./graphics/freq_meas_pitch.pdf  used on input line 105
 .
-(pdftex.def)             Requested size: 455.24408pt x 129.39342pt.
-) (sections/3_5_Volume_Generation.tex
-<./graphics/Blockschaltbild_Volume.pdf, id=394, 407.65884pt x 185.08882pt>
+(pdftex.def)             Requested size: 455.24408pt x 124.20433pt.
+ [19 <./graphics/freq_meas_pitch.pdf>]
+<./graphics/state_machine_Cal_Glis.pdf, id=612, 515.49368pt x 299.65746pt>
+File: ./graphics/state_machine_Cal_Glis.pdf Graphic file (type pdf)
+<use ./graphics/state_machine_Cal_Glis.pdf>
+Package pdftex.def Info: ./graphics/state_machine_Cal_Glis.pdf  used on input l
+ine 140.
+(pdftex.def)             Requested size: 455.24408pt x 264.64584pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20]) (sections/3_5_Volume_Generation.tex [21 <./graphics/state_machine_Cal_Gli
+s.pdf>]
+<./graphics/Blockschaltbild_Volume.pdf, id=665, 429.9183pt x 185.08882pt>
 File: ./graphics/Blockschaltbild_Volume.pdf Graphic file (type pdf)
 <use ./graphics/Blockschaltbild_Volume.pdf>
 Package pdftex.def Info: ./graphics/Blockschaltbild_Volume.pdf  used on input l
 ine 8.
-(pdftex.def)             Requested size: 341.43306pt x 155.01884pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./graphics/Filter_volume.pdf, id=395, 329.20755pt x 44.75385pt>
+(pdftex.def)             Requested size: 455.24408pt x 195.99551pt.
+<./graphics/Filter_volume.pdf, id=666, 331.69275pt x 44.75385pt>
 File: ./graphics/Filter_volume.pdf Graphic file (type pdf)
 <use ./graphics/Filter_volume.pdf>
-Package pdftex.def Info: ./graphics/Filter_volume.pdf  used on input line 17.
-(pdftex.def)             Requested size: 364.19664pt x 49.51276pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./graphics/freq_meas_volume.pdf, id=396, 404.59409pt x 166.01672pt>
-File: ./graphics/freq_meas_volume.pdf Graphic file (type pdf)
-<use ./graphics/freq_meas_volume.pdf>
-Package pdftex.def Info: ./graphics/freq_meas_volume.pdf  used on input line 26
-.
-(pdftex.def)             Requested size: 455.24408pt x 186.81392pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [10 <./graphics/Zero_Cross.pdf> <./graphics/freq_meas_pitch.pdf
-
-pdfTeX warning: pdflatex.exe (file ./graphics/freq_meas_pitch.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] (sections/4_0_Realisierung_Software.tex [11 <./graphics/Blockschaltbild_Volu
-me.pdf> <./graphics/Filter_volume.pdf
+Package pdftex.def Info: ./graphics/Filter_volume.pdf  used on input line 18.
+(pdftex.def)             Requested size: 364.19664pt x 49.13991pt.
+ [22 <./graphics/Blockschaltbild_Volume.pdf> <./graphics/Filter_volume.pdf
 
 pdfTeX warning: pdflatex.exe (file ./graphics/Filter_volume.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
-> <./graphics/freq_meas_volume.pdf
-
-pdfTeX warning: pdflatex.exe (file ./graphics/freq_meas_volume.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
->]) (sections/4_1_State_machine.tex
-<./graphics/state_machine.pdf, id=462, 537.80434pt x 273.5923pt>
+>]
+<./graphics/freq_meas_volume.pdf, id=704, 430.51617pt x 166.01672pt>
+File: ./graphics/freq_meas_volume.pdf Graphic file (type pdf)
+<use ./graphics/freq_meas_volume.pdf>
+Package pdftex.def Info: ./graphics/freq_meas_volume.pdf  used on input line 33
+.
+(pdftex.def)             Requested size: 455.24408pt x 175.55635pt.
+) (sections/3_6_Audio_Serializer.tex [23 <./graphics/freq_meas_volume.pdf>]
+<./graphics/Codec_Signals_Serializer.pdf, id=731, 375.35968pt x 111.02045pt>
+File: ./graphics/Codec_Signals_Serializer.pdf Graphic file (type pdf)
+<use ./graphics/Codec_Signals_Serializer.pdf>
+Package pdftex.def Info: ./graphics/Codec_Signals_Serializer.pdf  used on input
+ line 8.
+(pdftex.def)             Requested size: 455.24408pt x 134.65192pt.
+)
+[24 <./graphics/Codec_Signals_Serializer.pdf>]
+(sections/4_0_Realisierung_Software.tex) (sections/4_1_State_machine.tex
+<./graphics/state_machine.pdf, id=744, 537.80434pt x 273.5923pt>
 File: ./graphics/state_machine.pdf Graphic file (type pdf)
 <use ./graphics/state_machine.pdf>
 Package pdftex.def Info: ./graphics/state_machine.pdf  used on input line 5.
 (pdftex.def)             Requested size: 455.24408pt x 231.59853pt.
- [12
+
+[25
 
  <./graphics/state_machine.pdf>]
-<./graphics/Main.pdf, id=527, 246.87506pt x 186.65009pt>
+<./graphics/Main.pdf, id=809, 246.87506pt x 186.65009pt>
 File: ./graphics/Main.pdf Graphic file (type pdf)
 <use ./graphics/Main.pdf>
-Package pdftex.def Info: ./graphics/Main.pdf  used on input line 37.
+Package pdftex.def Info: ./graphics/Main.pdf  used on input line 38.
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-<./graphics/calibrating_done.pdf, id=528, 246.87506pt x 186.65009pt>
+<./graphics/calibrating_done.pdf, id=810, 246.87506pt x 186.65009pt>
 File: ./graphics/calibrating_done.pdf Graphic file (type pdf)
 <use ./graphics/calibrating_done.pdf>
-Package pdftex.def Info: ./graphics/calibrating_done.pdf  used on input line 41
+Package pdftex.def Info: ./graphics/calibrating_done.pdf  used on input line 42
 .
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-<./graphics/volume.pdf, id=529, 246.87506pt x 186.65009pt>
+<./graphics/volume.pdf, id=811, 246.87506pt x 186.65009pt>
 File: ./graphics/volume.pdf Graphic file (type pdf)
 <use ./graphics/volume.pdf>
-Package pdftex.def Info: ./graphics/volume.pdf  used on input line 45.
+Package pdftex.def Info: ./graphics/volume.pdf  used on input line 46.
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-<./graphics/play_aids.pdf, id=530, 246.87506pt x 186.65009pt>
+<./graphics/play_aids.pdf, id=812, 246.87506pt x 186.65009pt>
 File: ./graphics/play_aids.pdf Graphic file (type pdf)
 <use ./graphics/play_aids.pdf>
-Package pdftex.def Info: ./graphics/play_aids.pdf  used on input line 49.
+Package pdftex.def Info: ./graphics/play_aids.pdf  used on input line 50.
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-<./graphics/play_aids_on.pdf, id=531, 246.87506pt x 186.65009pt>
+<./graphics/play_aids_on.pdf, id=813, 246.87506pt x 186.65009pt>
 File: ./graphics/play_aids_on.pdf Graphic file (type pdf)
 <use ./graphics/play_aids_on.pdf>
-Package pdftex.def Info: ./graphics/play_aids_on.pdf  used on input line 53.
+Package pdftex.def Info: ./graphics/play_aids_on.pdf  used on input line 54.
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-<./graphics/settings.pdf, id=532, 246.87506pt x 186.65009pt>
+<./graphics/settings.pdf, id=814, 246.87506pt x 186.65009pt>
 File: ./graphics/settings.pdf Graphic file (type pdf)
 <use ./graphics/settings.pdf>
-Package pdftex.def Info: ./graphics/settings.pdf  used on input line 57.
+Package pdftex.def Info: ./graphics/settings.pdf  used on input line 58.
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-<./graphics/pitch_display.pdf, id=533, 246.87506pt x 186.65009pt>
+<./graphics/pitch_display.pdf, id=815, 246.87506pt x 186.65009pt>
 File: ./graphics/pitch_display.pdf Graphic file (type pdf)
 <use ./graphics/pitch_display.pdf>
-Package pdftex.def Info: ./graphics/pitch_display.pdf  used on input line 61.
+Package pdftex.def Info: ./graphics/pitch_display.pdf  used on input line 62.
 (pdftex.def)             Requested size: 136.5746pt x 103.26163pt.
-)
-(sections/4_2_Drivers.tex [13] [14 <./graphics/Main.pdf> <./graphics/calibratin
-g_done.pdf
+) (sections/4_2_Drivers.tex [26]
+Overfull \hbox (8.86618pt too wide) in paragraph at lines 31--33
+\T1/lmr/m/n/10.95 die Fre-quenz am nächs-ten liegt. Die Funk-ti-on \T1/lmr/m/it
+/10.95 get_pixel_pitch_accuracy(penta_on_off,pitch_freq)|
+ []
+
+[27 <./graphics/Main.pdf> <./graphics/calibrating_done.pdf
 
 pdfTeX warning: pdflatex.exe (file ./graphics/calibrating_done.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -2421,21 +2513,15 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./graphics/pitch_display.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->]) (sections/4_3_Audio.tex
-Overfull \hbox (1.51686pt too wide) in paragraph at lines 3--6
-\T1/lmr/m/n/10.95 Mo-du-le \T1/lmr/bx/n/10.95 au-dio.c \T1/lmr/m/n/10.95 bein-h
-al-tet die bei-den Funk-tio-nen, \T1/lmr/m/it/10.95 co-dec_wm8731_init() \T1/lm
-r/m/n/10.95 und \T1/lmr/m/it/10.95 set_vol(vol_gain)\T1/lmr/m/n/10.95 . |
- []
-
-) (sections/4_4_Touch.tex [15]) (sections/4_5_GUI.tex
+>]) (sections/4_3_Audio.tex) (sections/4_4_Touch.tex [28])
+(sections/4_5_GUI.tex
 Overfull \hbox (47.96606pt too wide) in paragraph at lines 8--1
 []\T1/lmr/m/n/10.95 Das gan-ze ist im Mo-dul \T1/lmr/bx/n/10.95 touch_isr.c \T1
 /lmr/m/n/10.95 rea-li-siert. Dar-in be-fin-det sich ei-ne Funk-ti-on \T1/lmr/m/
 it/10.95 touch_init(void*context)\T1/lmr/m/n/10.95 .|
  []
 
-<./graphics/the_dot_factory.pdf, id=730, 174.62654pt x 182.6187pt>
+<./graphics/the_dot_factory.pdf, id=1013, 174.62654pt x 182.6187pt>
 File: ./graphics/the_dot_factory.pdf Graphic file (type pdf)
 <use ./graphics/the_dot_factory.pdf>
 Package pdftex.def Info: ./graphics/the_dot_factory.pdf  used on input line 7.
@@ -2444,90 +2530,190 @@ Package pdftex.def Info: ./graphics/the_dot_factory.pdf  used on input line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-Overfull \hbox (4.72684pt too wide) in paragraph at lines 15--90
+Overfull \hbox (4.72684pt too wide) in paragraph at lines 15--94
  []\T1/lmr/bx/n/10.95 gui.c[] \T1/lmr/m/n/10.95 In die-sem Mo-dul sind mit der 
 Funk-ti-on \T1/lmr/m/it/10.95 print_string(x,y,color,font,font_descriptor,strin
 g)|
  []
 
-[16] (sections/5_0_Validierung.tex [17 <./graphics/the_dot_factory.pdf>])
-(sections/5_1_PCB.tex) (sections/5_2_Frequenzmessung.tex)
-(sections/5_3_Glissando_Effekt.tex) (sections/5_4_Ton_Display.tex) [18
+[29] (sections/5_0_Realisierung_Gehaeuse.tex [30 <./graphics/the_dot_factory.pd
+f>]
+
+pdfTeX warning: pdflatex.exe (file ./graphics/grundteil.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+<./graphics/grundteil.pdf, id=1053, 2164.085pt x 1064.97874pt>
+File: ./graphics/grundteil.pdf Graphic file (type pdf)
+<use ./graphics/grundteil.pdf>
+Package pdftex.def Info: ./graphics/grundteil.pdf  used on input line 24.
+(pdftex.def)             Requested size: 455.24408pt x 224.0259pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./graphics/Theremin_case.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<./graphics/Theremin_case.pdf, id=1054, 2164.085pt x 1064.97874pt>
+File: ./graphics/Theremin_case.pdf Graphic file (type pdf)
+<use ./graphics/Theremin_case.pdf>
+Package pdftex.def Info: ./graphics/Theremin_case.pdf  used on input line 30.
+(pdftex.def)             Requested size: 455.24408pt x 224.0259pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [31
+
+] (sections/6_0_Validierung.tex [32 <./graphics/grundteil.pdf> <./graphics/Ther
+emin_case.pdf>]) (sections/6_1_PCB.tex) (sections/6_2_Frequenzmessung.tex
+[33
 
 ]
-(sections/6_0_Schlusswort.tex) [19
+<./graphics/Validierung_frequenzmessung.pdf, id=1085, 400.08572pt x 334.90076pt
+>
+File: ./graphics/Validierung_frequenzmessung.pdf Graphic file (type pdf)
+<use ./graphics/Validierung_frequenzmessung.pdf>
+Package pdftex.def Info: ./graphics/Validierung_frequenzmessung.pdf  used on in
+put line 12.
+(pdftex.def)             Requested size: 318.66946pt x 266.76096pt.
+<./graphics/Simulation_Frequenzmessung.pdf, id=1086, 373.94922pt x 308.76318pt>
 
-] (sections/7_0_Ehrlichkeitserklaerung.tex)
-[20]
+File: ./graphics/Simulation_Frequenzmessung.pdf Graphic file (type pdf)
+<use ./graphics/Simulation_Frequenzmessung.pdf>
+Package pdftex.def Info: ./graphics/Simulation_Frequenzmessung.pdf  used on inp
+ut line 18.
+(pdftex.def)             Requested size: 318.66946pt x 263.12366pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/6_3_Glissando_Effekt.tex [34]
+<./graphics/Validierung_Glissando.pdf, id=1099, 372.01895pt x 262.21729pt>
+File: ./graphics/Validierung_Glissando.pdf Graphic file (type pdf)
+<use ./graphics/Validierung_Glissando.pdf>
+Package pdftex.def Info: ./graphics/Validierung_Glissando.pdf  used on input li
+ne 7.
+(pdftex.def)             Requested size: 409.71689pt x 288.79999pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (sections/6_4_Gesammt_Test.tex) [35 <./graphics/Validierung_frequenzmessung.p
+df>] [36 <./graphics/Simulation_Frequenzmessung.pdf> <./graphics/Validierung_Gl
+issando.pdf
+
+pdfTeX warning: pdflatex.exe (file ./graphics/Validierung_Glissando.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [37] (sections/7_0_Erfahrungen.tex) [38
+
+] (sections/7_0_Schlusswort.tex
+
+LaTeX Warning: Reference `sec:Inbetriebnahme' on page 39 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Reference `subsec:Kriterien' on page 39 undefined on input line 
+5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--48
+
+ []
+
+[39
+
+]) [40] (sections/8_0_Ehrlichkeitserklaerung.tex) [41]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-09.
- ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
+17.
+
+("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-09.
- ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+17.
+
+("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[21
+[42
 
-]
+] [43]
 \openout2 = `sections/appendix.aux'.
 
  (sections/appendix.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (Fachbericht_P6.aux (sections/abstract.aux)
 (sections/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
-Package rerunfilecheck Info: File `Fachbericht_P6.out' has not changed.
-(rerunfilecheck)             Checksum: 43285DE1B970F4F5B949959EBCCE33F8;1464.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 
+
+Package rerunfilecheck Warning: File `Fachbericht_P6.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Fachbericht_P6.out':
+(rerunfilecheck)             Before: 1312F000D97AEEC7C354CB447A70B55C;1933
+(rerunfilecheck)             After:  7612E1B3776DCBC9E1432416403E4184;1933.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'Fachbericht_P6.run.xml'.
 \openout1 = `Fachbericht_P6.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 56250 strings out of 492452
- 1216276 string characters out of 3120063
- 1798257 words of memory out of 3000000
- 59636 multiletter control sequences out of 15000+200000
- 612826 words of font info for 68 fonts, out of 3000000 for 9000
+ 56494 strings out of 492452
+ 1222280 string characters out of 3120063
+ 1790620 words of memory out of 3000000
+ 59767 multiletter control sequences out of 15000+200000
+ 618806 words of font info for 70 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 71i,12n,93p,1254b,2294s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,12n,93p,1524b,2934s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
 nc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
-nc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.e
 nc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
-sy.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-mathit.enc}<C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/lm/lmbx10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbx12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmbx9.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmbxi10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmcsc10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmdunh10.pfb><C:/Users/andre/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/andre/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/andre/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/andre/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/andre/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/andre/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/andre/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/andre/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/andre/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/an
-dre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users
-/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/U
-sers/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
-s/msam10.pfb>
-Output written on Fachbericht_P6.pdf (24 pages, 1055469 bytes).
+ex.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
+mathsy.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm
+/lm-mathit.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
+s/lm/lm-rm.enc}<C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmbx10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmbx12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmbx9.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmbxi10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/andre/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmdunh10.pfb><C:/Users/andre/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/andre/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/andre/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/andre/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/andre/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/andre/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/andre/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/andre
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/and
+re/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/a
+ndre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Use
+rs/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:
+/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb
+><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.
+pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmt
+t10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/symbols/msam10.pfb>
+Output written on Fachbericht_P6.pdf (47 pages, 3139315 bytes).
 PDF statistics:
- 892 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 406 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1329 PDF objects out of 1440 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 

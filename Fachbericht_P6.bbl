@@ -71,7 +71,170 @@
       \verb https://www.classicalmpr.org/story/2016/07/15/theremin-movie-music
       \endverb
     \endentry
-    \entry{non_volatile}{online}{}
+    \entry{Franzis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a4e02d53253dcbb17cf4365d4c46f3f}{%
+           family={Riegler},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a4e02d53253dcbb17cf4365d4c46f3f}
+      \strng{fullhash}{5a4e02d53253dcbb17cf4365d4c46f3f}
+      \strng{bibnamehash}{5a4e02d53253dcbb17cf4365d4c46f3f}
+      \strng{authorbibnamehash}{5a4e02d53253dcbb17cf4365d4c46f3f}
+      \strng{authornamehash}{5a4e02d53253dcbb17cf4365d4c46f3f}
+      \strng{authorfullhash}{5a4e02d53253dcbb17cf4365d4c46f3f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Franzis}
+      \field{number}{1}
+      \field{title}{Theremin zum selberbauen}
+      \field{volume}{73}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 73}
+      \range{pages}{73}
+      \verb{doi}
+      \verb GTIN 4019631670519
+      \endverb
+    \endentry
+    \entry{physik_theremin}{online}{}
+      \name{author}{1}{}{%
+        {{hash=478b7f3ea090d408d09c5230048589b5}{%
+           family={{Kenneth D. Skeldon, Lindsay M. Reid, Viviene McInally, Brendan Dougan, and Craig Fulton}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{478b7f3ea090d408d09c5230048589b5}
+      \strng{fullhash}{478b7f3ea090d408d09c5230048589b5}
+      \strng{bibnamehash}{478b7f3ea090d408d09c5230048589b5}
+      \strng{authorbibnamehash}{478b7f3ea090d408d09c5230048589b5}
+      \strng{authornamehash}{478b7f3ea090d408d09c5230048589b5}
+      \strng{authorfullhash}{478b7f3ea090d408d09c5230048589b5}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{natbib}
+      \field{note}{(Abrufdatum 03.01.2020)}
+      \field{title}{Physics of the Theremin}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/159b/8f7ab33083fc1b8de584ec338b0ee2f6fd7b.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/159b/8f7ab33083fc1b8de584ec338b0ee2f6fd7b.pdf
+      \endverb
+    \endentry
+    \entry{Cent}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 16.08.2020)}
+      \field{title}{Cent (Musik)}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Cent_(Musik)#:~:text=Das%20Cent%20(von%20lat.,Gr%C3%B6%C3%9Fen%20musikalischer%20Intervalle%20m%C3%B6glich%20ist.
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Cent_(Musik)#:~:text=Das%20Cent%20(von%20lat.,Gr%C3%B6%C3%9Fen%20musikalischer%20Intervalle%20m%C3%B6glich%20ist.
+      \endverb
+    \endentry
+    \entry{Pentatonik}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ea0ff910d6ec60c9a9dde41b07de20af}{%
+           family={{Theorie Musik}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{fullhash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{bibnamehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{authorbibnamehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{authornamehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{authorfullhash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 18.08.2020)}
+      \field{title}{Pentatonik}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.theorie-musik.de/tonleiter/pentatonik/
+      \endverb
+      \verb{url}
+      \verb https://www.theorie-musik.de/tonleiter/pentatonik/
+      \endverb
+    \endentry
+    \entry{Toene_Frequenzen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 16.08.2020)}
+      \field{title}{Frequenzen der gleichstufigen Stimmung}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Frequenzen_der_gleichstufigen_Stimmung
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Frequenzen_der_gleichstufigen_Stimmung
+      \endverb
+    \endentry
+    \entry{Cordic}{online}{}
+      \name{author}{1}{}{%
+        {{hash=edd5a9131498b29b27c75fc0fa8aad2a}{%
+           family={{Esteban O. Garcia}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{edd5a9131498b29b27c75fc0fa8aad2a}
+      \strng{fullhash}{edd5a9131498b29b27c75fc0fa8aad2a}
+      \strng{bibnamehash}{edd5a9131498b29b27c75fc0fa8aad2a}
+      \strng{authorbibnamehash}{edd5a9131498b29b27c75fc0fa8aad2a}
+      \strng{authornamehash}{edd5a9131498b29b27c75fc0fa8aad2a}
+      \strng{authorfullhash}{edd5a9131498b29b27c75fc0fa8aad2a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 17.01.2020)}
+      \field{title}{Paper Cordic Generator}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://ccc.inaoep.mx/~rcumplido/papers/2006-Garcia-Pipelined%20CORDIC%20Design.pdf
+      \endverb
+      \verb{url}
+      \verb https://ccc.inaoep.mx/~rcumplido/papers/2006-Garcia-Pipelined%20CORDIC%20Design.pdf
+      \endverb
+    \endentry
+    \entry{cic_a}{online}{}
       \name{author}{1}{}{%
         {{hash=ff97a9fdede09eaf6e1c8ec9f6a61dd5}{%
            family={{Intel}},
@@ -84,8 +247,35 @@
       \strng{authornamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
       \strng{authorfullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 17.01.2020)}
+      \field{title}{Understanding CIC Compensation Filters}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an455.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an455.pdf
+      \endverb
+    \endentry
+    \entry{non_volatile}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ff97a9fdede09eaf6e1c8ec9f6a61dd5}{%
+           family={{Intel}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{fullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{bibnamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{authorbibnamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{authornamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{authorfullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 12.08.2020)}
@@ -110,8 +300,8 @@
       \strng{authorbibnamehash}{13de0573a3533c9fc9d04ab91301d0ab}
       \strng{authornamehash}{13de0573a3533c9fc9d04ab91301d0ab}
       \strng{authorfullhash}{13de0573a3533c9fc9d04ab91301d0ab}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 12.08.2020)}
@@ -137,8 +327,8 @@
       \strng{authornamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
       \strng{authorfullhash}{a12ff886a2379a9ee6efaa9acfb54df4}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 12.08.2020)}
@@ -149,32 +339,6 @@
       \endverb
       \verb{url}
       \verb https://www.analog.com/media/en/technical-documentation/data-sheets/AD7843.pdf
-      \endverb
-    \endentry
-    \entry{Cordic}{online}{}
-      \name{author}{1}{}{%
-        {{hash=edd5a9131498b29b27c75fc0fa8aad2a}{%
-           family={{Esteban O. Garcia}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{edd5a9131498b29b27c75fc0fa8aad2a}
-      \strng{fullhash}{edd5a9131498b29b27c75fc0fa8aad2a}
-      \strng{bibnamehash}{edd5a9131498b29b27c75fc0fa8aad2a}
-      \strng{authorbibnamehash}{edd5a9131498b29b27c75fc0fa8aad2a}
-      \strng{authornamehash}{edd5a9131498b29b27c75fc0fa8aad2a}
-      \strng{authorfullhash}{edd5a9131498b29b27c75fc0fa8aad2a}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{(Abrufdatum 17.01.2020)}
-      \field{title}{Paper Cordic Generator}
-      \field{year}{2006}
-      \verb{urlraw}
-      \verb https://ccc.inaoep.mx/~rcumplido/papers/2006-Garcia-Pipelined%20CORDIC%20Design.pdf
-      \endverb
-      \verb{url}
-      \verb https://ccc.inaoep.mx/~rcumplido/papers/2006-Garcia-Pipelined%20CORDIC%20Design.pdf
       \endverb
     \endentry
     \entry{Cyclone_V}{online}{}
@@ -189,9 +353,9 @@
       \strng{authorbibnamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
       \strng{authornamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
       \strng{authorfullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 14.08.2020)}
@@ -216,9 +380,9 @@
       \strng{authorbibnamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
       \strng{authornamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
       \strng{authorfullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
-      \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 14.08.2020)}
@@ -229,6 +393,33 @@
       \endverb
       \verb{url}
       \verb https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2sw_nii5v2gen2.pdf
+      \endverb
+    \endentry
+    \entry{Audio_config}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ff97a9fdede09eaf6e1c8ec9f6a61dd5}{%
+           family={{Intel}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{fullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{bibnamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{authorbibnamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{authornamehash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \strng{authorfullhash}{ff97a9fdede09eaf6e1c8ec9f6a61dd5}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 17.01.2020)}
+      \field{title}{Audio/Video Configuration Core}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb ftp://ftp.intel.com/Pub/fpgaup/pub/Intel_Material/15.0/University_Program_IP_Cores/Audio_Video/Audio_and_Video_Config.pdf
+      \endverb
+      \verb{url}
+      \verb ftp://ftp.intel.com/Pub/fpgaup/pub/Intel_Material/15.0/University_Program_IP_Cores/Audio_Video/Audio_and_Video_Config.pdf
       \endverb
     \endentry
     \entry{codec}{online}{}
@@ -243,8 +434,8 @@
       \strng{authorbibnamehash}{47449594e79c42626ecc53781966dd3c}
       \strng{authornamehash}{47449594e79c42626ecc53781966dd3c}
       \strng{authorfullhash}{47449594e79c42626ecc53781966dd3c}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 17.01.2020)}
@@ -270,8 +461,8 @@
       \strng{authornamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
       \strng{authorfullhash}{a12ff886a2379a9ee6efaa9acfb54df4}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(Abrufdatum 14.08.2020)}
@@ -284,7 +475,61 @@
       \verb https://www.analog.com/media/en/technical-documentation/data-sheets/AD7843.pdf
       \endverb
     \endentry
+    \entry{Inventor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=11ee7fcb483bd69b542f89a8857832a0}{%
+           family={{Autodesk Inventor}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{11ee7fcb483bd69b542f89a8857832a0}
+      \strng{fullhash}{11ee7fcb483bd69b542f89a8857832a0}
+      \strng{bibnamehash}{11ee7fcb483bd69b542f89a8857832a0}
+      \strng{authorbibnamehash}{11ee7fcb483bd69b542f89a8857832a0}
+      \strng{authornamehash}{11ee7fcb483bd69b542f89a8857832a0}
+      \strng{authorfullhash}{11ee7fcb483bd69b542f89a8857832a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 18.08.2020)}
+      \field{title}{Software für mechanische Konstruktion und 3D-CAD}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.autodesk.de/education/edu-software/overview?sorting=featured&page=1
+      \endverb
+      \verb{url}
+      \verb https://www.autodesk.de/education/edu-software/overview?sorting=featured&page=1
+      \endverb
+    \endentry
+    \entry{comparator_techniques}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ea0ff910d6ec60c9a9dde41b07de20af}{%
+           family={{Theorie Musik}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{fullhash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{bibnamehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{authorbibnamehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{authornamehash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \strng{authorfullhash}{ea0ff910d6ec60c9a9dde41b07de20af}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(Abrufdatum 19.08.2020)}
+      \field{title}{High Speed Comparator Techniques}
+      \field{year}{1985}
+      \verb{urlraw}
+      \verb https://www.analog.com/media/en/technical-documentation/application-notes/an13f.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.analog.com/media/en/technical-documentation/application-notes/an13f.pdf
+      \endverb
+    \endentry
   \enddatalist
+  \missing{cic_b}
 \endrefsection
 \endinput
 

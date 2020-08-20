@@ -1,24 +1,31 @@
 \BOOKMARK [1][-]{section.1}{1 Einleitung}{}% 1
 \BOOKMARK [1][-]{section.2}{2 Technische Grundlagen}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{2.1 analoges Theremin}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{2.2 digitales Theremin}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{3 Realisierung}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Antennenoszillator}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Clock}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.3}{3.3 CPU}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.4}{3.4 Pitch Generation}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.5}{3.5 Volume Generation}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{4 Realisierung Software}{}% 11
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Hauptprogramm State Machine}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Treiber}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Audio}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.4}{4.4 Touch}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.5}{4.5 GUI}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{5 Validierung}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{5.1 PCB}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Frequenzmessung}{section.5}% 19
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Glissando Effekt}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Ton Display}{section.5}% 21
-\BOOKMARK [1][-]{section.6}{6 Schlusswort}{}% 22
-\BOOKMARK [1][-]{section.7}{7 Ehrlichkeitserkl\344rung}{}% 23
-\BOOKMARK [1][-]{section*.50}{Literatur}{}% 24
+\BOOKMARK [2][-]{subsection.2.2}{2.2 Musiktheorie}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{2.3 Cordic Algorithmus}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{2.4 CIC Filter}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{2.5 Goldschmidt Algorithmus}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{3 Konzept}{}% 8
+\BOOKMARK [1][-]{section.4}{4 Realisierung}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Antennenoszillator}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Clock}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{4.3 CPU}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Tonh\366henverarbeitung}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.5}{4.5 Lautst\344rkeverarbeitung}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.6}{4.6 Audioserialisierer}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{5 Realisierung Software}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Hauptprogramm State Machine}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Treiber}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Audio}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Touch}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.5}{5.5 GUI}{section.5}% 21
+\BOOKMARK [1][-]{section.6}{6 Realisierung Geh\344use}{}% 22
+\BOOKMARK [1][-]{section.7}{7 Validierung}{}% 23
+\BOOKMARK [2][-]{subsection.7.1}{7.1 Antennenoszillator PCB}{section.7}% 24
+\BOOKMARK [2][-]{subsection.7.2}{7.2 Frequenzmessung}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.3}{7.3 Glissando Effekt}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.4}{7.4 Gesamttest}{section.7}% 27
+\BOOKMARK [1][-]{section.8}{8 Erfahrungen}{}% 28
+\BOOKMARK [1][-]{section.9}{9 Schlusswort}{}% 29
+\BOOKMARK [1][-]{section.10}{10 Ehrlichkeitserkl\344rung}{}% 30
+\BOOKMARK [1][-]{section*.68}{Literatur}{}% 31
