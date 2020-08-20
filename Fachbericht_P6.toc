@@ -53,6 +53,11 @@
 \contentsline {subsection}{\numberline {7.3}Glissando Effekt}{34}{subsection.7.3}% 
 \contentsline {subsection}{\numberline {7.4}Gesamttest}{35}{subsection.7.4}% 
 \contentsline {section}{\numberline {8}Erfahrungen}{38}{section.8}% 
+\contentsline {paragraph}{Lerngewinn}{38}{section*.68}% 
 \contentsline {section}{\numberline {9}Schlusswort}{39}{section.9}% 
-\contentsline {section}{\numberline {10}Ehrlichkeitserklärung}{41}{section.10}% 
-\contentsline {section}{Literatur}{42}{section*.68}% 
+\contentsline {paragraph}{Ergebnisse}{39}{section*.69}% 
+\contentsline {paragraph}{Schwierigkeiten}{39}{section*.70}% 
+\contentsline {paragraph}{Weiterentwicklung}{40}{section*.71}% 
+\contentsline {section}{\numberline {10}Danksagung}{41}{section.10}% 
+\contentsline {section}{\numberline {11}Ehrlichkeitserklärung}{42}{section.11}% 
+\contentsline {section}{Literatur}{43}{section*.72}% 
