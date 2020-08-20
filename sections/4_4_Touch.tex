@@ -1,7 +1,7 @@
 \subsection{Touch}\label{subsec:touch}
  Die von Terasic zur Verfügung gestellte Datei zur auslesen des Touch ist leider sehr unübersichtlich aufgebaut. Es ist sehr schwierig die darin enthaltenen Funktionen auf unser Projekt anzuwenden. Daher entschieden wir uns selbst ein Touch Interrupt Routine zu erstellen. 
  
- Der resistive Touch Display des LT24 LCD touch module ist mit dem AD783 Analoge Devices Chip verbunden. Sobald der Touch Display berührt wird lösst der Chip am Pen Interrupt Pin ein Interrupt aus welches vom NIOS II detektiert wird. Der AD783 Chip speicher die X und Y Koordinaten zum Zeitpunkt des Interrupts ab. Diese können über den SPI Bus ausgelesen werden\cite{AD7843}. \todo{Quelle Datenblatt AD7843}
+ Der resistive Touch Display des LT24 LCD touch module ist mit dem AD783 Analoge Devices Chip verbunden. Sobald der Touch Display berührt wird lösst der Chip am Pen Interrupt Pin ein Interrupt aus welches vom NIOS II detektiert wird. Der AD783 Chip speicher die X und Y Koordinaten zum Zeitpunkt des Interrupts ab. Diese können über den SPI Bus ausgelesen werden\cite{AD7843}. 
  
  Für unser Projekt sind wir daran interessiert den Pen Interrupt zu detektieren und die X und Y Koordinaten auszulesen, damit wir sagen können welcher Taster gedrückt worden ist.
  

@@ -1,3 +1,47 @@
-\subsection{PCB}\label{subsec:PCB}
-bla bla
+\subsection{Antennenoszillator PCB}\label{subsec:PCB}
+Auf dem Antennenoszillator PCB haben wir die Betriebsspannungen und die Ausgänge der Komperatoren getestet. Die dazu verwendeten Messmittel sind in Tabelle \ref{tab:Gemessene_Spannungen_PCB} angegeben.   Die Signale haben wir mit dem Lecroy wavesurfer 3054 Oszilloskop gemessen. 
 
+Die \SI{9}{V} Betriebsspannung hat eine Rippelspannung von \SI{7.3}{mV}. Somit ist die Colpitts Oszillator Schaltung stabil gespiessen. Die \SI{3.3}{V} Betriebsspannung weisst einen Rippelspannung von \SI{133}{mV} auf. Dies ist jedoch noch vertretbar, da die Spannung für den digitalen Teil der Schaltung gebraucht wird.
+\begin{table}[H]
+	\centering
+	\caption{Gemessene Spannungen PCB}
+	\label{tab:Gemessene_Spannungen_PCB}
+	\begin{tabular}{l|l|l|l}
+		\textbf{Spannung} & \textbf{soll [VDC]} & \textbf{ist [VDC]} &	\textbf{Ripple [mVDC]}\\
+		\hline \hline
+		
+		Betriebsspannung 9V & 9 & 9.3 &  7.3 \\ 
+		&      &   &   \\ 
+		\hline
+		Betriebsspannung 3.3V & 3.3 & 3.4 &  133 \\ 
+		&     &     &   \\ 
+		\hline
+		Schaltnetzteil 12V & 12 & 12.5 &  150 \\ 
+		&     &       &   \\ 
+		\hline
+		
+	\end{tabular}
+\end{table} 
+
+Bei den Messungen der Ausgängen der Komperatoren waren auf den Rechtecken bei der Steigenden und fallender Flanke Überschwinger ersichtlich. In einem Paper von Analog Device haben wir erfahren, das die Verursacher der Überschwinger die langen Ausgangsleitungen sind. Diese wirken wie nicht abgeschlossene Übertragungsleitungen und lösen Reflexionen aus \cite{comparator_techniques}. Um dieses Problem zu lösen, schlossen wir die Aussgangsleitung mit einem \SI{300}{Ohm} Widerstand ab. Danach waren keine Reflexionen mehr ersichtlich.
+
+Beim ersten Austesten der Oszillatoren mit angeschlossenen Antennen wiesen die Oszillatoren ähnliche Frequenzen auf. Bei einer Veränderung der Lautstärkeantenne Frequenz wurde ebenfalls die Tonhöhenantennenfrequenz verändert. Dies kann durch Übersprechen oder gegenseitige Beeinflussung der Oszillatoren hervorgerufen werden. Um dieses Problem zu umgehen haben wir entschieden die Frequenzen der beiden Oszillatoren um \SI{30}{kHz} versetzt zu wählen. Dies führte dazu das die beiden Probleme verschwanden. Jedoch können wir nicht sagen welches der beiden Problem es ist.
+
+Durch den häufigen gebrauch des PCB ist uns bewusst worden, dass der verwendete JFet sehr empfindlich gegenüber Elektrostatische Entladung ist.
+
+Bei einer weiter Entwicklung des Theremin muss das Antennenoszillator PCB überarbeitet werden. Es ist eine Schutzbeschaltung für den JFet notwendig. Zudem sollten die Oszillatoren auf zwei seperaten PCB realisiert werden um Übersprechen und gegenseitige Beeinflussung zu vermeiden. 
+
+\begin{table}[H]
+	\centering
+	\caption{Verwendete Messmittel}
+	\label{tab:Verwendete_Messmittel}
+	\begin{tabular}{l|l}
+		\textbf{Messgerät} & \textbf{Bezeichnung}	\\
+		\hline \hline
+		
+		Oszilloskop  & Lecroy wavesurfer 3054   \\ 
+		&        \\ 
+		\hline
+		
+	\end{tabular}
+\end{table} 

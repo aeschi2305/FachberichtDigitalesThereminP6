@@ -5,40 +5,53 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}% 
 \contentsline {section}{\numberline {2}Technische Grundlagen}{2}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}analoges Theremin}{2}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}digitales Theremin}{2}{subsection.2.2}% 
-\contentsline {section}{\numberline {3}Realisierung}{3}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Antennenoszillator}{3}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Clock}{3}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}CPU}{5}{subsection.3.3}% 
-\contentsline {paragraph}{JTAG, Timer und System ID}{5}{section*.6}% 
-\contentsline {paragraph}{Speicher}{5}{section*.7}% 
-\contentsline {paragraph}{LCD Controller \& Reset}{5}{section*.9}% 
-\contentsline {paragraph}{Touchscreen}{5}{section*.10}% 
-\contentsline {subsection}{\numberline {3.4}Pitch Generation}{6}{subsection.3.4}% 
-\contentsline {paragraph}{Referenzoszillator}{6}{section*.12}% 
-\contentsline {paragraph}{Mixer}{8}{section*.17}% 
-\contentsline {paragraph}{Filter}{8}{section*.18}% 
-\contentsline {paragraph}{Amplifier}{9}{section*.23}% 
-\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{9}{section*.26}% 
-\contentsline {subsection}{\numberline {3.5}Volume Generation}{10}{subsection.3.5}% 
-\contentsline {paragraph}{Filter}{10}{figure.caption.34}% 
-\contentsline {paragraph}{Frequenzmessung \& Kalibration}{11}{figure.caption.36}% 
-\contentsline {section}{\numberline {4}Realisierung Software}{12}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Hauptprogramm State Machine}{12}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Treiber}{13}{subsection.4.2}% 
-\contentsline {paragraph}{LT24 Controller}{14}{section*.39}% 
-\contentsline {paragraph}{Pitch generation}{15}{section*.40}% 
-\contentsline {paragraph}{Volume generation}{15}{section*.41}% 
-\contentsline {subsection}{\numberline {4.3}Audio}{15}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Touch}{15}{subsection.4.4}% 
-\contentsline {subsection}{\numberline {4.5}GUI}{16}{subsection.4.5}% 
-\contentsline {paragraph}{simple\_text.c}{16}{figure.caption.48}% 
-\contentsline {paragraph}{gui.c}{16}{section*.49}% 
-\contentsline {section}{\numberline {5}Validierung}{18}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}PCB}{18}{subsection.5.1}% 
-\contentsline {subsection}{\numberline {5.2}Frequenzmessung}{18}{subsection.5.2}% 
-\contentsline {subsection}{\numberline {5.3}Glissando Effekt}{18}{subsection.5.3}% 
-\contentsline {subsection}{\numberline {5.4}Ton Display}{18}{subsection.5.4}% 
-\contentsline {section}{\numberline {6}Schlusswort}{19}{section.6}% 
-\contentsline {section}{\numberline {7}Ehrlichkeitserklärung}{20}{section.7}% 
-\contentsline {section}{Literatur}{21}{section*.50}% 
+\contentsline {paragraph}{Antennenoszillator und Tonhöhenantenne}{2}{section*.5}% 
+\contentsline {paragraph}{Antennenoszillator und Lautstärkeantenne}{2}{section*.6}% 
+\contentsline {paragraph}{Mischer und Referenzoszillator}{2}{section*.8}% 
+\contentsline {paragraph}{Tiefpassfilter}{3}{section*.9}% 
+\contentsline {paragraph}{Verstärker und Lautsprecher}{4}{section*.10}% 
+\contentsline {subsection}{\numberline {2.2}Musiktheorie}{4}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Cordic Algorithmus}{5}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}CIC Filter}{6}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Goldschmidt Algorithmus}{7}{subsection.2.5}% 
+\contentsline {section}{\numberline {3}Konzept}{9}{section.3}% 
+\contentsline {section}{\numberline {4}Realisierung}{11}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Antennenoszillator}{11}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Clock}{12}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}CPU}{13}{subsection.4.3}% 
+\contentsline {paragraph}{JTAG, Timer und System ID}{13}{section*.18}% 
+\contentsline {paragraph}{Speicher}{14}{section*.19}% 
+\contentsline {paragraph}{LCD Controller \& Reset}{14}{section*.21}% 
+\contentsline {paragraph}{Touchscreen}{15}{section*.22}% 
+\contentsline {subsection}{\numberline {4.4}Tonhöhenverarbeitung}{15}{subsection.4.4}% 
+\contentsline {paragraph}{Referenzoszillator}{15}{section*.24}% 
+\contentsline {paragraph}{Mischer}{17}{section*.27}% 
+\contentsline {paragraph}{Filter}{17}{section*.28}% 
+\contentsline {paragraph}{Verstärker}{18}{section*.31}% 
+\contentsline {paragraph}{Frequenzmessung, Kalibration \& Glissandoeffekt}{19}{section*.33}% 
+\contentsline {paragraph}{Register}{20}{section*.38}% 
+\contentsline {subsection}{\numberline {4.5}Lautstärkeverarbeitung}{22}{subsection.4.5}% 
+\contentsline {paragraph}{Filter}{22}{section*.42}% 
+\contentsline {paragraph}{Frequenzmessung \& Kalibration}{22}{section*.44}% 
+\contentsline {paragraph}{Register}{23}{section*.46}% 
+\contentsline {subsection}{\numberline {4.6}Audioserialisierer}{23}{subsection.4.6}% 
+\contentsline {section}{\numberline {5}Realisierung Software}{25}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Hauptprogramm State Machine}{25}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Treiber}{26}{subsection.5.2}% 
+\contentsline {paragraph}{LT24 Controller}{27}{section*.51}% 
+\contentsline {paragraph}{Tonhöhenverarbeitung}{28}{section*.52}% 
+\contentsline {paragraph}{Lautstärkeverarbeitung}{28}{section*.53}% 
+\contentsline {subsection}{\numberline {5.3}Audio}{28}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Touch}{28}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.5}GUI}{29}{subsection.5.5}% 
+\contentsline {paragraph}{simple\_text.c}{29}{figure.caption.56}% 
+\contentsline {paragraph}{gui.c}{29}{section*.57}% 
+\contentsline {section}{\numberline {6}Realisierung Gehäuse}{31}{section.6}% 
+\contentsline {section}{\numberline {7}Validierung}{33}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Antennenoszillator PCB}{33}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Frequenzmessung}{34}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Glissando Effekt}{34}{subsection.7.3}% 
+\contentsline {subsection}{\numberline {7.4}Gesamttest}{35}{subsection.7.4}% 
+\contentsline {section}{\numberline {8}Schlusswort}{38}{section.8}% 
+\contentsline {section}{\numberline {9}Ehrlichkeitserklärung}{40}{section.9}% 
+\contentsline {section}{Literatur}{41}{section*.68}% 
