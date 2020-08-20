@@ -1,12 +1,12 @@
 \begin{abstract}
 % Description aim/objective
-\noindent In this Project a Theremin was built that mainly operates on digital hardware unlike the original device that solely used analog electronics. The device is supposed to be used in presentations for trade fairs by the Institute for Sensors and Electronics ISE. As such the device should be built in a appealing housing. Moreover the device should have other additional functionality such as soundeffects or the ability to record sound.
+\noindent This project was a continuation on the work on a Theremin that mainly operates on digital hardware. Unlike the original device, which solely used analog electronics. The device is supposed to be used in presentations for trade fairs by the Institute for Sensors and Electronics ISE. As such the device should be built in an appealing housing. Moreover the device should have other additional functionality that helps the player to use the instrument more easily.
 % Method
-The digital hardware was implemented in VHDL on the developer board DE1-SoC from terasIC with a Cyclone V FPGA from Intel. The sole analog component implemented was the oscillator that controls the pitch. 
+The digital hardware was implemented in VHDL on the developer board DE1-SoC from terasIC with a Cyclone V FPGA from Intel. The sole analog component implemented were the oscillators that control the pitch and volume by use of two antennae and the codec, wich converts the audio data for use on a loudspeaker. 
 % Results
-The pitch of the device can be changed well, but the sound itself has a flaw at the moment, because there is an audible crackle. This is due to a communication problem with the codec that was used for the audio output. This problem will not be corrected during this project, because the communication will be implemented differently in the finished product.
+The pitch and volume of the instrument can be changed by the two antennae like a usual theremin. To adjust settings the theremin has a touchscreen display that is controlled by the Nios system, that was implemented. The theremin has two functionalities, that help the player use the instrument more easily. First the glissando effect, wich corrects the pitch to the closest musical note. Second the pitch display, wich displays the closest musical note the player ist playing at and the deviation that the player is causing.
 % Conclusion
-The work in this project served as a platform for the continuation in project 6. The next steps would be to implement the volume control and redesign the pcb for two antennas and oscillators.
+In conclusion it can be said, that the theremin is ready for any trade fairs that will come.
 
 
 \end{abstract}	
