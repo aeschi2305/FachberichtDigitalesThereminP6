@@ -1,5 +1,5 @@
 \subsection{Hauptprogramm State Machine}\label{subsec:State_Machine}
-Abbildung \ref{img:state_machine} zeigt die Initialisierung und den Hauptprogrammfluss der Software.
+Abbildung \ref{img:state_machine} zeigt links die Initialisierung und rechts den Hauptprogrammfluss der Software als State Machine.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{state_machine.pdf}
@@ -7,7 +7,7 @@ Abbildung \ref{img:state_machine} zeigt die Initialisierung und den Hauptprogram
 	\label{img:state_machine}
 \end{figure}
 
-Als erstes initialisiert das Programm alle Treiber, den Touch, das LCD, und den Codec. Anschlissend führt das Programm in einer Endlosschlaufe die state machine durch.
+Als erstes initialisiert das Programm alle Treiber, den Touchscreen, das LCD, und den Codec. Anschliessend führt das Programm in einer Endlosschlaufe die State Machine aus. Es folgen kurze Erklärungen zu jedem State.
 
 \textbf{Main}:
 Dies ist der erste State nachdem Initialisierungsvorgang. Der Main State wartet auf eine Betätigung der drei in Abbildung \ref{img:main_screen} gezeigten Tastern. Eine Betätigung der drei Tastern führt zu einem Wechsel in den entsprechenden State. 
@@ -20,17 +20,17 @@ Nach zwei Sekunden startet die Kalibrierung. Sobald die Kalibrierung abgeschloss
 In diesem State kann der Benutzer die Lautstärke ändern und die Lautstärkenantenne aktivieren und deaktivieren. Die Lautstärke kann in 10 verschiedene Pegeln eingestellt werden. Dies geschieht mithilfe der in Abbildung \ref{img:vol_screen} gezeigten \textbf{\textit{+}} und \textbf{\textit{-}} Tasten. Beim betätigen der \textit{vol antenna} Taste wird die Lautstärkenantenne je nach aktuellem Zustand deaktiviert oder aktiviert. Mit dem betätigen der \textit{back} Taste gelangt der Benutzer in den Main State.
  
 \textbf{Playing-Aids}:
-Im State Playing Aids kann der Benutzer mit der\textit{Glissando on} Taste der Glissando Effekt akieviert und deaktiviert. Die Abbildungen \ref{img:play_aids_off} und \ref{img:play_aids_on} zeigen die grafische Realisierung dieser Taste. Über die \textit{Set} Taste gelangt der Benutzer in den State Settings. Durch betätigen des \textit{display pitch} Taste wird in den State Pitch Display gewechselt. Zurück in den Main State gelangt man über die \textit{back} Taste.
+Im State Playing Aids kann der Benutzer mit der\textit{Glissando on} Taste den Glissando-Effekt aktivieren und deaktivieren. Die Abbildungen \ref{img:play_aids_off} und \ref{img:play_aids_on} zeigen die grafische Realisierung dieser Taste. Über die \textit{Set} Taste gelangt der Benutzer in den State Settings. Durch betätigen des \textit{display pitch} Taste wird in den State Pitch Display gewechselt. Zurück in den Main State gelangt man über die \textit{back} Taste.
 
 \textbf{Settings}:
-Im Settings State können Einstellungen zum Glissando Effekt gemacht werden. Das Delay des Glissando Effekts ist in 10 Stufen einstellbar. Zudem kann der Anwender mit dem Taster \textit{penta} zwischen der Pentatonischer und der normalen Tonleiter wechseln. Mit dem betätigen der \textit{back} Taste gelangt der Benutzer in den Playing-Aids State. Abbildung \ref{img:settings_screen} zeigt wie der Setting State grafisch auf dem LCD aussieht.
+Im Settings State können Einstellungen am Glissando-Effekt gemacht werden. Der Delay des Glissando-Effekts ist in 10 Stufen einstellbar. Zudem kann der Anwender mit dem Taster \textit{pentatonic on/off} zwischen der pentatonischen und der normalen Tonleiter wechseln. Mit dem betätigen der \textit{back} Taste gelangt der Benutzer in den Playing-Aids State. Abbildung \ref{img:settings_screen} zeigt wie der Setting State auf dem LCD aussieht.
 
 \textbf{Pitch Display}:
-Dieser State unterstützt den Theremin Spieler dabei Töne der Tonleiter zu treffen. Der Spieler bekommt über das Display eine optische Rückmeldung in welcher Region der Tonleiter sich der gespielte Ton befindet, so muss der Spieler nicht alleine auf sein Gehör vertrauen.
-Abbildung \ref{img:play_help_screen} zeigt die graphische Darstellung dieses States.  
+Dieser State unterstützt den Theremin Spieler dabei Töne der Tonleiter zu treffen. Der Spieler bekommt über das Display eine optische Rückmeldung in welcher Region der Tonleiter sich der gespielte Ton befindet. So muss der Spieler nicht alleine auf sein Gehör vertrauen.
+Abbildung \ref{img:play_help_screen} zeigt die Darstellung dieses States.  
 Der Schriftzug oberhalb des LCD zeigt den Ton an, der sich in der Region der gespielten Frequenz befindet. 
-Der kleine vertikale Strich zeigt dem Spieler graphisch an wie weit weg die aktuell gespielte Frequenz von dem Ton der Tonleiter ist. 
-Diese graphische Unterstützung kann jedoch nur bei der Pentatonischen Tonleiter angewendet werden.  Da die Antenne sehr empfindlich auf Änderungen ist, ist es mit der normalen Tonleiter nicht möglich den Vertikalen Strich anzuzeigen. Daher wird dieses Anzeige nur bei der Pentatonischen Tonleiter verwendet.
+Der kleine vertikale Strich zeigt dem Spieler an wie weit weg die aktuell gespielte Frequenz von dem Ton der Tonleiter ist. 
+Diese graphische Unterstützung kann jedoch nur bei der pentatonischen Tonleiter angewendet werden. Da die Antenne sehr empfindlich auf Änderungen ist, ist es mit der normalen Tonleiter nicht hilfreich den vertikalen Strich anzuzeigen. Daher haben wir uns entschieden diese Anzeige nur bei der pentatonischen Tonleiter zu verwenden.
 
 \begin{figure}[!ht]
 	\subfloat[Main Menu\label{img:main_screen}]{%

@@ -1,8 +1,9 @@
 \subsection{CIC Filter}\label{subsec:CIC_Filter}
 
-Ein CIC-Filter oder Cascaded-Integrator-Comb-Filter ist ein digitales Filter, welches nebst der Filterung eines Signals zusätzlich deren Abtastfrequenz verändert. Abbildung \ref{img:CIC_Filter} zeigt ein Decimation-CIC-Filter. Dieses verkleinert die Abtastfrequenz am Ausgang um den Faktor \(R\). Die zweite Form ist ein Interpolation-CIC-Filter. Dieses vergrössert die Abtastfrequenz um den Faktor \(R\). Jedoch wird hier nur auf das Decimation-CIC-Filter eingegangen.
+Ein CIC-Filter oder Cascaded-Integrator-Comb-Filter ist ein digitales Filter, welches nebst der Filterung eines Signals zusätzlich deren Abtastfrequenz verändert. Abbildung \ref{img:CIC_Filter} zeigt ein Dezimations-CIC-Filter. Dieses verkleinert die Abtastfrequenz am Ausgang um den Faktor \(R\). Die zweite Form ist ein Interpolation-CIC-Filter. Dieses vergrössert die Abtastfrequenz um den Faktor \(R\).
 
-In Abbildung \ref{img:CIC_Filter} ist zu sehen, dass das Filter in drei Stufen unterteilt ist. Links sieht man ein Integrator-Filter, welches einen anliegenden Wert mit einem verzögerten Wert aufaddiert oder einfach das Signal integriert. Anschliessend folgt ein Dezimierer, welcher das Signal um den Faktor R unter-abtastet. Zuletzt folgt ein Combfilter. Dieser nimmt den aktuellen Wert und subtrahiert den alten Wert. Durch Tauschen von Integrator-Filtern mit Comb-Filtern und umgekehrt kann der zuvor genannte Interpolation-CIC-Filter gebaut werden. Es ist möglich mehrere Integrator- und Combfilterpaare zusammen zu schalten um eine grössere Dämpfung höherer Frequenzen zu bewirken. Das CIC-Filter benötigt jedoch um zu funktionieren eine gewisse Anzahl Bits in den Speichern der Verzögerungselemente, welche grösser als die Eingangsbits ist. Dieser Effekt nennt sich Bit-Growth und die zusätzliche Anzahl Bits lässt sich wie folgt berechnen\cite{cic_a}\cite{cic_b}:
+In Abbildung \ref{img:CIC_Filter} ist zu sehen, dass das Filter in drei Stufen unterteilt ist. Links ist ein Integrator-Filter zu sehen, welches einen anliegenden Wert mit einem verzögerten Wert aufaddiert oder anders gesagt das Signal integriert. Anschliessend folgt ein Dezimierer, welcher das Signal um den Faktor R unter-abtastet. Zuletzt folgt ein Combfilter. Dieses nimmt den aktuellen Wert und subtrahiert den alten Wert. Ein Interpolation-CIC-Filter erhält man durch tauschen von Integrator-Filtern mit Comb-Filtern und umgekehrt. Weiter ist nun in der Mitte eine Überabtastung nötig.\\
+Es ist möglich mehrere Integrator- und Combfilterpaare zusammen zu schalten um eine grössere Dämpfung höherer Frequenzen zu bewirken. Das CIC-Filter benötigt jedoch um zu funktionieren eine gewisse Anzahl Bits in den Speichern der Verzögerungselemente, welche grösser als die Eingangsbits ist. Dieser Effekt nennt sich Bit-Growth und die zusätzliche Anzahl Bits lässt sich wie folgt berechnen\cite{cic_a}\cite{cic_b}:
 
 \begin{equation}
 B_+ = \big \lceil Nlog_2RM \big \rceil
@@ -25,7 +26,7 @@ G_+ = G/2^{B_+}
 \label{equ:cic_gain+}
 \end{equation}
 
-Ein Problem, welches die CIC-Filter mit sich bringen, ist dass sie in bestimmten Situationen Aliasing erzeugen. Dieses entsteht wenn sich Signalkomponenten zu nahe an den Nullstellen des Filters befinden. In Abbildung \ref{img:CIC_Filter_plot} sieht man sehr schön, dass sehr auf die Frequenz des Signals im Vergleich zum verwendeten CIC-Filter geachtet werden muss.
+Ein Problem, welches die CIC-Filter mit sich bringen, ist dass sie in bestimmten Situationen Aliasing erzeugen. Dieses entsteht wenn sich Signalkomponenten zu nahe an den Nullstellen des Filters befinden \cite{CIC_Aliasing}. In Abbildung \ref{img:CIC_Filter_plot} sieht man sehr schön, dass sehr auf die Frequenz des Signals im Vergleich zum verwendeten CIC-Filter geachtet werden muss.
 
 
 \begin{figure}[h]
@@ -41,3 +42,5 @@ Ein Problem, welches die CIC-Filter mit sich bringen, ist dass sie in bestimmten
 	\caption{Amplitudengang und Phasengang eines CIC-Filters (M = 1, R = 5; N = 2)}
 	\label{img:CIC_Filter_plot}
 \end{figure}
+
+\clearpage

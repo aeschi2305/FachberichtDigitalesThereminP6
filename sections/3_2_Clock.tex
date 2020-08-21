@@ -1,6 +1,6 @@
 \subsection{Clock}\label{subsec:Clock}
-Die verschiednen Clocks für die Hardwarekomponenten und die CPU werden in zwei Phase-Locked-Loop (PLL) Blöcken generiert. Ein Block für die Signalverarbeitung und einer für das Nios System. In Tabelle \ref{tab:clocks} sind alle Frequenzen aufgelistet. \\
-Alle Frequenzen welche nicht 50MHz sind ergaben sich daraus, dass die externen Peripherien, welche mit den entsprechenden IP Cores verbunden sind, diese Frequenzen als Vorgabe haben. Weiter benötigen die Komponenten Pitch- und Volume Generation die Frequenz 54Mhz, da deren Frequenz ein vielfaches von 48kHz sein muss.
+Die verschiedenen Clocks für die Hardwarekomponenten und die CPU werden in zwei Phase-Locked-Loop (PLL) Blöcken generiert. Die Generierung der verschiedenen Clock Signale für die Hardwarekomponenten und die CPU geschieht in zwei Phase -Locked-Loop (PLL) Blöcken. Ein Block für die Signalverarbeitung und einer für das Nios II System. In Tabelle \ref{tab:clocks} sind alle Frequenzen aufgelistet. \\
+Die Clockfrequenzen, welche an Komponenten für die LCD Steuerung, den Flash Controller und die Audio Konfiguration sowie Übertragung gehen sind Vorgaben der jeweiligen Peripherien. Weiter benötigen die Komponenten Tonhöhen- und Lautstärkenverarbeitung die Frequenz 54Mhz, da deren Frequenz ein vielfaches von 48kHz sein muss.
 
 \begin{table}[H]
 	\centering
@@ -20,13 +20,13 @@ Alle Frequenzen welche nicht 50MHz sind ergaben sich daraus, dass die externen P
 		Touch Interrupt & \SI{15}{MHz} & PLL CPU \\ \hline
 		Touch Busy & \SI{15}{MHz} & PLL CPU \\ \hline
 		Touch SPI & \SI{15}{MHz} & PLL CPU \\ \hline
-		Audio Config & \SI{12}{MHz} & PLL CPU \\ \hline
+		Codec Config & \SI{12}{MHz} & PLL CPU \\ \hline
 		Flash Controller & \SI{25}{MHz} & PLL CPU \\ \hline
-		Pitch Generation & \SI{54}{MHz} & PLL Signal-Processing \\ \hline
-		Volume Generation & \SI{54}{MHz} & PLL Signal-Processing \\ \hline
+		Tonhöhenverarbeitung & \SI{54}{MHz} & PLL Signal-Processing \\ \hline
+		Lautstärkenverarbeitung & \SI{54}{MHz} & PLL Signal-Processing \\ \hline
 		DC-FIFO Input	& \SI{54}{MHz} & PLL Signal-Processing \\ \hline
 		DC-FIFO Output	& \SI{24}{MHz} & PLL Signal-Processing \\ \hline
-	 	Audio Serializer	& \SI{24}{MHz} & PLL Signal-Processing \\ \hline
+	 	Audioserialisierer	& \SI{24}{MHz} & PLL Signal-Processing \\ \hline
 	 	Codec	& \SI{12}{MHz} & PLL Signal-Processing \\ \hline
 		
 	\end{tabular}
