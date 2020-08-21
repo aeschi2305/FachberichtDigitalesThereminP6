@@ -5,5 +5,5 @@
  
  Für unser Projekt sind wir daran interessiert den Pen Interrupt zu detektieren und die X und Y Koordinaten auszulesen, damit wir sagen können welcher Taster gedrückt worden ist.
  
-Das ganze ist im Modul \textbf{touch\_isr.c} realisiert. Darin befindet sich eine Funktion \textit{touch\_init(void*context)}. Diese aktiviert das Touch Pen Interrupt  und registriert die Funktion welche durch das Interrupt aufgerufen wird. 
+Das ganze ist im Modul \textit{touch\_isr.c} realisiert. Darin befindet sich eine Funktion \\ \textit{touch\_init(void*context)}. Diese aktiviert das Touch Pen Interrupt  und registriert die Funktion welche durch das Interrupt aufgerufen wird. 
 In der Interrupt Funktion \textit{touch\_isr(void*context)} wird zuerst das Touch Pen Interrupt  deaktiviert. So das in dieser Zeit kein weiteres Interrupt auftreten kann. Nach dem deaktivieren des Interrupts liesst der \textit{alt\_avalon\_spi\_command} die X und Y Koordinaten aus.

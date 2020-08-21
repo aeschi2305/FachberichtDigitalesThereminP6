@@ -30,3 +30,12 @@ Das Aliasingproblem könnte durch die Verwendung eines Analog-Digital-Wandlers v
 Die Verwendung eines neuen Codec, mit welchem Nullstellenerkennung möglich wäre ist ein Entfernen das Rauschens erreichbar, welches bei bestimmten Gegebenheiten hörbar ist.
 
 Für die zwei zuvor genannten Verbesserungen ist ein Redesign des PCB nötig, bei dem eine Überarbeitung der Oszillatoren nötig ist. Eine Schutzbeschaltung der JFet ist nötig um diese vor statischer Entladung zu schützen.
+
+\paragraph{Lerngewinn} \mbox{}\\
+Bei der Projektwahl haben wir das digitale Theremin gewählt um das erlernte Wissen über VHDL auszubauen und zu festigen. Über die letzten zwei Semester haben wir einige Erfahrungen im Umgang mit VHDL Design und der Implementierung des NIOS II softcores gesammelt.
+
+Im Umgang mit Audio und Signalverarbeitung haben wir gelernt darauf zu achten, das die Clocks dieser Komponenten vom gleichen Referenz Clock abgeleitet werden. Dies hat zur Folge das die Komponenten synchron laufen. Somit kann es nicht vorkommen das eine Komponente das Signal schneller verarbeitet als die andere. 
+
+Im Umgang mit CIC Filtern haben wir gesehen das diese sehr praktisch sind. Jedoch müssen die Nullstellen in der Übertragungsfunktion berücksichtigt werden, da Signale in diesen Bereichen Aliasing verursachen. Der Einfluss der Nullstellen kann durch den Einsatz von mehreren CIC Filtern mit kleinem Dezimationsfaktor veringert werden.
+
+Im analogen Teil unseres Projektes haben wir gelernt das es wichtig ist, die Ausgangsleitungen der Komperatoren abzuschliessen. Die einzelen Oszillatoren sollten auf seperaten PCB realisiert werden. Somit kommt es zu keinem Übersprechen und synchronem Schwingen der Oszillatoren.  Zudem lernten wir das eine Erdung für ein Theremin essentielle ist.

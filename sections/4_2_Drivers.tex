@@ -21,16 +21,15 @@ Um ein selbst erstellten Treiber dem Board Support Package (BSP) hinzuzufügen, 
 
   Das file mit der Endung regs.h definiert hardware interface spezifische Abläufe. Dieses wird im Ordner inc abgelegt. Im HAL Ordner sind ein c und ein h file erstellt, welche die Integration mit dem hardware abstracten layer(HAL) ermöglichen \cite{NIOS_II_soft}.
  Die folgenden Paragraphe zeigen die in den c Dateien realisierten Funktionen für die drei Treiber.
-\paragraph{LT24 Controller}
-
+\paragraph{LT24 Controller}\mbox{}\\
 Wie in der Einleitung dieses Unterkapitels erwähnt erfüllt der von Terasic mitgelieferte Treiber nicht die Konventionen welche Intel verlangt. Zudem sind die meisten Funktionen des Treibers sehr ineffizient gestaltet. Darum haben wir uns entschieden den Treiber für den LT24 Controller selbst zu schreiben. Im folgenden Teil ist beschrieben welche Funktionen wir für die Steuerung des LCD erstellt haben.
 
-Das Mudul \textbf{LT24\_Controller.c} ermöglicht es auf dem LCD einzelne Pixel und Rechteckflächen zu zeichnen und zu löschen. Die Funktion \textit{LCD\_DrawPoint(x,y,color)} setzt ein Cursor an die gewünschte Stelle auf dem LCD und zeichnet ein Pixel in der entsprechenden Farbe. Auf diese Art ein Rechteck zu zeichnen ist sehr ineffizient. Da der Treiber von Terasic Rechtecke auf diese Art zeichnet, haben wir entschieden eine bessere Lösung zu finden. Mit der Funktion \textit{LCD\_DrawRect(xs,ys,xe,ye,color)}  werden Rechtecke effizienter gezeichnet. Es wird dabei nur einmal für das ganze Rechteck ein Cursor Feld gesetzt und danach alle Pixel eingefärbt. Da durch das setzen des Cursor Feld nicht für jeden einzelnen Pixel ein Cursor gesetzt werden muss, wird  Zeit eingespart. Dadurch ist es für das Menschliche Auge nicht mehr ersichtlich wie einzelne Pixel gezeichnet werden, wie dies bei der Funktion von Terasic der Fall ist. 
+Das Mudul \textit{LT24\_Controller.c} ermöglicht es auf dem LCD einzelne Pixel und Rechteckflächen zu zeichnen und zu löschen. Die Funktion \textit{LCD\_DrawPoint(x,y,color)} setzt ein Cursor an die gewünschte Stelle auf dem LCD und zeichnet ein Pixel in der entsprechenden Farbe. Auf diese Art ein Rechteck zu zeichnen ist sehr ineffizient. Da der Treiber von Terasic Rechtecke auf diese Art zeichnet, haben wir entschieden eine bessere Lösung zu finden. Mit der Funktion \textit{LCD\_DrawRect(xs,ys,xe,ye,color)}  werden Rechtecke effizienter gezeichnet. Es wird dabei nur einmal für das ganze Rechteck ein Cursor Feld gesetzt und danach alle Pixel eingefärbt. Da durch das setzen des Cursor Feld nicht für jeden einzelnen Pixel ein Cursor gesetzt werden muss, wird  Zeit eingespart. Dadurch ist es für das Menschliche Auge nicht mehr ersichtlich wie einzelne Pixel gezeichnet werden, wie dies bei der Funktion von Terasic der Fall ist. 
 
-\paragraph{Tonhöhenverarbeitung}
-Das Modul \textbf{Pitch\_generation.c} ermöglicht auf das Kontroll und das Glissando Delay Register zu schreiben und diese zu lesen. Das Register freq data ist nur lesbar. Dieses liefert die aktuelle Frequenz der Tonhöhenantenne und der Index des Tones bei dem die Frequenz am nächsten liegt. 
+\paragraph{Tonhöhenverarbeitung}\mbox{}\\
+Das Modul \textit{Pitch\_generation.c} ermöglicht auf das Kontroll und das Glissando Delay Register zu schreiben und diese zu lesen. Das Register freq data ist nur lesbar. Dieses liefert die aktuelle Frequenz der Tonhöhenantenne und der Index des Tones bei dem die Frequenz am nächsten liegt. 
 Die Funktion \textit{get\_pixel\_pitch\_accuracy(penta\_on\_off,pitch\_freq)} liesst das freq data Register aus. Für den Modus Pitch Display, zu sehen in Abbildung \ref{img:play_help_screen}, ist es nötig anzuzeigen auf welcher Seite sich der Benutzer von einem Ton befindet. Daher wird in dieser Funktion das Verhältnis der aktuellen Tonhöhenantenne Frequenz mit dem Abstand zum nächsten Ton gebildet. Mit diesem Verhältnis wird ein Pixel Wert berechnet. Dieser wird gebraucht um denn vertikalen Strich auf dem LCD zu zeichnen.
 
 
-\paragraph{Lautstärkeverarbeitung}
+\paragraph{Lautstärkeverarbeitung}\mbox{}\\
 Die einzige Kominikation welche die Lautstärkeverarbeitung Komponente mit dem NIOS II hat, ist das schreiben und lesen des Kontroll Registers um die Kalibrierung zu starten. Das Module  \textit{Volume\_generation.c} ermöglicht dies. 

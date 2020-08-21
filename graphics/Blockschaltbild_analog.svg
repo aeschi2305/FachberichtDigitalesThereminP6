@@ -35,16 +35,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="568.03481"
-     inkscape:cy="712.20691"
+     inkscape:zoom="0.7"
+     inkscape:cx="561.05732"
+     inkscape:cy="701.1554"
      inkscape:document-units="mm"
      inkscape:current-layer="g1554"
      showgrid="true"
      inkscape:snap-grids="true"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
-     inkscape:window-x="2391"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      showguides="true"
@@ -215,7 +215,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path964"
-         d="M 141.64783,79.374472 V 142.45746"
+         d="M 141.64783,78.487514 V 142.45746"
          style="fill:none;stroke:#000000;stroke-width:0.685;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.69350499;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99426934"
@@ -226,20 +226,20 @@
          id="rect10-4" />
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.69350499;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99426934"
-         y="71.157867"
-         x="84.769409"
+         y="70.338371"
+         x="95.146423"
          height="17.409559"
          width="18.527279"
          id="rect10-4-5" />
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.69350499;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99426934"
-         y="71.225029"
-         x="55.54541"
+         y="70.405533"
+         x="65.922417"
          height="17.409559"
          width="18.527279"
          id="rect10-4-5-9" />
       <g
-         transform="translate(-58.458832,34.961779)"
+         transform="translate(-45.830999,34.242205)"
          id="g875-2">
         <g
            id="g4571-2"
@@ -267,23 +267,23 @@
       </g>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 58.535348,83.183886 h 2.65599 l 1.31964,-7.951275 3.97564,0.0167 1.26953,7.917865 2.67269,0.0167"
+         d="m 68.912355,82.364383 h 2.65599 l 1.31964,-7.951275 3.97564,0.0167 1.26953,7.917865 2.67269,0.0167"
          id="path1057"
          inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 89.004078,83.183886 h 10.623945 l -3.201675,-4.693173 -2.17711,-3.191282 z"
+         d="m 99.381088,82.364383 h 10.623942 l -3.20167,-4.693173 -2.17711,-3.191282 z"
          id="path1059"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 94.254708,73.96452 -0.0236,10.53607 v 0"
+         d="m 104.63172,73.145017 -0.0236,10.53607 v 0"
          id="path1065"
          inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 88.774048,75.346481 11.150285,-0.0236"
+         d="m 99.151058,74.526978 11.150282,-0.0236"
          id="path1067"
          inkscape:connector-curvature="0" />
       <path
@@ -299,17 +299,17 @@
          style="fill:none;stroke:#000000;stroke-width:0.68259341;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.685;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 141.995,79.275788 -38.75142,0.03196"
+         d="M 141.99491,78.45555 113.6059,78.48752"
          id="path1101"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.65799999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 84.694308,79.29176 -10.95794,0.0334"
+         style="fill:none;stroke:#000000;stroke-width:0.685;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 95.071318,78.472257 -10.957943,0.0334"
          id="path1101-4"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.671;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 55.392698,79.334 43.2765,79.367297"
+         style="fill:none;stroke:#000000;stroke-width:0.685;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 66.033813,78.623146 -10.443611,0.03319"
          id="path1101-4-0"
          inkscape:connector-curvature="0" />
       <path
@@ -344,12 +344,12 @@
            style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.67951643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 23.680157,79.25942 -12.434011,0.0333"
+         style="fill:none;stroke:#000000;stroke-width:0.685;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 36.475737,78.724881 -25.162774,0.0333"
          id="path1101-4-0-4"
          inkscape:connector-curvature="0" />
       <g
-         transform="translate(-178.36395,34.019865)"
+         transform="matrix(1.0001585,0,0,0.99016316,-178.39405,34.22122)"
          id="g1178-6">
         <path
            sodipodi:nodetypes="cccc"
@@ -398,50 +398,50 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="36.358173"
-         y="108.34513"
+         x="35.75341"
+         y="139.37698"
          id="text1260"><tspan
            sodipodi:role="line"
-           x="36.358173"
-           y="108.34513"
+           x="35.75341"
+           y="139.37698"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
            id="tspan1262">Referenz-</tspan><tspan
            sodipodi:role="line"
-           x="36.358173"
-           y="114.07777"
+           x="35.75341"
+           y="145.10962"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
            id="tspan1266">oszillator</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.58611111px;line-height:1.25;font-family:'Latin Modern Roman';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         x="33.644623"
-         y="95.19915"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="46.272457"
+         y="94.479576"
          id="text1260-8"><tspan
            sodipodi:role="line"
-           x="33.644623"
-           y="95.19915"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:4.58611111px;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           x="46.272457"
+           y="94.479576"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
            id="tspan1299">Lautstärke-</tspan><tspan
            sodipodi:role="line"
-           x="33.644623"
-           y="100.93179"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:4.58611111px;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           x="46.272457"
+           y="100.21221"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
            id="tspan1373">oszillator</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.58611111px;line-height:1.25;font-family:'Latin Modern Roman';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         x="95.377518"
-         y="95.151077"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="104.51157"
+         y="94.44017"
          id="text1260-8-1"><tspan
            sodipodi:role="line"
-           x="95.377518"
-           y="95.151077"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:4.58611111px;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           x="104.51157"
+           y="94.44017"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
            id="tspan1299-4">Hüllkurven-</tspan><tspan
            sodipodi:role="line"
-           x="95.377518"
-           y="100.88371"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:4.58611111px;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           x="104.51157"
+           y="100.17281"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
            id="tspan1369">detektor</tspan></text>
       <text
          xml:space="preserve"
@@ -467,19 +467,19 @@
            id="tspan1299-8">Lautsprecher</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.58611111px;line-height:1.25;font-family:'Latin Modern Roman';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Latin Modern Roman, Normal';font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-         x="65.315346"
-         y="95.082008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="75.692352"
+         y="94.262512"
          id="text1260-8-24"><tspan
            sodipodi:role="line"
-           x="65.315346"
-           y="95.082008"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:4.58611111px;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           x="75.692352"
+           y="94.262512"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
            id="tspan1266-0-7">Bandpass-</tspan><tspan
            sodipodi:role="line"
-           x="65.315346"
-           y="100.81464"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:4.58611111px;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           x="75.692352"
+           y="99.995148"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
            id="tspan1299-7">filter</tspan></text>
       <text
          xml:space="preserve"
@@ -550,7 +550,7 @@
            x="45.191418"
            y="158.50851"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan1262-1-4">Antennen-</tspan><tspan
+           id="tspan1262-1-4">Tonhöhen-</tspan><tspan
            sodipodi:role="line"
            x="45.191418"
            y="164.24115"
