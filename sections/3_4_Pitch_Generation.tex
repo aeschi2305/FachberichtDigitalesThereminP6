@@ -1,6 +1,6 @@
 \subsection{Tonhöhenverarbeitung}\label{subsec:Pitch_Generation}
 
-Die Hauptaufgabe der Komponente \textit{Tonhöhenverarbeitung} ist es das Audiosignal aus dem Rechtecksignal des Tonhöhenoszillators zu generieren. Die \textit{Tonhöhenverarbeitung} nimmt zudem eine Frequenzmessung des Audiosignals vor um diverse Funktionalitäten zu gewährleisten. In Abbildung \ref{img:Blockschaltbild_pitch} ist der Grobe Aufbau der Komponente aufgezeigt. Die genaue Erklärung zu den einzelnen Komponenten ist in den folgenden Abschnitten zu finden.
+Die Hauptaufgabe der Komponente \textit{Tonhöhenverarbeitung} ist es das Audiosignal aus dem Rechtecksignal des Tonhöhenoszillators zu generieren. Die \textit{Tonhöhenverarbeitung} nimmt zudem eine Frequenzmessung des Audiosignals vor um diverse Funktionalitäten zu gewährleisten. In Abbildung \ref{img:Blockschaltbild_pitch} ist der Grobe Aufbau der Komponente aufgezeigt. Die genaue Erklärung zu den einzelnen Komponenten ist in den folgenden Abschnitten zu finden. Das Top-File dieser Komponente ist in der Datei \textit{pitch\_generation\_top.vhd} zu finden.
 
 
 \begin{figure}[h!]
@@ -41,6 +41,8 @@ Nun kommt die bereits erwähnte Einschränkung des Cordic Algorithmus ins Spiel.
 
 Um die Kalibrierung und den Glissandoeffekt für das Theremin zu ermöglichen waren im Projekt 6 kleine Anpassungen am \textit{Cordic Controller} nötig. Wie zuvor hat der Controller eine fixe Frequenz implementiert, welche in der Grössenordnung \SI{550}{kHz} liegt. Jedoch legt die Frequenzmessungskomponente nun eine Differenz über einen Eingang an den Cordic Controller an um die zuvor genannten Features über den Referenzoszillator zu ermöglichen.
 
+Der Cordic Controller ist in der Datei \textit{cordic\_control.vhd} zu finden und der Cordic Prozessor ist in der Datei \textit{cordic\_pipelined.vhd} zu finden.
+
 
 \begin{figure}[t]
 	\centering
@@ -54,11 +56,15 @@ Um die Kalibrierung und den Glissandoeffekt für das Theremin zu ermöglichen wa
 
 Die Implementation des \textit{Mischers} ist dank der Entscheidung für die Rechteckform des Tonhöhenoszillatorsignals sehr einfach. Über einen GPIO liest der Mischer das Signal des Tonhöhenoszillators ein und verrechnet es mit dem generierten Sinus \textit{ref\_out}. Eine \textit{1} des Rechtecks wird dabei als die Zahl \textit{1} und eine \textit{0} als die Zahl \textit{-1} interpretiert. Die Multiplikation zwischen der \textit{1} und \textit{ref\_out} ist dabei nicht nötig und eine Multiplikation mit \textit{-1} erzielt der Mischer durch das Bilden des Zweierkomplement von \textit{ref\_out}.
 
+Die Komponte Mischer ist in der Datei \textit{mixer.vhd} zu finden.
+
 \paragraph{Filter}\mbox{}\\
 
 Im Projekt 5 war das \textit{Filter} ein einzelnes CIC-Filter mit dem Dezimationsfaktor 1000. Dies hatte zur Folge, dass viel Aliasing entstand. Um dieses zu verringern haben wir uns im Projekt 6 für den Aufbau aus Abbildung \ref{img:Filter_Pitch} entschieden. Die drei Filter CIC 1 bis CIC 3 sind Instanzen einer CIC-Filter Komponente. Diese Komponente stammt weitestgehend aus dem Projekt 5, ist jedoch auf mehr Modularität erweitert. Die Parameter der drei Instanzen sind in Tabelle \ref{tab:cic_pitch} ersichtlich. Da es bei CIC-Filtern wie in Kapitel \ref{subsec:CIC_Filter} beschrieben, um deren Nullstellen zu Aliasing kommt, sind diese Filter so eingestellt, dass sich die Oberwellen des Rechteck möglichst nicht in deren Nähe befinden. Bei \textit{CIC 1} wurde eine höhere Ordnung gewählt um am Anfang eine stärkere Dämpfung zu erzielen. Die Anzahl Ausgangsbits erhält man mit Formel \ref{equ:cic_bitgrowth} in Kapitel \ref{subsec:CIC_Filter}.\\
 Zuletzt haben wir noch ein FIR-Filter implementiert um das Signal auf 48kHz unter abzutasten. Das Filter hat eine Passfrequenz von \SI{2}{kHz} und eine Stopfrequenz von \SI{24}{kHz} mit einer Dämpfung von 55dB. Wir entschieden uns die Koeffizienten mit dem \textit{filterDesigner Tool} von Matlab zu berechnen und als \SI{27}{Bit} signed Zahlen in einer Lookup Table zu speichern. Wir wählten deshalb \SI{27}{Bit}, da im FPGA eine solche Multiplikation noch knapp in einen DSP Block integriert werden kann. \cite{Cyclone_V}
 Weswegen der Ausgang Frequenzmessung nach dem zweiten CIC-Filter gewählt wurde ist in einem späteren Abschnitt beschrieben.
+
+Die Implementation des CIC-Filter ist in der Datei \textit{cic.vhd} zu finden, das FIR-Filter ist in der Datei \textit{FIR\_Decimation} zu finden und die Top-Komponente ist in der Datei \textit{Filter\_pitch.vhd} zu finden.
 
 
 \begin{figure}[t]
@@ -85,6 +91,8 @@ Weswegen der Ausgang Frequenzmessung nach dem zweiten CIC-Filter gewählt wurde 
 
 Die Komponente \textit{Verstärker} ist dafür zuständig beim Signal \textit{filt\_out} den Gain der CIC-Filter zu kompensieren und anschliessend dieses mit der Dämpfung, welche die Lautstärkeverarbeitung liefert, zu multiplizieren. In Abbildung \ref{img:Zero_Cross} ist eine Problematik aufgezeigt, welche auftritt, wenn man die Dämpfung zu beliebigen Zeiten wechselt. Links ist zu sehe, was passiert, wenn die Dämpfung beim höchsten Wert der positiven Halbwelle ändert. Diese Sprünge im Signal treten dann als hörbares Knacksen auf. Um dies zu verhindern ist eine Erkennung von Nulldurchgängen implementiert, dass wie in der Abbildung rechts die Dämpfungen nur bei diesen Nullstellen ändern. Da der Codec ein offsetbehaftetes Signal verlangt muss das most-significant Bit des Signal getoggelt werden um dies zu bewerkstelligen. Diese Komponente enthält zudem die Kommunikation mit dem Streaming Interface. \\
 Die Dämpfung des Audiosignals könnte auch über den Codec gemacht werden. Weshalb dies nicht möglich ist, ist in Kapitel \ref{subsec:audio} beschrieben. 
+
+Die Implementation der Komponente Verstärker ist in der Datei \textit{amplifier.vhd} zu finden.
 	
 \begin{figure}[h!]
 	\centering
@@ -127,7 +135,7 @@ Für die in Kapitel \ref{sec:Konzept} beschriebene Spielweise, dass mit kleinere
 \textbf{Diff}:
 Nach den letzten drei States ist nun sichergestellt, dass der Referenzoszillator grösser ist als der Tonhöhenoszillator. Jedoch sollen ja diese beiden Oszillatoren aufeinander abgestimmt sein. Dazu wird abwechslungsweise die Frequenzdifferent um einen kleinen Schritt dekrementiert und danach die Frequenz gemessen. Wir haben uns dafür entschieden, dass wenn die Messung \SI{120}{Hz} unterschreitet die Kalibration abgeschlossen ist. Dies da Töne unterhalb dieser Frequenz sehr merkwürdig klingen.
 
-\textbf{Freq Range}:
+\textbf{Freq range}:
 Der State freq range ist dafür zuständig herauszufinden, welcher diskrete Ton der gewählten Tonleiter (normal oder pentatonisch) am nächsten zur gemessenen Frequenz ist. Die Frequenz wird dabei mit einer Lookup-Table mit allen Grenzen zwischen den Tönen verglichen. ist die Frequenz ausserhalb des gewählten Frequenzbereich wird hier abgebrochen und in den State idle gewechselt.
 
 \textbf{Step}:
@@ -135,6 +143,9 @@ Der State step bestimmt die Schrittgrösse, welcher im nächsten State für die 
 
 \textbf{Step Count}:
 Der letzte State verrechnet die Frequenzdifferenz in vorgegebenen Intervallen mit dem zuvor bestimmten Step, bis auf den Ton aufgeschlossen ist. Hat die Frequenzmessung jedoch während dem Zählen eine neue Frequenz gemessen wird in den State freq range gewechselt. Erreicht das Aufschliessen bevor eine neue Messung stattfand einen Unterschied von unter \SI{6}{Cent} zu der anzunähernden Frequenz, stoppt das Zählen bis zu einer neuen Messung.
+
+
+Die Komponente FIR ist in der Datei \textit{FIR\_pitch.vhd} zu finden, die Komponente Periodenzähler in der Datei \textit{count\_freq\_pitch.vhd}, die Komponente Goldschmidtdividierer in der Datei \textit{goldschmidt.vhd} und die Komponente Kalibration \& Glissando in der Datei \textit{CalGlis.vhd}.
 
 \begin{figure}[h!]
 	\centering
