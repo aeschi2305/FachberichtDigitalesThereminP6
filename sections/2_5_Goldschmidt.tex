@@ -1,7 +1,7 @@
 
 \subsection{Goldschmidt Algorithmus}\label{subsec:Goldschmidt}
 
-Um in FPGAs dividieren zu können ist es nötig selber eine solche Operation zu implementieren. Dafür gibt es für verschiedene Anforderungen diverse Algorithmen. Einer dieser ist der Goldschmidt Algorithmus. Dieser ermöglicht es iterativ eine Division zweier Zahlen durchzuführen welche als Resultat auch Nachkommazahlen enthält. Für die Berechnung multipliziert der Algrithmus den Nenner und Zähler wie in Formel \ref{equ:golds_Q} iterativ mit den Faktoren \(F_i\).
+Um in FPGAs dividieren zu können, ist es nötig, selber eine solche Operation zu implementieren. Dafür gibt es für verschiedene Anforderungen diverse Algorithmen. Einer davon ist der Goldschmidt Algorithmus. Dieser ermöglicht es iterativ eine Division zweier Zahlen durchzuführen, welche als Resultat auch Nachkommazahlen enthält. Für die Berechnung multipliziert der Algorithmus den Nenner und Zähler wie in Formel \ref{equ:golds_Q} iterativ mit den Faktoren \(F_i\).
 
 \begin{equation}
 Q = \frac{Z}{N}\frac{F_1}{F_1}\frac{F_2}{F_2}\frac{F_3}{F_3}\frac{F_{...}}{F_{...}}
@@ -25,4 +25,4 @@ N_{i+1} = N_{i+1}\cdot Z_i
 
 \(N_i\) ist der Nenner, \(Z_i\) ist der Zähler und \(F_i\) ist der zuvor erwähnte Faktor der aktuellen Iteration. \(N_{i+1}\),\(Z_{i+1}\) und \(F_{i+1}\) sind die Resultate einer Iteration.
 
-Damit der Algorithmus richtig funktioniert ist eine Skalierung des Zählers und Nenners notwendig. Dies, da die Werte nur konvergieren, wenn der Nenner zwischen 0 und 1 ist. Will man beispielsweise 2 durch 3 teilen ist vorgängig eine Skalierung auf 0.5 respektive 0.75 notwendig. Dies ist in Hardware durch eine einfache Schiebung nach rechts zu bewerkstelligen.
+Damit der Algorithmus richtig funktioniert, ist eine Skalierung des Zählers und Nenners notwendig. Dies, da die Werte nur konvergieren, wenn der Nenner zwischen 0 und 1 ist. Will man beispielsweise 2 durch 3 teilen, ist vorgängig eine Skalierung auf 0.5 respektive 0.75 notwendig. Dies ist in der Hardware durch eine einfache Schiebung nach rechts zu bewerkstelligen.

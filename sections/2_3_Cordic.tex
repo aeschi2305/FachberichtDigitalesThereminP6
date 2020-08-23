@@ -1,8 +1,8 @@
 \subsection{Cordic Algorithmus}\label{subsec:Cordic}
 
-Um in einem FPGA aufwendigere Rechenoperationen wie die Berechnung eines Sinus zu implementieren ist eine zusätzliche Hardware notwendig. Weit verbreitet ist dafür der Cordic Algorithmus. Nebst anderen diversen Rechenoperationen ist der Einsatz als Sinusgenerator möglich, was in späteren Kapiteln genauer besprochen ist. \\
+Um in einem FPGA aufwendigere Rechenoperationen wie die Berechnung eines Sinus zu implementieren, ist eine zusätzliche Hardware notwendig. Weit verbreitet ist dafür der Cordic Algorithmus. Nebst anderen diversen Rechenoperationen kann er als Sinusgenerator eingesetzt werden, was in späteren Kapiteln genauer besprochen ist. \\
 Der Cordic Algorithmus ist ein iterativer Algorithmus, welcher praktisch nur Additionen und Verschiebungen von Bits benötigt. 
-Der Algorithmus besitzt zwei Modi. Zum einen der Vektor Modus, in welchem die Berechnung eines Winkels aus einem gegebenen Vektor möglich ist. Zum Anderen der Rotationsmodus, mit welchem die Berechnung der Elemente eines Vektors aus einem gegebenen Winkel möglich ist. Die folgenden Formeln sind für diese Berechnung notwendig \cite{Cordic}:
+Der Algorithmus besitzt zwei Modi: Zum einen den Vektor Modus, in welchem die Berechnung eines Winkels aus einem gegebenen Vektor möglich ist; zum anderen den Rotationsmodus, mit welchem die Berechnung der Elemente eines Vektors aus einem gegebenen Winkel möglich ist. Die folgenden Formeln sind für diese Berechnung notwendig \cite{Cordic}:
 
 \begin{equation}
 x_{i+1} = x_i - y_id_i2^{-i}
@@ -29,7 +29,7 @@ d_i=
 \label{equ:cordic_4}
 \end{equation} 
 
-Formeln \ref{equ:cordic_1} bis \ref{equ:cordic_3} zeigen schön den iterativen Ablauf des Algorithmus auf. Um nun einen Sinuswert zu berechnen sind folgende Initialwerte notwendig:
+Formeln \ref{equ:cordic_1} bis \ref{equ:cordic_3} zeigen schön den iterativen Ablauf des Algorithmus auf. Um nun einen Sinuswert zu berechnen, sind folgende Initialwerte notwendig:
 
 \begin{equation}
 \begin{aligned}
@@ -52,5 +52,5 @@ y_n = \frac{\sin{\varphi}}{A}
 \label{equ:cordic_6}
 \end{equation} 
 
-Schlussendlich ist es notwendig die Resultate um den Faktor \(A = 0.60725294\) zu korrigieren um die richtigen Werte zu erhalten.
+Schlussendlich ist es notwendig, die Resultate um den Faktor \(A = 0.60725294\) zu korrigieren, um die richtigen Werte zu erhalten.
 
