@@ -3,14 +3,14 @@ Der eingesetzte Nios II Prozessor ist für die Bedienung des Theremin und die St
 
 \paragraph{JTAG, Timer und System ID}\mbox{}\\
 
-Der JTAG IP Core ermöglicht das flüchtige Programmieren des Nios wie auch das Kommunizieren mit selbem für Debugging Zwecke. 
-Durch den Einsatz des Timer IP Cores erhält der Nios einen Interval Timer, um beispielsweise periodisch Interrupts zu generieren. 
+Der JTAG IP Core ermöglicht das flüchtige Programmieren des Nios II wie auch das Kommunizieren mit selbem für Debugging Zwecke. 
+Durch den Einsatz des Timer IP Cores erhält der Nios II einen Interval Timer, um beispielsweise periodisch Interrupts zu generieren. 
 Im System ID IP Core ist die Systemidentifikationsnummer gespeichert. Diese ist nötig, um beim Laden der Software sicherzustellen, dass das passende Hardware Image vorhanden ist.
 Alle drei Komponenten sind mit Standardeinstellungen in das Nios II System eingefügt worden.
 
 \paragraph{Speicher}\mbox{}\\
 
-Der Arbeitsspeicher ist ein externer 64MB SDRAM Chip IS42S16320D von ISSI. Für die Kommunikation mit dem Nios Prozessor ist der SDRAM Controller IP Core zuständig. Der Nios Prozessor kann über das Memory Mapped Interface mit dem Core kommunizieren und so auf das SDRAM zugreifen. Da dieser Chip bereits auf dem Entwicklungsboard vorhanden ist und um Ressourcen zu sparen, haben wir uns gegen On-Chip Speicher entschieden.\\
+Der Arbeitsspeicher ist ein externer 64MB SDRAM Chip IS42S16320D von ISSI. Für die Kommunikation mit dem Nios II Prozessor ist der SDRAM Controller IP Core zuständig. Der Nios II Prozessor kann über das Memory Mapped Interface mit dem Core kommunizieren und so auf das SDRAM zugreifen. Da dieser Chip bereits auf dem Entwicklungsboard vorhanden ist und um Ressourcen zu sparen, haben wir uns gegen On-Chip Speicher entschieden.\\
 
 Das Hardware Image und der Programmcode sin auf dem Board enthaltenen Flash Speicher gespeichert. Dabei lädt Quartus, anders als bei dem nicht flüchtigen Programmieren, nicht das SRAM Object File (.sof) sondern ein JTAG Indirect Configuration File (.jic). Das Erstellen dieses Files geschieht im Quartus aus dem SRAM Object File und dem in Eclipse generierten HEX File. Der USB Blaster lädt das .jic File über ein Serial Flash Loader Image auf den Flash Speicher. Das FPGA kopiert beim Einschalten des Gerätes zuerst das Hardwareimage und anschliessend den Programmcode. Auf Empfehlung von Dokumentationen von Intel haben wir uns entschlossen, den Programmcode durch einen Bootcopier ins SDRAM zu kopieren. Abbildung \ref{img:FlashLayout} zeigt das Layout des Flash Speichers nach dem Programmieren. \cite{non_volatile}
 

@@ -1,12 +1,12 @@
 \subsection{Tonhöhen- und Lautstärkenoszillator}\label{subsec:Antennenoszilator}
 Für die Antennenoszillator-Schaltung haben wir uns im Projekt 5 für den Colpitts-Oszillator aus Abbildung \ref{img:colpitts} entschieden. Der Aufbau im Projekt 5 umfasste nur einen Oszillator zur Veränderung der Tonhöhe.
 
-Es handelt sich dabei um einen Colpitts-Oszillator mit einem JFET. Diese Schaltung ist von dem Bauset ''Theremin selber bauen`` von Franzis übernommen \cite{Franzis}. 
+Es handelt sich dabei um einen Colpitts-Oszillator mit einem JFET. Diese Schaltung ist von dem Bauset \glqq Theremin selber bauen\grqq{} von Franzis übernommen \cite{Franzis}. 
 Da der im Bauset verwendete JFET nicht mehr bestellbar ist, war ein Wechsel auf den J113 N-Kanal JFET nötig. Die mit LTspice simulierten Werte des J113 glichen stark der Originalschaltung, weshalb der Entscheid auf diesen fiel. 
 Damit das Sinussignal des Antennenoszillator nicht A/D gewandelt werden muss, wandelt eine Komparatorschaltung das Sinussignal in ein Rechtecksignal mit gleicher Frequnez um. 
 Diese ist mit \SI{3.3}{V} betrieben, da die Logikeingänge des FPGA auf diese Spannung ausgelegt sind. 
 
-Im Projekt 5 wurde als Antenne ein Messingrohr verwendet. Diese ist am Anschluss pitch\_antenna verbunden. 
+Im Projekt 5 wurde als Antenne ein Messingrohr verwendet. Diese ist am Anschluss\\ pitch\_antenna verbunden. 
 
 Die Ausgangsspannung des Colpitts-Oszillator ist über den Kondensator C11 entkoppelt. Dies entfernt den DC-Anteil. Der Kondensator C11 und die Widerstände R3 und R4 bilden zusammen einen Hochpass. Damit die Oszillatorfrequenz von ca \SI{562}{kHz} das Filter passieren kann, ist C11 so gewählt, dass die Grenzfrequenz des Filters bei ca \SI{265}{kHz} liegt. 
 
