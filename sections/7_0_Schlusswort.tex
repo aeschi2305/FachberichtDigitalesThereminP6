@@ -21,7 +21,7 @@ Schlussendlich wurde das Gerät in ein ansprechendes Gehäuse verpackt. Damit wi
 
 Weil wir viel Zeit für die Inbetriebnahme der ganzen Signalverarbeitung benötigten und wegen Umwelteinflüssen ausserhalb unserer Kontrolle, konnten wir die zusätzlichen Klangeffekte nicht implementieren.\\
 Weiter ist beim Spielen bei höheren Frequenzen ein leichtes Aliasing zu hören, was auf den Aufbau der Filter zurückzuführen ist. Die Filter sind so eingestellt, dass dieses Aliasing möglichst minimiert ist.\\
-Zuletzt kann bei der höchsten Lautstärkeneinstellung auf dem Display und der tiefsten Einstellung über die entsprechende Antenne ein Rauschen gehört werden. Dies ist auf die Implementierung der Lautstärkeneinstellung zurückzuführen. Bei dieser mussten wir wegen Schwierigkeiten mit dem verbauten Codec, Kompromisse eingehen.
+Zuletzt kann bei der höchsten Lautstärkeneinstellung auf dem Display und der tiefsten Einstellung über die entsprechende Antenne ein Rauschen gehört werden. Dies ist auf die Implementierung der Lautstärkeneinstellung zurückzuführen. Bei dieser mussten wir wegen Schwierigkeiten mit dem verbauten Codec Kompromisse eingehen.
 
 \paragraph{Weiterentwicklung}\mbox{}\\
 
@@ -33,9 +33,9 @@ Für die zwei zuvor genannten Verbesserungen ist ein Redesign des PCB nötig, be
 
 \paragraph{Lerngewinn} \mbox{}\\
 
-Bei der Projektwahl haben wir das digitale Theremin gewählt, um das erlernte Wissen über VHDL auszubauen und zu festigen. Über die letzten zwei Semester haben wir einige Erfahrungen im Umgang mit VHDL-Design und der Implementierung des NIOS II Softcores gesammelt.
+Bei der Projektwahl haben wir das digitale Theremin gewählt, um das erlernte Wissen über VHDL auszubauen und zu festigen. Über die letzten zwei Semester haben wir einige Erfahrungen im Umgang mit VHDL-Design und der Implementierung des Nios II Softcores gesammelt.
 
-Im Umgang mit Audio- und Signalverarbeitung haben wir gelernt darauf zu achten, das die Clocks dieser Komponenten vom gleichen Referenz Clock abgeleitet sein müssen. Dies hat zur Folge das die Komponenten synchron laufen. Dadurch kann es nicht vorkommen, dass eine Komponente das Signal schneller verarbeitet als die andere oder dass Daten verloren gehen. 
+Im Umgang mit Audio- und Signalverarbeitung haben wir gelernt darauf zu achten, dass die Clocks dieser Komponenten vom gleichen Referenz Clock abgeleitet sein müssen. Dies hat zur Folge das die Komponenten synchron laufen. Dadurch kann es nicht vorkommen, dass eine Komponente das Signal schneller verarbeitet als die andere oder dass Daten verloren gehen. 
 
 Im Umgang mit CIC Filtern haben wir gesehen, dass diese sehr praktisch sind. Jedoch müssen die Nullstellen in der Übertragungsfunktion berücksichtigt werden, da Signale in diesen Bereichen Aliasing verursachen. Der Einfluss der Nullstellen kann durch den Einsatz von mehreren CIC-Filtern mit kleinem Dezimationsfaktor verringert werden.
 

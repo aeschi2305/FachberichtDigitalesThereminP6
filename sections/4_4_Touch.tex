@@ -1,5 +1,5 @@
 \subsection{Touch}\label{subsec:touch}
- Die von Terasic zur Verfügung gestellte Datei zum Auslesen des Touch ist leider sehr unübersichtlich aufgebaut. Es ist sehr schwierig, die darin enthaltenen Funktionen auf das Projekt anzuwenden. Daher erstellten wir selbst ein, Touch Interrupt Routine. 
+ Die von Terasic zur Verfügung gestellte Datei zum Auslesen des Touch ist leider sehr unübersichtlich aufgebaut. Es ist sehr schwierig, die darin enthaltenen Funktionen auf das Projekt anzuwenden. Daher erstellten wir selbst eine Touch Interrupt Routine. 
  
  Der resistive Touch Display des LT24 LCD Touch Modul ist mit dem AD783 Analoge Devices Chip verbunden. Abbildung \ref{img:AD783_Signalverlauf} zeigt den Signalverlauf des AD783.  Sobald der Touch Display berührt wird, löst der Chip am Pen Interrupt Pin ein Interrupt aus, welches vom Nios II detektiert wird. Darauf schreibt der Nios II über die DIN Leitung ins Kontrollregister um eine Messung der X und Y Koordinaten anzufordern. Während des Acquistation Mode werden die X und Y Koordinaten gespeichert und nach der fallenden Flanke des BUSY Signals über die DOUT Leitung dem Nios II übertragen \cite{AD7843}. 
  

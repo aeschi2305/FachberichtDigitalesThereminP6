@@ -1,5 +1,5 @@
 \subsection{Lautstärkenverarbeitung}\label{subsec:Volume_Generation}
-Die Aufgabe der \textit{Lautstärkenverarbeitung} is, aus dem Signal des Lautstärkenoszillators einen Dämpfungsfaktor zu berechnen, mit welchem das Signal der Tonhöhenverarbeitung multipliziert wird. So kann der Spieler die Lautstärke während dem Spielen wie die Tonhöhe über eine Antenne einstellen. Wie Abbildung \ref{img:Blockschaltbild_volume} zeigt, sind die beiden Verarbeitungskomponenten auch sehr ähnlich. Der Referenzoszillator und der Mischer sind gleich wie in der Tonverarbeitung. In den nächsten Abschnitten sind die Unterschiede zu den Komponenten der Tonverarbeitung aufgezeigt.
+Die Aufgabe der \textit{Lautstärkenverarbeitung} ist, aus dem Signal des Lautstärkenoszillators einen Dämpfungsfaktor zu berechnen, mit welchem das Signal der Tonhöhenverarbeitung multipliziert wird. So kann der Spieler die Lautstärke während dem Spielen wie die Tonhöhe über eine Antenne einstellen. Wie Abbildung \ref{img:Blockschaltbild_volume} zeigt, sind die beiden Verarbeitungskomponenten auch sehr ähnlich. Der Referenzoszillator und der Mischer sind gleich wie in der Tonverarbeitung. In den nächsten Abschnitten sind die Unterschiede zu den Komponenten der Tonverarbeitung aufgezeigt.
 
 
 
@@ -14,7 +14,7 @@ Die Aufgabe der \textit{Lautstärkenverarbeitung} is, aus dem Signal des Lautst�
 \newpage
 \paragraph{Filter}\mbox{}\\
 
-Beim \textit{Filter} der Laustsärkenverarbeitung ist die Frequenzmessung erst nach dem dritten CIC Filter angeschlossen. Wir haben diese Lösung gewählt, um beim FIR-Filter der Frequenzmessungskomponente weniger Koeffizienten und somit weniger Ressourcen zu benötigen. Das FIR-Filter benötigt deshalb weniger Koeffizienten, da nach CIC 3 die Abtastfrequenz des Signals um den Faktor 45 kleiner ist, nämlich 240kHz. Zudem ist das FIR-Filter in dieser Komponente deswegen nicht mehr nötig.
+Beim \textit{Filter} der Lauststärkenverarbeitung ist die Frequenzmessung erst nach dem dritten CIC Filter angeschlossen. Wir haben diese Lösung gewählt, um beim FIR-Filter der Frequenzmessungskomponente weniger Koeffizienten und somit weniger Ressourcen zu benötigen. Das FIR-Filter benötigt deshalb weniger Koeffizienten, da nach CIC 3 die Abtastfrequenz des Signals um den Faktor 45 kleiner ist, nämlich 240kHz. Zudem ist das FIR-Filter in dieser Komponente deswegen nicht mehr nötig.
 
 Die Komponente Top-Komponente des Filters ist in der Datei \textit{Filter\_vol.vhd} zu finden.
 
@@ -32,7 +32,7 @@ Die Abtastfrequenz des Signals aus dem Filter haben wir wie im vorherigen Abschn
 Der Periodenzähler ist gleich geblieben wie in der Tonhöhenverarbeitung.\\
 Anders als zuvor sind nun zwei Goldschmidtdividierer verbaut. Dies um den in Kapitel \ref{subsec:Pitch_Generation} besprochenen Dämpfungsfaktor zu berechnen und an die Tonhöhenverarbeitung weiterzugeben. Wie zuvor berechnet der \textit{Goldschmidtdividierer 1} aus der Anzahl Abtastperioden aus per\_cnt die entsprechende Frequenz. \textit{Goldschmidtdividierer 2} berechnet aus der Frequenz den erwähnten Dämpfungsfaktor. Wir haben uns dafür entschieden diese Berechnung so einzustellen, dass alle Messungen unter \SI{300}{Hz} einen Dämpfungsfaktor 0 oder kein Ton ergibt. Das Maximum oder 1 haben wir auf \SI{3500}{Hz} eingestellt. Da die Frequenz des Signals, welches vom Filter ausgegeben wird, exponentiell ansteigt, muss keine Umrechnung stattfinden um die Eigenschaft des logarithmischen Gehörs zu kompensieren.
 
-Anders als bei der gleichen Komponente in der Tonhöhenverarbeitung, ist die Funktionalität des Glissando-Effekts in der Lautstärkeverarbeitung nicht nötig. Die Kalibration funktioniert jedoch gleich wie in der Tonhöhenverarbeitung.
+Anders als bei der gleichen Komponente in der Tonhöhenverarbeitung, ist die Funktionalität des Glissando-Effekts in der Lautstärkenverarbeitung nicht nötig. Die Kalibration funktioniert jedoch gleich wie in der Tonhöhenverarbeitung.
 
 Die Komponente FIR ist in der Datei \textit{FIR\_vol.vhd} zu finden, die Komponente Periodenzähler in der Datei \textit{count\_freq\_vol.vhd} und die Kalibration in der Datei \textit{CalGlis\_vol.vhd}.
 
