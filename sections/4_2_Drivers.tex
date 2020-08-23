@@ -1,8 +1,8 @@
 \subsection{Treiber}\label{subsec:drivers}
-In diesem Unterkapitel sind die verschiedenen Funktionen der selbst geschriebenen Treiber für die Custom IP Komponenten Tonhöhenverarbeitung und Lautstärkeverarbeitung beschrieben. Zusätzlich war die Erstellung eines Treiber für den LT24 Controller nötig, da Terasic den zur Verfügung gestellten Treiber nicht nach den Konventionen von Intel erstellt hat.
+In diesem Unterkapitel sind die verschiedenen Funktionen der selbst geschriebenen Treiber für die Custom IP Komponenten Tonhöhenverarbeitung und Lautstärkenverarbeitung beschrieben. Zusätzlich war die Erstellung eines Treibers für den LT24 Controller nötig, da Terasic den zur Verfügung gestellten Treiber nicht nach den Konventionen von Intel erstellt hat.
 
-Um ein selbst erstellten Treiber dem Board Support Package (BSP) hinzuzufügen, müssen die Benennungen und Ablageorte der Files einige Bedingungen erfüllen.  
-Die Treiber Dateien müssen in dem Ordner IP abgelegt sein, welcher sich im Quartus Projekt Ordner befinden muss. Darin muss ein Skript mit der Endung sw.tcl abgelegt sein. In diesem Skript muss ein eindeutiger Name für den Treiber angegeben sein. Zudem muss der Pfad zu den Treiber Daten angegeben sein. Intel empfiehlt drei Treiber Daten zu erstellen:
+Um einen selbst erstellten Treiber dem Board Support Package (BSP) hinzuzufügen, müssen die Benennungen und Ablageorte der Files einige Bedingungen erfüllen:  
+Die Treiber-Dateien müssen in dem Ordner IP abgelegt sein, welcher sich im Quartus Projekt Ordner befinden muss. Darin muss ein Skript mit der Endung sw.tcl abgelegt sein. In diesem Skript muss ein eindeutiger Name für den Treiber angegeben sein. Zudem muss der Pfad zu den Treiber-Daten angegeben sein. Intel empfiehlt drei Treiber-Daten zu erstellen:
   \renewcommand{\labelitemi}{$\blacksquare$}
  \renewcommand\labelitemii{$\square$}
  \begin{itemize}
@@ -24,15 +24,15 @@ Die folgenden Paragraphe zeigen die in den c Dateien realisierten Funktionen fü
 
 \paragraph{LT24 Controller}\mbox{}\\
 
-Wie in der Einleitung dieses Unterkapitels erwähnt erfüllt der von Terasic mitgelieferte Treiber nicht die Konventionen welche Intel verlangt. Zudem sind die meisten Funktionen des Treibers sehr ineffizient gestaltet. Darum haben wir uns entschieden den Treiber für den LT24 Controller selbst zu schreiben. Im folgenden Teil ist beschrieben welche Funktionen es für die Steuerung des LCD gibt.
+Wie in der Einleitung dieses Unterkapitels erwähnt, erfüllt der von Terasic mitgelieferte Treiber nicht die Konventionen, welche Intel verlangt. Zudem sind die meisten Funktionen des Treibers sehr ineffizient gestaltet. Darum beschlossen wir den Treiber für den LT24 Controller selbst zu schreiben. Im folgenden Teil ist beschrieben, welche Funktionen es für die Steuerung des LCD gibt.
 
-Das Modul \textit{LT24\_Controller.c} ermöglicht es auf dem LCD einzelne Pixel und Rechteckflächen zu zeichnen und zu löschen. Die Funktion \textit{LCD\_DrawPoint(x,y,color)} setzt ein Cursor an die gewünschte Stelle auf dem LCD und zeichnet ein Pixel in der entsprechenden Farbe. Auf diese Art ein Rechteck zu zeichnen ist sehr ineffizient. Da der Treiber von Terasic Rechtecke auf diese Art zeichnet, war eine effizientere Lösung nötig. Mit der Funktion \textit{LCD\_DrawRect(xs,ys,xe,ye,color)} werden Rechtecke effizienter gezeichnet. Es wird dabei nur einmal für das ganze Rechteck ein Cursor Feld aufgespannt und danach alle Pixel eingefärbt. Da durch das Cursor Feld nicht für jedes einzelne Pixel ein Cursor gesetzt werden muss, wird Zeit eingespart. 
+Das Modul \textit{LT24\_Controller.c} ermöglicht es, auf dem LCD einzelne Pixel und Rechteckflächen zu zeichnen und zu löschen. Die Funktion \textit{LCD\_DrawPoint(x,y,color)} setzt ein Cursor an die gewünschte Stelle auf dem LCD und zeichnet ein Pixel in der entsprechenden Farbe. Auf diese Art ein Rechteck zu zeichnen, ist sehr ineffizient. Da der Treiber von Terasic Rechtecke auf diese Art zeichnet, war eine effizientere Lösung nötig. Mit der Funktion \textit{LCD\_DrawRect(xs,ys,xe,ye,color)} werden Rechtecke effizienter gezeichnet. Es wird dabei nur einmal für das ganze Rechteck ein Cursor Feld aufgespannt und danach werden alle Pixel eingefärbt. Da durch das Cursor Feld nicht für jedes einzelne Pixel ein Cursor gesetzt werden muss, wird Zeit eingespart. 
 
 \paragraph{Tonhöhenverarbeitung}\mbox{}\\
 
-Das Modul \textit{Pitch\_generation.c} ermöglicht auf die Register aus Kapitel \ref{subsec:Pitch_Generation} zuzugreifen.
-Die Funktion \textit{get\_pixel\_pitch\_accuracy(penta\_on\_off,pitch\_freq)} liesst das freq\_data Register aus. Dessen Wert wird für die Anzeige der Spielgenauigkeit in Abbildung \ref{img:play_help_screen} benötigt. Die Funktion berechnet aus dem gemessenen Frequenzwert und dem anzunähernden Ton einen Pixelwert um den senkrechten Strich auf dem Display einzuzeichnen.
+Das Modul \textit{Pitch\_generation.c} ermöglicht, auf die Register aus Kapitel \ref{subsec:Pitch_Generation} zuzugreifen.
+Die Funktion \textit{get\_pixel\_pitch\_accuracy(penta\_on\_off,pitch\_freq)} liesst das freq\_data Register aus. Dessen Wert wird für die Anzeige der Spielgenauigkeit in Abbildung \ref{img:play_help_screen} benötigt. Die Funktion berechnet aus dem gemessenen Frequenzwert und dem anzunähernden Ton einen Pixelwert, um den senkrechten Strich auf dem Display einzuzeichnen.
 
 
 \paragraph{Lautstärkenverarbeitung}\mbox{}\\
-Die einzige Kommunikation welche die Lautstärkeverarbeitung Komponente mit dem NIOS II hat, ist das schreiben und lesen des Kontroll Registers um die Kalibrierung zu starten und um die Bedienung über die Antenne zu aktivieren oder deaktivieren. Das Modul \textit{Volume\_generation.c} ermöglicht dies. 
+Die einzige Kommunikation, welche die Lautstärkenverarbeitungs-Komponente mit dem NIOS II hat, ist das Schreiben und Lesen des Kontroll-Registers, um die Kalibrierung zu starten und um die Bedienung über die Antenne zu aktivieren oder zu deaktivieren. Das Modul \textit{Volume\_generation.c} ermöglicht dies. 
