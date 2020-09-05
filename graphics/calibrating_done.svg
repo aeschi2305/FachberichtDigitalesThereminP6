@@ -182,15 +182,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="171.83329"
+     inkscape:cx="86.727939"
      inkscape:cy="74.479423"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-grids="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="2391"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -205,7 +205,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -219,19 +219,28 @@
        width="84.666664"
        height="63.5"
        x="0.050000001"
-       y="233.45" />
+       y="233.45"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Calibration.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <rect
        style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect869"
        width="26.458334"
        height="15.875"
        x="55.5625"
-       y="278.47916" />
+       y="278.47916"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Calibration.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0e1111;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot1616"
-       transform="translate(0,13.229169)"><flowRegion
+       transform="translate(0,13.229169)"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Calibration.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          id="flowRegion1618"><use
            x="0"
            y="0"
@@ -244,7 +253,10 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0e1111;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot1624"
-       transform="translate(0,22.754175)"><flowRegion
+       transform="translate(0,22.754175)"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Calibration.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          id="flowRegion1626"><use
            x="0"
            y="0"
@@ -263,11 +275,14 @@
            height="18.214285"
            x="239.28572"
            y="1074.3054" /></flowRegion><flowPara
-         id="flowPara1638"></flowPara></flowRoot>    <path
+         id="flowPara1638" /></flowRoot>    <path
        style="fill:none;stroke:#fffbfb;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleInM)"
        d="m 65.0875,289.0625 7.408333,-10e-6 v -5.29166 h -7.9375 v 0"
        id="path1656"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Calibration.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
   </g>
 </svg>
