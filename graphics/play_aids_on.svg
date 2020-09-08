@@ -181,16 +181,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="119.79477"
-     inkscape:cy="129.79401"
+     inkscape:zoom="2"
+     inkscape:cx="40.938511"
+     inkscape:cy="163.20037"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-grids="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="2391"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:snap-global="true">
@@ -206,7 +206,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -220,14 +220,20 @@
        width="84.666664"
        height="63.5"
        x="0.050000001"
-       y="233.45" />
+       y="233.45"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <rect
        style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect869"
        width="26.458334"
        height="15.875"
        x="55.5625"
-       y="278.47916" />
+       y="278.47916"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot1632"
@@ -243,21 +249,30 @@
        d="m 65.0875,289.0625 7.408333,-10e-6 v -5.29166 h -7.9375 v 0"
        id="path1656"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <rect
        style="opacity:0.93999999;fill:#43e70e;fill-opacity:0.83137256;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect869-9"
        width="52.916668"
        height="15.875"
        x="2.6458321"
-       y="237.46875" />
+       y="237.46875"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <rect
        style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect869-9-7-6"
        width="21.166666"
        height="15.875"
        x="60.854168"
-       y="237.46875" />
+       y="237.46875"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -332,7 +347,10 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#030303;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
        id="flowRoot1616-0"
-       transform="translate(-13.457245,7.3721453)"><flowRegion
+       transform="translate(-13.457245,7.3721453)"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          id="flowRegion1618-7"
          style="fill:#030303;fill-opacity:1;"><use
            x="0"
@@ -404,12 +422,18 @@
        width="52.916668"
        height="15.875"
        x="2.6458333"
-       y="257.3125" />
+       y="257.3125"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot1616-0-1"
-       transform="translate(-15.441618,27.215896)"><flowRegion
+       transform="translate(-15.441618,27.215896)"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          id="flowRegion1618-7-2"
          style="fill:#ffffff;fill-opacity:1"><use
            x="0"
@@ -423,7 +447,10 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot1616-0-4"
-       transform="translate(29.206817,7.4382913)"><flowRegion
+       transform="translate(29.206817,7.4382913)"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\PlayingAids.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          id="flowRegion1618-7-20"
          style="fill:#ffffff;fill-opacity:1"><use
            x="0"

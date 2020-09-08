@@ -16,7 +16,10 @@
    version="1.1"
    id="svg986"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="settings.svg">
+   sodipodi:docname="settings.svg"
+   inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\glissandoSettings.png"
+   inkscape:export-xdpi="400"
+   inkscape:export-ydpi="400">
   <defs
      id="defs980">
     <marker
@@ -182,7 +185,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="81.574036"
+     inkscape:cx="46.778681"
      inkscape:cy="120.46529"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -206,7 +209,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

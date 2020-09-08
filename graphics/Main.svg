@@ -27,14 +27,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8101934"
-     inkscape:cx="190.81999"
+     inkscape:cx="97.736013"
      inkscape:cy="42.5437"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="2391"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,26 +59,38 @@
        width="84.666664"
        height="63.5"
        x="0.050000001"
-       y="233.45" />
+       y="233.45"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <rect
        style="opacity:0.93999999;fill:#422800;fill-opacity:0;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:fill markers stroke"
        id="rect863"
        width="79.375"
        height="15.875"
        x="2.6958334"
-       y="237.41875" />
+       y="237.41875"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <rect
        style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect869"
        width="79.375"
        height="15.875"
        x="2.6458333"
-       y="237.46875" />
+       y="237.46875"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="flowRoot885"
-       transform="translate(0,3.1750001)"><flowRegion
+       transform="translate(0,3.1750001)"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          id="flowRegion887"
          style="fill:#f7f7f7;fill-opacity:1"><use
            x="0"
@@ -94,12 +106,18 @@
        height="15.875"
        width="79.375"
        id="rect960"
-       style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+       style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        transform="translate(-0.95829579,23.346541)"
        id="flowRoot968"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><flowRegion
+       xml:space="preserve"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          style="fill:#f7f7f7;fill-opacity:1"
          id="flowRegion964"><use
            height="100%"
@@ -115,12 +133,18 @@
        height="15.875"
        width="79.375"
        id="rect970"
-       style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+       style="opacity:0.93999999;fill:#041414;fill-opacity:0.6723716;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
     <flowRoot
        transform="translate(0,42.552452)"
        id="flowRoot978"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><flowRegion
+       xml:space="preserve"
+       inkscape:export-filename="D:\GitHub\Projekt6\Fachbericht\FachberichtDigitalesThereminP6\Präsi\Main.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><flowRegion
          style="fill:#f7f7f7;fill-opacity:1"
          id="flowRegion974"><use
            height="100%"
