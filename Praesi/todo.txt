@@ -1,0 +1,7 @@
+Andy
+-das theremin nach p6 bullet points entfernen
+-ton display zusätzliches Bild einfügen
+
+Dennis
+-Glissando -> Genauigkeit erwähnen
+-Frequenzmessung erklären
