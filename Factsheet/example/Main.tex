@@ -1,0 +1,31 @@
+\documentclass[german,fspath]{fhnwfactsheet}
+
+\begin{document}
+% -------------------------------------------------------------------- TITLEPAGE
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+    \node[xshift=10mm,yshift=-5mm,anchor=north west]
+        at (current page.north west)
+        {\includegraphics[height=10mm]{images/logo-top}};
+
+    \node[font=\Huge\scshape,align=center]
+        at (current page.center)
+        {Vergangene Projekte im Studiengang EIT};
+\end{tikzpicture}
+\clearpage
+
+% -------------------------------------------------------------- TOC, INTRO ETC.
+\pagenumbering{roman}
+\tableofcontents
+
+\chapter*{Vorwort}
+
+% ----------------------------------------------------------------- MAIN CONTENT
+\newpage\pagenumbering{arabic}
+
+\includefactsheet[batcapture/]{batcaptureContent.tex}
+\includefactsheet[batrec/]{batrecContent.tex}
+\includefactsheet[sonart/]{sonartContent.tex}
+\includefactsheet[upone/]{uponeContent.tex}
+\includefactsheet[wbox/]{wboxContent.tex}
+\end{document}
