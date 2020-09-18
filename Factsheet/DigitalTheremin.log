@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.13)  11 SEP 2020 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.13)  18 SEP 2020 20:58
 entering extended mode
 **./DigitalTheremin.tex
 (DigitalTheremin.tex
@@ -1196,17 +1196,17 @@ Package rerunfilecheck Info: File `DigitalTheremin.out' has not changed.
 (rerunfilecheck)             Checksum: ADDB0548462960440C3CA4C8EC324205;54.
  ) 
 Here is how much of TeX's memory you used:
- 32822 strings out of 492946
- 652779 string characters out of 3135527
- 722563 words of memory out of 3000000
+ 32831 strings out of 492946
+ 652851 string characters out of 3135527
+ 722548 words of memory out of 3000000
  36216 multiletter control sequences out of 15000+200000
- 557681 words of font info for 108 fonts, out of 3000000 for 9000
+ 558056 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,75p,863b,816s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvr8a.pfb>
-Output written on DigitalTheremin.pdf (1 page, 410754 bytes).
+Output written on DigitalTheremin.pdf (1 page, 410649 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
